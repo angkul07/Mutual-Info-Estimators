@@ -1,0 +1,34 @@
+[
+  {
+    "episode_id": "022e6b6b-e5c4-411f-8e71-fe69c19b72e3",
+    "task": "place_the_bread",
+    "mi_score": 0.0,
+    "temporal_alignment": 0.0037735849056603774,
+    "composite_score": 0.0011320754716981133,
+    "n_steps": 279
+  },
+  {
+    "episode_id": "002dea7e-bb58-4a39-a95e-50abc6004068",
+    "task": "place_the_bread",
+    "mi_score": 0.0,
+    "temporal_alignment": 0.003816793893129771,
+    "composite_score": 0.0011450381679389311,
+    "n_steps": 449
+  },
+  {
+    "episode_id": "021c9083-3167-4977-85cb-55fb7e9490d7",
+    "task": "place_the_bread",
+    "mi_score": 0.0,
+    "temporal_alignment": 0.024390243902439025,
+    "composite_score": 0.007317073170731707,
+    "n_steps": 353
+  },
+  {
+    "episode_id": "029f98aa-f967-41a5-b1e1-4f0fac1bedd4",
+    "task": "place_the_bread",
+    "mi_score": 0.0,
+    "temporal_alignment": 0.041666666666666664,
+    "composite_score": 0.012499999999999999,
+    "n_steps": 339
+  }
+]

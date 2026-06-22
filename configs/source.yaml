@@ -1,0 +1,27 @@
+source:
+  provider: huggingface
+  repo: angkul07/abc-ego
+  split: train
+  task: place_the_bread
+  cache_dir: ./cache
+  data_path: data/train/place_the_bread
+  file_format: mcap
+
+processing:
+  max_episodes: null          # null = all episodes
+  partial_download: true      # stream / download on demand
+  n_sample_trajectories: 5   # for visual inspection
+  min_episode_length: 2       # fail if shorter
+
+output:
+  schema_json: outputs/schema.json
+  dataset_summary: outputs/dataset_summary.md
+  processed_parquet: processed/episodes.parquet
+  plots_dir: plots/trajectory_preview
+  easy_eval: easy_eval.json
+  hard_eval: hard_eval.json
+
+mi:
+  k_neighbors: 3
+  pca_components: 8
+  temporal_lag: 1

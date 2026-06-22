@@ -1,0 +1,106 @@
+{
+  "topics": {
+    "/instruction": {
+      "schema": "Instructions",
+      "class": "unknown",
+      "message_count": 1,
+      "first_ts_ns": 1745074443088073472,
+      "last_ts_ns": 1745074443088073472
+    },
+    "/right-wrist-camera-info": {
+      "schema": "foxglove.CameraCalibration",
+      "class": "image",
+      "message_count": 1,
+      "first_ts_ns": 1745074443088073472,
+      "last_ts_ns": 1745074443088073472
+    },
+    "/top-camera-info": {
+      "schema": "foxglove.CameraCalibration",
+      "class": "image",
+      "message_count": 1,
+      "first_ts_ns": 1745074443088073472,
+      "last_ts_ns": 1745074443088073472
+    },
+    "/top-camera": {
+      "schema": "foxglove.CompressedVideo",
+      "class": "image",
+      "message_count": 319,
+      "first_ts_ns": 1745074443088073472,
+      "last_ts_ns": 1745074453924092160
+    },
+    "/right-wrist-camera": {
+      "schema": "foxglove.CompressedVideo",
+      "class": "image",
+      "message_count": 319,
+      "first_ts_ns": 1745074443091250176,
+      "last_ts_ns": 1745074453893975040
+    },
+    "/left-wrist-camera": {
+      "schema": "foxglove.CompressedVideo",
+      "class": "image",
+      "message_count": 319,
+      "first_ts_ns": 1745074443093504768,
+      "last_ts_ns": 1745074453896183808
+    },
+    "/left-ee-action": {
+      "schema": "GripperState",
+      "class": "action",
+      "message_count": 319,
+      "first_ts_ns": 1745074443201609728,
+      "last_ts_ns": 1745074454013299456
+    },
+    "/left-arm-action": {
+      "schema": "RobotState",
+      "class": "action",
+      "message_count": 319,
+      "first_ts_ns": 1745074443201609728,
+      "last_ts_ns": 1745074454013299456
+    },
+    "/right-ee-action": {
+      "schema": "GripperState",
+      "class": "action",
+      "message_count": 319,
+      "first_ts_ns": 1745074443201609728,
+      "last_ts_ns": 1745074454013299456
+    },
+    "/right-arm-action": {
+      "schema": "RobotState",
+      "class": "action",
+      "message_count": 319,
+      "first_ts_ns": 1745074443201609728,
+      "last_ts_ns": 1745074454013299456
+    },
+    "/left-ee-state": {
+      "schema": "GripperState",
+      "class": "state",
+      "message_count": 319,
+      "first_ts_ns": 1745074443201609728,
+      "last_ts_ns": 1745074454013299456
+    },
+    "/left-arm-state": {
+      "schema": "RobotState",
+      "class": "state",
+      "message_count": 319,
+      "first_ts_ns": 1745074443201609728,
+      "last_ts_ns": 1745074454013299456
+    },
+    "/right-ee-state": {
+      "schema": "GripperState",
+      "class": "state",
+      "message_count": 319,
+      "first_ts_ns": 1745074443201609728,
+      "last_ts_ns": 1745074454013299456
+    },
+    "/right-arm-state": {
+      "schema": "RobotState",
+      "class": "state",
+      "message_count": 319,
+      "first_ts_ns": 1745074443201609728,
+      "last_ts_ns": 1745074454013299456
+    }
+  },
+  "source_file": "cache/place_the_bread/episode_00242bb8-86f6-4b90-a381-15203ec1a501/episode.mcap",
+  "episode_id": "episode_00242bb8-86f6-4b90-a381-15203ec1a501",
+  "task": "place_the_bread",
+  "total_episodes": 1362
+}
