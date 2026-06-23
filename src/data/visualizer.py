@@ -85,7 +85,9 @@ def _plot_action_curve(ax, ep: Episode) -> None:
     """Small action magnitude curve for context."""
     if not ep.actions:
         return
-    mags = [float(np.linalg.norm(a)) for a in ep.actions]
+    # Sanitise inf/nan from raw MCAP byte decoding before computing norms
+    mags = [float(np.linalg.norm(np.nan_to_num(a, nan=0.0, posinf=0.0, neginf=0.0)))
+            for a in ep.actions]
     xs = list(range(len(mags)))
     ax.plot(xs, mags, color="#58a6ff", linewidth=1.5, alpha=0.9)
     ax.fill_between(xs, mags, alpha=0.2, color="#58a6ff")
