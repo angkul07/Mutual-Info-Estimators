@@ -34,28 +34,35 @@ def _ksg_mi(X: np.ndarray, Y: np.ndarray, k: int = 3) -> float:
     X, Y : (n, dx) and (n, dy) float arrays.
     Returns MI estimate in nats.
     """
-    from scipy.spatial import KDTree
+    from scipy.spatial import cKDTree
 
     n = X.shape[0]
     if n < k + 2:
         return 0.0
 
     XY = np.hstack([X, Y])
-    tree_xy = KDTree(XY)
-    tree_x  = KDTree(X)
-    tree_y  = KDTree(Y)
+    # B2 fix: KSG requires Chebyshev (L∞) metric in the joint space
+    # so estimation errors from S and A marginals cancel.
+    tree_xy = cKDTree(XY)
+    tree_x  = cKDTree(X)
+    tree_y  = cKDTree(Y)
 
-    dists, _ = tree_xy.query(XY, k=k + 1)  # includes self
+    dists, _ = tree_xy.query(XY, k=k + 1, p=np.inf)  # Chebyshev; includes self
     eps = dists[:, -1]  # distance to k-th neighbour in joint space
 
-    nx = np.array([len(tree_x.query_ball_point(X[i], eps[i] - 1e-10)) - 1 for i in range(n)])
-    ny = np.array([len(tree_y.query_ball_point(Y[i], eps[i] - 1e-10)) - 1 for i in range(n)])
+    # Count marginal neighbours within the joint-space k-NN radius (using L2 per marginal).
+    # Paper uses ≤ (less-than-or-equal), so we use eps[i] directly with query_ball_point
+    # which returns points with distance <= r.
+    nx = np.array([len(tree_x.query_ball_point(X[i], eps[i], p=2)) - 1 for i in range(n)])
+    ny = np.array([len(tree_y.query_ball_point(Y[i], eps[i], p=2)) - 1 for i in range(n)])
 
+    # B1 fix: KSG formula is ψ(k) + ψ(N) − ⟨ψ(nx+1)⟩ − ⟨ψ(ny+1)⟩
+    # The +1 is the bias-correction term (Kraskov et al. 2004, Eq. 8).
     mi = (
         _digamma(k)
         + _digamma(n)
-        - np.mean(_digamma(np.maximum(nx, 1)))
-        - np.mean(_digamma(np.maximum(ny, 1)))
+        - np.mean(_digamma(nx + 1))
+        - np.mean(_digamma(ny + 1))
     )
     return float(max(mi, 0.0))
 

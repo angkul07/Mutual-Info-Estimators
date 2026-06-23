@@ -226,21 +226,22 @@ def _build_episode(episode_id: str, raw_records: List[Dict]) -> Episode:
                 if arr is not None:
                     acts.append(arr)
 
-        # ── Build Observation ─────────────────────────────────
+        # ── Skip buckets with no action data (B4 fix) ─────────
+        if not acts:
+            # Remove the timestamp we already appended for this bucket
+            timestamps.pop()
+            continue
+
+        # ── Build Observation (B5 fix: concatenate ALL topics) ─
         obs = Observation(
             image=images[0] if images else None,
-            robot_state=states[0] if states else None,
+            robot_state=np.concatenate(states).astype(np.float32) if states else None,
             depth=depths[0] if depths else None,
         )
         observations.append(obs)
 
-        # ── Action (default = zero vector if none available) ──
-        if acts:
-            actions.append(acts[0])
-        else:
-            # synthesize zero action
-            sz = states[0].shape[0] if states else 7
-            actions.append(np.zeros(sz, dtype=np.float32))
+        # ── Action: concatenate all action topics ─────────────
+        actions.append(np.concatenate(acts).astype(np.float32))
 
     ep = Episode(
         episode_id=episode_id,
