@@ -1,34 +1,10 @@
 [
   {
-    "episode_id": "01d83ae0-4f3a-4f06-92a2-56e08d6ec2ad",
+    "episode_id": "00242bb8-86f6-4b90-a381-15203ec1a501",
     "task": "place_the_bread",
-    "mi_score": 1.0414554086690448,
+    "mi_score": 4.710042636356043,
     "temporal_alignment": 1.0,
-    "composite_score": 1.0290187860683313,
-    "n_steps": 290
-  },
-  {
-    "episode_id": "038b507e-4172-44a5-8abc-d7bed81ef8ad",
-    "task": "place_the_bread",
-    "mi_score": 1.1689632501462364,
-    "temporal_alignment": 0.008264462809917356,
-    "composite_score": 0.8207536139453406,
-    "n_steps": 336
-  },
-  {
-    "episode_id": "02d4401b-dbf9-4ffd-81f4-53ec4462cc82",
-    "task": "place_the_bread",
-    "mi_score": 0.9690577815665105,
-    "temporal_alignment": 0.015873015873015872,
-    "composite_score": 0.683102351858462,
-    "n_steps": 318
-  },
-  {
-    "episode_id": "025a585c-1997-492a-b76d-a91ff979c6f2",
-    "task": "place_the_bread",
-    "mi_score": 0.2795629148800165,
-    "temporal_alignment": 1.0,
-    "composite_score": 0.4956940404160115,
-    "n_steps": 163
+    "composite_score": 3.5970298454492298,
+    "n_steps": 217
   }
 ]

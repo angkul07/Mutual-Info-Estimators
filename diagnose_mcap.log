@@ -1,0 +1,647 @@
+2026-06-23 08:04:36,474 | INFO | Inspecting: cache/place_the_bread/episode_00242bb8-86f6-4b90-a381-15203ec1a501/episode.mcap
+2026-06-23 08:04:36,475 | INFO | ============================================================
+2026-06-23 08:04:36,475 | INFO | SCHEMAS
+2026-06-23 08:04:36,475 | INFO | ============================================================
+2026-06-23 08:04:36,475 | INFO | 
+  Schema ID 1:
+2026-06-23 08:04:36,475 | INFO |     name:     Instructions
+2026-06-23 08:04:36,475 | INFO |     encoding: protobuf
+2026-06-23 08:04:36,475 | INFO |     data len: 466 bytes
+2026-06-23 08:04:36,475 | INFO |     data preview: 
+�
+google/protobuf/timestamp.protogoogle.protobuf";
+	Timestamp
+seconds (Rseconds
+nanos (RnanosB�
+com.google.protobufBTimestampProtoPZ2google.golang.org/protobuf/types/known/timestamppb��GPB�Google.Protobuf.WellKnownTypesbproto3
+�
+
+task.protogoogle/protobuf/timestamp
+2026-06-23 08:04:36,476 | INFO | 
+  Schema ID 2:
+2026-06-23 08:04:36,476 | INFO |     name:     foxglove.CameraCalibration
+2026-06-23 08:04:36,476 | INFO |     encoding: protobuf
+2026-06-23 08:04:36,476 | INFO |     data len: 534 bytes
+2026-06-23 08:04:36,476 | INFO |     data preview: 
+�
+google/protobuf/timestamp.protogoogle.protobuf";
+	Timestamp
+seconds (Rseconds
+nanos (RnanosB�
+com.google.protobufBTimestampProtoPZ2google.golang.org/protobuf/types/known/timestamppb��GPB�Google.Protobuf.WellKnownTypesbproto3
+�
+ foxglove/CameraCalibration.protofox
+2026-06-23 08:04:36,476 | INFO | 
+  Schema ID 3:
+2026-06-23 08:04:36,476 | INFO |     name:     foxglove.CameraCalibration
+2026-06-23 08:04:36,476 | INFO |     encoding: protobuf
+2026-06-23 08:04:36,476 | INFO |     data len: 534 bytes
+2026-06-23 08:04:36,476 | INFO |     data preview: 
+�
+google/protobuf/timestamp.protogoogle.protobuf";
+	Timestamp
+seconds (Rseconds
+nanos (RnanosB�
+com.google.protobufBTimestampProtoPZ2google.golang.org/protobuf/types/known/timestamppb��GPB�Google.Protobuf.WellKnownTypesbproto3
+�
+ foxglove/CameraCalibration.protofox
+2026-06-23 08:04:36,476 | INFO | 
+  Schema ID 4:
+2026-06-23 08:04:36,476 | INFO |     name:     foxglove.CompressedVideo
+2026-06-23 08:04:36,476 | INFO |     encoding: protobuf
+2026-06-23 08:04:36,476 | INFO |     data len: 458 bytes
+2026-06-23 08:04:36,476 | INFO |     data preview: 
+�
+google/protobuf/timestamp.protogoogle.protobuf";
+	Timestamp
+seconds (Rseconds
+nanos (RnanosB�
+com.google.protobufBTimestampProtoPZ2google.golang.org/protobuf/types/known/timestamppb��GPB�Google.Protobuf.WellKnownTypesbproto3
+�
+foxglove/CompressedVideo.protofoxgl
+2026-06-23 08:04:36,476 | INFO | 
+  Schema ID 5:
+2026-06-23 08:04:36,476 | INFO |     name:     foxglove.CompressedVideo
+2026-06-23 08:04:36,476 | INFO |     encoding: protobuf
+2026-06-23 08:04:36,476 | INFO |     data len: 458 bytes
+2026-06-23 08:04:36,477 | INFO |     data preview: 
+�
+google/protobuf/timestamp.protogoogle.protobuf";
+	Timestamp
+seconds (Rseconds
+nanos (RnanosB�
+com.google.protobufBTimestampProtoPZ2google.golang.org/protobuf/types/known/timestamppb��GPB�Google.Protobuf.WellKnownTypesbproto3
+�
+foxglove/CompressedVideo.protofoxgl
+2026-06-23 08:04:36,477 | INFO | 
+  Schema ID 6:
+2026-06-23 08:04:36,477 | INFO |     name:     foxglove.CompressedVideo
+2026-06-23 08:04:36,477 | INFO |     encoding: protobuf
+2026-06-23 08:04:36,477 | INFO |     data len: 458 bytes
+2026-06-23 08:04:36,477 | INFO |     data preview: 
+�
+google/protobuf/timestamp.protogoogle.protobuf";
+	Timestamp
+seconds (Rseconds
+nanos (RnanosB�
+com.google.protobufBTimestampProtoPZ2google.golang.org/protobuf/types/known/timestamppb��GPB�Google.Protobuf.WellKnownTypesbproto3
+�
+foxglove/CompressedVideo.protofoxgl
+2026-06-23 08:04:36,477 | INFO | 
+  Schema ID 7:
+2026-06-23 08:04:36,477 | INFO |     name:     GripperState
+2026-06-23 08:04:36,477 | INFO |     encoding: protobuf
+2026-06-23 08:04:36,477 | INFO |     data len: 603 bytes
+2026-06-23 08:04:36,477 | INFO |     data preview: 
+�
+google/protobuf/timestamp.protogoogle.protobuf";
+	Timestamp
+seconds (Rseconds
+nanos (RnanosB�
+com.google.protobufBTimestampProtoPZ2google.golang.org/protobuf/types/known/timestamppb��GPB�Google.Protobuf.WellKnownTypesbproto3
+�
+robot.protogoogle/protobuf/timestam
+2026-06-23 08:04:36,477 | INFO | 
+  Schema ID 8:
+2026-06-23 08:04:36,477 | INFO |     name:     RobotState
+2026-06-23 08:04:36,477 | INFO |     encoding: protobuf
+2026-06-23 08:04:36,477 | INFO |     data len: 603 bytes
+2026-06-23 08:04:36,477 | INFO |     data preview: 
+�
+google/protobuf/timestamp.protogoogle.protobuf";
+	Timestamp
+seconds (Rseconds
+nanos (RnanosB�
+com.google.protobufBTimestampProtoPZ2google.golang.org/protobuf/types/known/timestamppb��GPB�Google.Protobuf.WellKnownTypesbproto3
+�
+robot.protogoogle/protobuf/timestam
+2026-06-23 08:04:36,477 | INFO | 
+  Schema ID 9:
+2026-06-23 08:04:36,477 | INFO |     name:     GripperState
+2026-06-23 08:04:36,478 | INFO |     encoding: protobuf
+2026-06-23 08:04:36,478 | INFO |     data len: 603 bytes
+2026-06-23 08:04:36,478 | INFO |     data preview: 
+�
+google/protobuf/timestamp.protogoogle.protobuf";
+	Timestamp
+seconds (Rseconds
+nanos (RnanosB�
+com.google.protobufBTimestampProtoPZ2google.golang.org/protobuf/types/known/timestamppb��GPB�Google.Protobuf.WellKnownTypesbproto3
+�
+robot.protogoogle/protobuf/timestam
+2026-06-23 08:04:36,478 | INFO | 
+  Schema ID 10:
+2026-06-23 08:04:36,478 | INFO |     name:     RobotState
+2026-06-23 08:04:36,478 | INFO |     encoding: protobuf
+2026-06-23 08:04:36,478 | INFO |     data len: 603 bytes
+2026-06-23 08:04:36,478 | INFO |     data preview: 
+�
+google/protobuf/timestamp.protogoogle.protobuf";
+	Timestamp
+seconds (Rseconds
+nanos (RnanosB�
+com.google.protobufBTimestampProtoPZ2google.golang.org/protobuf/types/known/timestamppb��GPB�Google.Protobuf.WellKnownTypesbproto3
+�
+robot.protogoogle/protobuf/timestam
+2026-06-23 08:04:36,478 | INFO | 
+  Schema ID 11:
+2026-06-23 08:04:36,478 | INFO |     name:     GripperState
+2026-06-23 08:04:36,478 | INFO |     encoding: protobuf
+2026-06-23 08:04:36,478 | INFO |     data len: 603 bytes
+2026-06-23 08:04:36,478 | INFO |     data preview: 
+�
+google/protobuf/timestamp.protogoogle.protobuf";
+	Timestamp
+seconds (Rseconds
+nanos (RnanosB�
+com.google.protobufBTimestampProtoPZ2google.golang.org/protobuf/types/known/timestamppb��GPB�Google.Protobuf.WellKnownTypesbproto3
+�
+robot.protogoogle/protobuf/timestam
+2026-06-23 08:04:36,478 | INFO | 
+  Schema ID 12:
+2026-06-23 08:04:36,478 | INFO |     name:     RobotState
+2026-06-23 08:04:36,478 | INFO |     encoding: protobuf
+2026-06-23 08:04:36,478 | INFO |     data len: 603 bytes
+2026-06-23 08:04:36,478 | INFO |     data preview: 
+�
+google/protobuf/timestamp.protogoogle.protobuf";
+	Timestamp
+seconds (Rseconds
+nanos (RnanosB�
+com.google.protobufBTimestampProtoPZ2google.golang.org/protobuf/types/known/timestamppb��GPB�Google.Protobuf.WellKnownTypesbproto3
+�
+robot.protogoogle/protobuf/timestam
+2026-06-23 08:04:36,479 | INFO | 
+  Schema ID 13:
+2026-06-23 08:04:36,479 | INFO |     name:     GripperState
+2026-06-23 08:04:36,479 | INFO |     encoding: protobuf
+2026-06-23 08:04:36,479 | INFO |     data len: 603 bytes
+2026-06-23 08:04:36,479 | INFO |     data preview: 
+�
+google/protobuf/timestamp.protogoogle.protobuf";
+	Timestamp
+seconds (Rseconds
+nanos (RnanosB�
+com.google.protobufBTimestampProtoPZ2google.golang.org/protobuf/types/known/timestamppb��GPB�Google.Protobuf.WellKnownTypesbproto3
+�
+robot.protogoogle/protobuf/timestam
+2026-06-23 08:04:36,479 | INFO | 
+  Schema ID 14:
+2026-06-23 08:04:36,479 | INFO |     name:     RobotState
+2026-06-23 08:04:36,479 | INFO |     encoding: protobuf
+2026-06-23 08:04:36,479 | INFO |     data len: 603 bytes
+2026-06-23 08:04:36,479 | INFO |     data preview: 
+�
+google/protobuf/timestamp.protogoogle.protobuf";
+	Timestamp
+seconds (Rseconds
+nanos (RnanosB�
+com.google.protobufBTimestampProtoPZ2google.golang.org/protobuf/types/known/timestamppb��GPB�Google.Protobuf.WellKnownTypesbproto3
+�
+robot.protogoogle/protobuf/timestam
+2026-06-23 08:04:36,479 | INFO | 
+============================================================
+2026-06-23 08:04:36,479 | INFO | CHANNELS
+2026-06-23 08:04:36,479 | INFO | ============================================================
+2026-06-23 08:04:36,479 | INFO |   Ch 1: topic=/instruction  schema_id=1  msg_encoding=protobuf
+2026-06-23 08:04:36,479 | INFO |   Ch 2: topic=/right-wrist-camera-info  schema_id=2  msg_encoding=protobuf
+2026-06-23 08:04:36,479 | INFO |   Ch 3: topic=/top-camera-info  schema_id=3  msg_encoding=protobuf
+2026-06-23 08:04:36,479 | INFO |   Ch 4: topic=/top-camera  schema_id=4  msg_encoding=protobuf
+2026-06-23 08:04:36,479 | INFO |   Ch 5: topic=/right-wrist-camera  schema_id=5  msg_encoding=protobuf
+2026-06-23 08:04:36,479 | INFO |   Ch 6: topic=/left-wrist-camera  schema_id=6  msg_encoding=protobuf
+2026-06-23 08:04:36,480 | INFO |   Ch 7: topic=/left-ee-action  schema_id=7  msg_encoding=protobuf
+2026-06-23 08:04:36,480 | INFO |   Ch 8: topic=/left-arm-action  schema_id=8  msg_encoding=protobuf
+2026-06-23 08:04:36,480 | INFO |   Ch 9: topic=/right-ee-action  schema_id=9  msg_encoding=protobuf
+2026-06-23 08:04:36,480 | INFO |   Ch 10: topic=/right-arm-action  schema_id=10  msg_encoding=protobuf
+2026-06-23 08:04:36,480 | INFO |   Ch 11: topic=/left-ee-state  schema_id=11  msg_encoding=protobuf
+2026-06-23 08:04:36,480 | INFO |   Ch 12: topic=/left-arm-state  schema_id=12  msg_encoding=protobuf
+2026-06-23 08:04:36,480 | INFO |   Ch 13: topic=/right-ee-state  schema_id=13  msg_encoding=protobuf
+2026-06-23 08:04:36,480 | INFO |   Ch 14: topic=/right-arm-state  schema_id=14  msg_encoding=protobuf
+2026-06-23 08:04:36,480 | INFO | 
+============================================================
+2026-06-23 08:04:36,480 | INFO | ATTEMPTING DECODED MESSAGE READING
+2026-06-23 08:04:36,480 | INFO | ============================================================
+2026-06-23 08:04:36,480 | INFO | 
+Message encoding: protobuf
+2026-06-23 08:04:36,500 | INFO | Using mcap-protobuf-support DecoderFactory
+2026-06-23 08:04:36,505 | INFO | 
+--- /instruction (msg #1) ---
+2026-06-23 08:04:36,505 | INFO |   Schema:    Instructions
+2026-06-23 08:04:36,505 | INFO |   Raw bytes: 30 bytes
+2026-06-23 08:04:36,506 | INFO |   Type:      Instructions
+2026-06-23 08:04:36,506 | INFO |   .timestamp: seconds: 1745074443
+nanos: 88073472
+2026-06-23 08:04:36,506 | INFO |   .data: place the bread
+2026-06-23 08:04:36,506 | INFO | 
+--- /right-wrist-camera-info (msg #1) ---
+2026-06-23 08:04:36,506 | INFO |   Schema:    foxglove.CameraCalibration
+2026-06-23 08:04:36,506 | INFO |   Raw bytes: 285 bytes
+2026-06-23 08:04:36,506 | INFO |   Type:      CameraCalibration
+2026-06-23 08:04:36,506 | INFO |   .timestamp: seconds: 1745074443
+nanos: 88073472
+2026-06-23 08:04:36,506 | INFO |   .frame_id: right_camera-images-rgb
+2026-06-23 08:04:36,506 | INFO |   .width: 640
+2026-06-23 08:04:36,506 | INFO |   .height: 480
+2026-06-23 08:04:36,506 | INFO |   .distortion_model: inverse_brown_conrady
+2026-06-23 08:04:36,506 | INFO |   .D: [-0.05474585294723511, 0.060061801224946976, -0.0006007702904753387, 0.0011531307827681303, -0.020242638885974884]
+2026-06-23 08:04:36,506 | INFO |   .K: [436.105224609375, 0.0, 432.4883728027344, 0.0, 435.6203308105469, 243.65374755859375, 0.0, 0.0, 1.0]
+2026-06-23 08:04:36,507 | INFO |   .R: []
+2026-06-23 08:04:36,507 | INFO |   .P: [436.105224609375, 0.0, 432.4883728027344, 0.0, 0.0, 435.6203308105469, 243.65374755859375, 0.0, 0.0, 0.0, 1.0, 0.0]
+2026-06-23 08:04:36,507 | INFO | 
+--- /top-camera-info (msg #1) ---
+2026-06-23 08:04:36,507 | INFO |   Schema:    foxglove.CameraCalibration
+2026-06-23 08:04:36,507 | INFO |   Raw bytes: 283 bytes
+2026-06-23 08:04:36,507 | INFO |   Type:      CameraCalibration
+2026-06-23 08:04:36,507 | INFO |   .timestamp: seconds: 1745074443
+nanos: 88073472
+2026-06-23 08:04:36,507 | INFO |   .frame_id: top_camera-images-rgb
+2026-06-23 08:04:36,507 | INFO |   .width: 640
+2026-06-23 08:04:36,507 | INFO |   .height: 480
+2026-06-23 08:04:36,507 | INFO |   .distortion_model: inverse_brown_conrady
+2026-06-23 08:04:36,507 | INFO |   .D: [-0.05362543836236, 0.060348257422447205, 0.00032972331973724067, 0.0006999096367508173, -0.020416205748915672]
+2026-06-23 08:04:36,507 | INFO |   .K: [434.6141357421875, 0.0, 425.85101318359375, 0.0, 433.9947204589844, 242.90696716308594, 0.0, 0.0, 1.0]
+2026-06-23 08:04:36,507 | INFO |   .R: []
+2026-06-23 08:04:36,508 | INFO |   .P: [434.6141357421875, 0.0, 425.85101318359375, 0.0, 0.0, 433.9947204589844, 242.90696716308594, 0.0, 0.0, 0.0, 1.0, 0.0]
+2026-06-23 08:04:36,508 | INFO | 
+--- /top-camera (msg #1) ---
+2026-06-23 08:04:36,508 | INFO |   Schema:    foxglove.CompressedVideo
+2026-06-23 08:04:36,508 | INFO |   Raw bytes: 25861 bytes
+2026-06-23 08:04:36,508 | INFO |   Type:      CompressedVideo
+2026-06-23 08:04:36,508 | INFO |   .timestamp: seconds: 1745074443
+nanos: 88073472
+2026-06-23 08:04:36,508 | INFO |   .frame_id: top_camera-images-rgb
+2026-06-23 08:04:36,508 | INFO |   .data: 25815 bytes (binary)
+2026-06-23 08:04:36,508 | INFO |   .format: h264
+2026-06-23 08:04:36,508 | INFO | 
+--- /right-wrist-camera (msg #1) ---
+2026-06-23 08:04:36,508 | INFO |   Schema:    foxglove.CompressedVideo
+2026-06-23 08:04:36,508 | INFO |   Raw bytes: 25038 bytes
+2026-06-23 08:04:36,508 | INFO |   Type:      CompressedVideo
+2026-06-23 08:04:36,508 | INFO |   .timestamp: seconds: 1745074443
+nanos: 91250176
+2026-06-23 08:04:36,509 | INFO |   .frame_id: right_camera-images-rgb
+2026-06-23 08:04:36,509 | INFO |   .data: 24990 bytes (binary)
+2026-06-23 08:04:36,509 | INFO |   .format: h264
+2026-06-23 08:04:36,509 | INFO | 
+--- /left-wrist-camera (msg #1) ---
+2026-06-23 08:04:36,509 | INFO |   Schema:    foxglove.CompressedVideo
+2026-06-23 08:04:36,509 | INFO |   Raw bytes: 22571 bytes
+2026-06-23 08:04:36,509 | INFO |   Type:      CompressedVideo
+2026-06-23 08:04:36,509 | INFO |   .timestamp: seconds: 1745074443
+nanos: 93504768
+2026-06-23 08:04:36,509 | INFO |   .frame_id: left_camera-images-rgb
+2026-06-23 08:04:36,509 | INFO |   .data: 22524 bytes (binary)
+2026-06-23 08:04:36,509 | INFO |   .format: h264
+2026-06-23 08:04:36,509 | INFO | 
+--- /top-camera (msg #2) ---
+2026-06-23 08:04:36,509 | INFO |   Schema:    foxglove.CompressedVideo
+2026-06-23 08:04:36,509 | INFO |   Raw bytes: 4466 bytes
+2026-06-23 08:04:36,509 | INFO |   Type:      CompressedVideo
+2026-06-23 08:04:36,509 | INFO |   .timestamp: seconds: 1745074443
+nanos: 121414912
+2026-06-23 08:04:36,510 | INFO |   .frame_id: top_camera-images-rgb
+2026-06-23 08:04:36,510 | INFO |   .data: 4421 bytes (binary)
+2026-06-23 08:04:36,510 | INFO |   .format: h264
+2026-06-23 08:04:36,510 | INFO | 
+--- /right-wrist-camera (msg #2) ---
+2026-06-23 08:04:36,510 | INFO |   Schema:    foxglove.CompressedVideo
+2026-06-23 08:04:36,510 | INFO |   Raw bytes: 4387 bytes
+2026-06-23 08:04:36,510 | INFO |   Type:      CompressedVideo
+2026-06-23 08:04:36,510 | INFO |   .timestamp: seconds: 1745074443
+nanos: 124592384
+2026-06-23 08:04:36,510 | INFO |   .frame_id: right_camera-images-rgb
+2026-06-23 08:04:36,510 | INFO |   .data: 4340 bytes (binary)
+2026-06-23 08:04:36,510 | INFO |   .format: h264
+2026-06-23 08:04:36,510 | INFO | 
+--- /left-wrist-camera (msg #2) ---
+2026-06-23 08:04:36,510 | INFO |   Schema:    foxglove.CompressedVideo
+2026-06-23 08:04:36,510 | INFO |   Raw bytes: 6331 bytes
+2026-06-23 08:04:36,510 | INFO |   Type:      CompressedVideo
+2026-06-23 08:04:36,510 | INFO |   .timestamp: seconds: 1745074443
+nanos: 126846464
+2026-06-23 08:04:36,511 | INFO |   .frame_id: left_camera-images-rgb
+2026-06-23 08:04:36,511 | INFO |   .data: 6285 bytes (binary)
+2026-06-23 08:04:36,511 | INFO |   .format: h264
+2026-06-23 08:04:36,511 | INFO | 
+--- /top-camera (msg #3) ---
+2026-06-23 08:04:36,511 | INFO |   Schema:    foxglove.CompressedVideo
+2026-06-23 08:04:36,511 | INFO |   Raw bytes: 4240 bytes
+2026-06-23 08:04:36,511 | INFO |   Type:      CompressedVideo
+2026-06-23 08:04:36,511 | INFO |   .timestamp: seconds: 1745074443
+nanos: 154755584
+2026-06-23 08:04:36,511 | INFO |   .frame_id: top_camera-images-rgb
+2026-06-23 08:04:36,511 | INFO |   .data: 4195 bytes (binary)
+2026-06-23 08:04:36,511 | INFO |   .format: h264
+2026-06-23 08:04:36,511 | INFO | 
+--- /right-wrist-camera (msg #3) ---
+2026-06-23 08:04:36,511 | INFO |   Schema:    foxglove.CompressedVideo
+2026-06-23 08:04:36,511 | INFO |   Raw bytes: 4508 bytes
+2026-06-23 08:04:36,511 | INFO |   Type:      CompressedVideo
+2026-06-23 08:04:36,511 | INFO |   .timestamp: seconds: 1745074443
+nanos: 157934336
+2026-06-23 08:04:36,512 | INFO |   .frame_id: right_camera-images-rgb
+2026-06-23 08:04:36,512 | INFO |   .data: 4461 bytes (binary)
+2026-06-23 08:04:36,512 | INFO |   .format: h264
+2026-06-23 08:04:36,512 | INFO | 
+--- /left-wrist-camera (msg #3) ---
+2026-06-23 08:04:36,512 | INFO |   Schema:    foxglove.CompressedVideo
+2026-06-23 08:04:36,512 | INFO |   Raw bytes: 6089 bytes
+2026-06-23 08:04:36,512 | INFO |   Type:      CompressedVideo
+2026-06-23 08:04:36,512 | INFO |   .timestamp: seconds: 1745074443
+nanos: 160187904
+2026-06-23 08:04:36,512 | INFO |   .frame_id: left_camera-images-rgb
+2026-06-23 08:04:36,512 | INFO |   .data: 6043 bytes (binary)
+2026-06-23 08:04:36,512 | INFO |   .format: h264
+2026-06-23 08:04:36,512 | INFO | 
+--- /left-ee-action (msg #1) ---
+2026-06-23 08:04:36,512 | INFO |   Schema:    GripperState
+2026-06-23 08:04:36,512 | INFO |   Raw bytes: 23 bytes
+2026-06-23 08:04:36,513 | INFO |   Type:      GripperState
+2026-06-23 08:04:36,513 | INFO |   .timestamp: seconds: 1745074443
+nanos: 201609728
+2026-06-23 08:04:36,513 | INFO |   .position: [0.9862335061129087]
+2026-06-23 08:04:36,513 | INFO |   .velocity: []
+2026-06-23 08:04:36,513 | INFO |   .acceleration: []
+2026-06-23 08:04:36,513 | INFO |   .torque: []
+2026-06-23 08:04:36,513 | INFO | 
+--- /left-arm-action (msg #1) ---
+2026-06-23 08:04:36,513 | INFO |   Schema:    RobotState
+2026-06-23 08:04:36,513 | INFO |   Raw bytes: 194 bytes
+2026-06-23 08:04:36,513 | INFO |   Type:      RobotState
+2026-06-23 08:04:36,513 | INFO |   .timestamp: seconds: 1745074443
+nanos: 201609728
+2026-06-23 08:04:36,513 | INFO |   .position: [-0.2592427432537079, 1.4542137384414673, 1.2333205938339233, -0.604388415813446, -0.3635534346103668, -0.6135923266410828]
+2026-06-23 08:04:36,513 | INFO |   .velocity: []
+2026-06-23 08:04:36,513 | INFO |   .acceleration: []
+2026-06-23 08:04:36,513 | INFO |   .torque: []
+2026-06-23 08:04:36,514 | INFO |   .pose: [-0.5843430669860511, -0.4036709432341008, 0.7039836288251492, 0.40161332535508704, -0.4018038339031439, 0.897621859907182, 0.1811868529378027, -0.043970752506228755, -0.7050509620772593, -0.17698803972376662, -0.6867156432386466, 0.1999579683440429, 0.0, 0.0, 0.0, 1.0]
+2026-06-23 08:04:36,514 | INFO | 
+--- /right-ee-action (msg #1) ---
+2026-06-23 08:04:36,514 | INFO |   Schema:    GripperState
+2026-06-23 08:04:36,514 | INFO |   Raw bytes: 23 bytes
+2026-06-23 08:04:36,514 | INFO |   Type:      GripperState
+2026-06-23 08:04:36,514 | INFO |   .timestamp: seconds: 1745074443
+nanos: 201609728
+2026-06-23 08:04:36,514 | INFO |   .position: [0.978366938544664]
+2026-06-23 08:04:36,514 | INFO |   .velocity: []
+2026-06-23 08:04:36,514 | INFO |   .acceleration: []
+2026-06-23 08:04:36,514 | INFO |   .torque: []
+2026-06-23 08:04:36,514 | INFO | 
+--- /right-arm-action (msg #1) ---
+2026-06-23 08:04:36,515 | INFO |   Schema:    RobotState
+2026-06-23 08:04:36,515 | INFO |   Raw bytes: 194 bytes
+2026-06-23 08:04:36,515 | INFO |   Type:      RobotState
+2026-06-23 08:04:36,515 | INFO |   .timestamp: seconds: 1745074443
+nanos: 201609728
+2026-06-23 08:04:36,515 | INFO |   .position: [-0.03834952041506767, 1.2869177973270416, 0.9526020884513855, -0.8037139081954956, 0.41724184503853323, 0.8283496499061584]
+2026-06-23 08:04:36,515 | INFO |   .velocity: []
+2026-06-23 08:04:36,515 | INFO |   .acceleration: []
+2026-06-23 08:04:36,515 | INFO |   .torque: []
+2026-06-23 08:04:36,515 | INFO |   .pose: [-0.4623546600407937, 0.8069129424064697, 0.3675862779205639, 0.2905378559214811, 0.6918405993605915, 0.587585667551945, -0.4196423100259451, -0.690089021208172, -0.5546032396361731, 0.060287533242512764, -0.8299281052721333, 0.12545612899448133, 0.0, 0.0, 0.0, 1.0]
+2026-06-23 08:04:36,515 | INFO | 
+--- /left-ee-state (msg #1) ---
+2026-06-23 08:04:36,515 | INFO |   Schema:    GripperState
+2026-06-23 08:04:36,515 | INFO |   Raw bytes: 23 bytes
+2026-06-23 08:04:36,515 | INFO |   Type:      GripperState
+2026-06-23 08:04:36,516 | INFO |   .timestamp: seconds: 1745074443
+nanos: 201609728
+2026-06-23 08:04:36,516 | INFO |   .position: [0.9844453345540554]
+2026-06-23 08:04:36,516 | INFO |   .velocity: []
+2026-06-23 08:04:36,516 | INFO |   .acceleration: []
+2026-06-23 08:04:36,516 | INFO |   .torque: []
+2026-06-23 08:04:36,516 | INFO | 
+--- /left-arm-state (msg #1) ---
+2026-06-23 08:04:36,516 | INFO |   Schema:    RobotState
+2026-06-23 08:04:36,516 | INFO |   Raw bytes: 310 bytes
+2026-06-23 08:04:36,516 | INFO |   Type:      RobotState
+2026-06-23 08:04:36,516 | INFO |   .timestamp: seconds: 1745074443
+nanos: 201609728
+2026-06-23 08:04:36,516 | INFO |   .position: [-0.25387197680628937, 1.4513237201495386, 1.1968795300221249, -0.61894407568475, -0.3694590676737608, -0.6223773556115066]
+2026-06-23 08:04:36,516 | INFO |   .velocity: [0.0024420024420024333, 0.0512820512820511, -0.0024420024420024333, -0.0219780219780219, -0.0073260073260073, 0.0512820512820511, 0.0030525030525030417]
+2026-06-23 08:04:36,516 | INFO |   .acceleration: []
+2026-06-23 08:04:36,517 | INFO |   .torque: [-0.48547008547008375, -6.46153846153846, 10.386324786324785, 1.677655677655677, -0.14407814407814357, -0.017094017094017033, -0.10500610500610463]
+2026-06-23 08:04:36,517 | INFO |   .pose: [-0.6084909466328444, -0.4246283068318148, 0.6703950841876822, 0.39300092300538036, -0.4037478179655863, 0.8929380902771196, 0.19912123548300206, -0.038550405287831296, -0.6831738192831245, -0.14950708334187887, -0.714787496167016, 0.18428239725996529, 0.0, 0.0, 0.0, 1.0]
+2026-06-23 08:04:36,517 | INFO | 
+--- /right-ee-state (msg #1) ---
+2026-06-23 08:04:36,517 | INFO |   Schema:    GripperState
+2026-06-23 08:04:36,517 | INFO |   Raw bytes: 23 bytes
+2026-06-23 08:04:36,517 | INFO |   Type:      GripperState
+2026-06-23 08:04:36,517 | INFO |   .timestamp: seconds: 1745074443
+nanos: 201609728
+2026-06-23 08:04:36,517 | INFO |   .position: [0.9814253198036675]
+2026-06-23 08:04:36,517 | INFO |   .velocity: []
+2026-06-23 08:04:36,517 | INFO |   .acceleration: []
+2026-06-23 08:04:36,517 | INFO |   .torque: []
+2026-06-23 08:04:36,518 | INFO | 
+--- /right-arm-state (msg #1) ---
+2026-06-23 08:04:36,518 | INFO |   Schema:    RobotState
+2026-06-23 08:04:36,518 | INFO |   Raw bytes: 310 bytes
+2026-06-23 08:04:36,518 | INFO |   Type:      RobotState
+2026-06-23 08:04:36,518 | INFO |   .timestamp: seconds: 1745074443
+nanos: 201609728
+2026-06-23 08:04:36,518 | INFO |   .position: [-0.03681239032577999, 1.285763332570383, 0.9519722285801482, -0.805867093919284, 0.3995956359197379, 0.8131151293202112]
+2026-06-23 08:04:36,518 | INFO |   .velocity: [-0.0024420024420024333, -0.0024420024420024333, -0.0073260073260073, -0.0073260073260073, 0.0219780219780219, 0.0073260073260073, 0.0030525030525030417]
+2026-06-23 08:04:36,518 | INFO |   .acceleration: []
+2026-06-23 08:04:36,518 | INFO |   .torque: [-0.18461538461538396, -5.08034188034188, 7.131623931623935, 1.2283272283272275, 0.3589743589743595, 0.13431013431013383, 0.1245421245421241]
+2026-06-23 08:04:36,518 | INFO |   .pose: [-0.48127144475411765, 0.7944682312823979, 0.3704025188187857, 0.29064048920066915, 0.6873805354471774, 0.6042667782329267, -0.40295118837440935, -0.6868866427650415, -0.5439538546169465, 0.060678581122299596, -0.836918343591744, 0.12426354751475309, 0.0, 0.0, 0.0, 1.0]
+2026-06-23 08:04:36,518 | INFO | 
+--- /left-ee-action (msg #2) ---
+2026-06-23 08:04:36,518 | INFO |   Schema:    GripperState
+2026-06-23 08:04:36,518 | INFO |   Raw bytes: 23 bytes
+2026-06-23 08:04:36,518 | INFO |   Type:      GripperState
+2026-06-23 08:04:36,518 | INFO |   .timestamp: seconds: 1745074443
+nanos: 233454848
+2026-06-23 08:04:36,519 | INFO |   .position: [0.9862335061129087]
+2026-06-23 08:04:36,519 | INFO |   .velocity: []
+2026-06-23 08:04:36,519 | INFO |   .acceleration: []
+2026-06-23 08:04:36,519 | INFO |   .torque: []
+2026-06-23 08:04:36,519 | INFO | 
+--- /left-arm-action (msg #2) ---
+2026-06-23 08:04:36,519 | INFO |   Schema:    RobotState
+2026-06-23 08:04:36,519 | INFO |   Raw bytes: 194 bytes
+2026-06-23 08:04:36,519 | INFO |   Type:      RobotState
+2026-06-23 08:04:36,519 | INFO |   .timestamp: seconds: 1745074443
+nanos: 233454848
+2026-06-23 08:04:36,519 | INFO |   .position: [-0.2592427432537079, 1.4542137384414673, 1.2333205938339233, -0.604388415813446, -0.3635534346103668, -0.6135923266410828]
+2026-06-23 08:04:36,519 | INFO |   .velocity: []
+2026-06-23 08:04:36,519 | INFO |   .acceleration: []
+2026-06-23 08:04:36,519 | INFO |   .torque: []
+2026-06-23 08:04:36,520 | INFO |   .pose: [-0.5843430669860511, -0.4036709432341008, 0.7039836288251492, 0.40161332535508704, -0.4018038339031439, 0.897621859907182, 0.1811868529378027, -0.043970752506228755, -0.7050509620772593, -0.17698803972376662, -0.6867156432386466, 0.1999579683440429, 0.0, 0.0, 0.0, 1.0]
+2026-06-23 08:04:36,520 | INFO | 
+--- /right-ee-action (msg #2) ---
+2026-06-23 08:04:36,520 | INFO |   Schema:    GripperState
+2026-06-23 08:04:36,520 | INFO |   Raw bytes: 23 bytes
+2026-06-23 08:04:36,520 | INFO |   Type:      GripperState
+2026-06-23 08:04:36,520 | INFO |   .timestamp: seconds: 1745074443
+nanos: 233454848
+2026-06-23 08:04:36,520 | INFO |   .position: [0.9783669383499665]
+2026-06-23 08:04:36,520 | INFO |   .velocity: []
+2026-06-23 08:04:36,520 | INFO |   .acceleration: []
+2026-06-23 08:04:36,520 | INFO |   .torque: []
+2026-06-23 08:04:36,520 | INFO | 
+--- /right-arm-action (msg #2) ---
+2026-06-23 08:04:36,520 | INFO |   Schema:    RobotState
+2026-06-23 08:04:36,521 | INFO |   Raw bytes: 194 bytes
+2026-06-23 08:04:36,521 | INFO |   Type:      RobotState
+2026-06-23 08:04:36,521 | INFO |   .timestamp: seconds: 1745074443
+nanos: 233454848
+2026-06-23 08:04:36,521 | INFO |   .position: [-0.03834952041506767, 1.287008914864063, 0.9526020884513855, -0.8038050269126892, 0.41724275622275475, 0.8283496499061584]
+2026-06-23 08:04:36,521 | INFO |   .velocity: []
+2026-06-23 08:04:36,521 | INFO |   .acceleration: []
+2026-06-23 08:04:36,521 | INFO |   .torque: []
+2026-06-23 08:04:36,521 | INFO |   .pose: [-0.4624553997528805, 0.806924134253943, 0.3674349531521566, 0.29052081251210704, 0.6918441923062164, 0.5875849883091294, -0.41963733757367083, -0.6900885089975138, -0.5545147579745395, 0.06014418568975985, -0.8299976265726025, 0.1254225105910935, 0.0, 0.0, 0.0, 1.0]
+2026-06-23 08:04:36,521 | INFO | 
+--- /left-ee-state (msg #2) ---
+2026-06-23 08:04:36,521 | INFO |   Schema:    GripperState
+2026-06-23 08:04:36,521 | INFO |   Raw bytes: 23 bytes
+2026-06-23 08:04:36,521 | INFO |   Type:      GripperState
+2026-06-23 08:04:36,522 | INFO |   .timestamp: seconds: 1745074443
+nanos: 233454848
+2026-06-23 08:04:36,522 | INFO |   .position: [0.9844453345540554]
+2026-06-23 08:04:36,522 | INFO |   .velocity: []
+2026-06-23 08:04:36,522 | INFO |   .acceleration: []
+2026-06-23 08:04:36,522 | INFO |   .torque: []
+2026-06-23 08:04:36,522 | INFO | 
+--- /left-arm-state (msg #2) ---
+2026-06-23 08:04:36,522 | INFO |   Schema:    RobotState
+2026-06-23 08:04:36,522 | INFO |   Raw bytes: 310 bytes
+2026-06-23 08:04:36,522 | INFO |   Type:      RobotState
+2026-06-23 08:04:36,522 | INFO |   .timestamp: seconds: 1745074443
+nanos: 233454848
+2026-06-23 08:04:36,522 | INFO |   .position: [-0.25387197680628937, 1.4532310978866256, 1.1968795300221249, -0.61894407568475, -0.3690775921263434, -0.6216144045166718]
+2026-06-23 08:04:36,522 | INFO |   .velocity: [-0.0024420024420024333, 0.07081807081807057, -0.0024420024420024333, -0.0073260073260073, 0.0073260073260073, 0.0219780219780219, -0.0030525030525030417]
+2026-06-23 08:04:36,523 | INFO |   .acceleration: []
+2026-06-23 08:04:36,523 | INFO |   .torque: [-0.48547008547008375, -6.694017094017095, 10.386324786324785, 1.6727716727716722, -0.15873015873015817, 0.026862026862026767, -0.10500610500610463]
+2026-06-23 08:04:36,523 | INFO |   .pose: [-0.610224029267495, -0.42423038970543353, 0.6690704077710495, 0.39314781997399567, -0.4027836005991328, 0.8933787512184964, 0.1990974082193866, -0.03865100279131936, -0.682196456450003, -0.14799656523600407, -0.716034225079642, 0.1835583872317153, 0.0, 0.0, 0.0, 1.0]
+2026-06-23 08:04:36,523 | INFO | 
+--- /right-ee-state (msg #2) ---
+2026-06-23 08:04:36,523 | INFO |   Schema:    GripperState
+2026-06-23 08:04:36,523 | INFO |   Raw bytes: 23 bytes
+2026-06-23 08:04:36,523 | INFO |   Type:      GripperState
+2026-06-23 08:04:36,523 | INFO |   .timestamp: seconds: 1745074443
+nanos: 233454848
+2026-06-23 08:04:36,523 | INFO |   .position: [0.9814253198036675]
+2026-06-23 08:04:36,523 | INFO |   .velocity: []
+2026-06-23 08:04:36,523 | INFO |   .acceleration: []
+2026-06-23 08:04:36,523 | INFO |   .torque: []
+2026-06-23 08:04:36,524 | INFO | 
+--- /right-arm-state (msg #2) ---
+2026-06-23 08:04:36,524 | INFO |   Schema:    RobotState
+2026-06-23 08:04:36,524 | INFO |   Raw bytes: 310 bytes
+2026-06-23 08:04:36,524 | INFO |   Type:      RobotState
+2026-06-23 08:04:36,524 | INFO |   .timestamp: seconds: 1745074443
+nanos: 233454848
+2026-06-23 08:04:36,524 | INFO |   .position: [-0.03681239032577999, 1.285763332570383, 0.9519722285801482, -0.805867093919284, 0.3999771114671553, 0.8131151293202112]
+2026-06-23 08:04:36,524 | INFO |   .velocity: [-0.0024420024420024333, 0.0024420024420024333, -0.0073260073260073, -0.0219780219780219, -0.0073260073260073, -0.0073260073260073, 0.0030525030525030417]
+2026-06-23 08:04:36,524 | INFO |   .acceleration: []
+2026-06-23 08:04:36,524 | INFO |   .torque: [-0.18461538461538396, -4.423931623931622, 7.131623931623935, 1.1550671550671545, 0.3882783882783887, 0.13431013431013383, 0.12942612942612897]
+2026-06-23 08:04:36,524 | INFO |   .pose: [-0.4811688107213933, 0.7945653279675622, 0.3703275782071309, 0.29062774929668783, 0.6872688229389343, 0.6041610928773593, -0.40330006058685974, -0.6869459510411581, -0.5441857592817824, 0.060459188259795904, -0.8367834522442916, 0.12428647904381997, 0.0, 0.0, 0.0, 1.0]
+2026-06-23 08:04:36,524 | INFO | 
+--- /left-ee-action (msg #3) ---
+2026-06-23 08:04:36,524 | INFO |   Schema:    GripperState
+2026-06-23 08:04:36,525 | INFO |   Raw bytes: 23 bytes
+2026-06-23 08:04:36,525 | INFO |   Type:      GripperState
+2026-06-23 08:04:36,525 | INFO |   .timestamp: seconds: 1745074443
+nanos: 267404032
+2026-06-23 08:04:36,525 | INFO |   .position: [0.9862335061129087]
+2026-06-23 08:04:36,525 | INFO |   .velocity: []
+2026-06-23 08:04:36,525 | INFO |   .acceleration: []
+2026-06-23 08:04:36,525 | INFO |   .torque: []
+2026-06-23 08:04:36,525 | INFO | 
+--- /left-arm-action (msg #3) ---
+2026-06-23 08:04:36,525 | INFO |   Schema:    RobotState
+2026-06-23 08:04:36,525 | INFO |   Raw bytes: 194 bytes
+2026-06-23 08:04:36,525 | INFO |   Type:      RobotState
+2026-06-23 08:04:36,525 | INFO |   .timestamp: seconds: 1745074443
+nanos: 267404032
+2026-06-23 08:04:36,525 | INFO |   .position: [-0.2592427432537079, 1.4542137384414673, 1.2333205938339233, -0.604388415813446, -0.3635534346103668, -0.6135923266410828]
+2026-06-23 08:04:36,525 | INFO |   .velocity: []
+2026-06-23 08:04:36,525 | INFO |   .acceleration: []
+2026-06-23 08:04:36,526 | INFO |   .torque: []
+2026-06-23 08:04:36,526 | INFO |   .pose: [-0.5843430669860511, -0.4036709432341008, 0.7039836288251492, 0.40161332535508704, -0.4018038339031439, 0.897621859907182, 0.1811868529378027, -0.043970752506228755, -0.7050509620772593, -0.17698803972376662, -0.6867156432386466, 0.1999579683440429, 0.0, 0.0, 0.0, 1.0]
+2026-06-23 08:04:36,526 | INFO | 
+--- /right-ee-action (msg #3) ---
+2026-06-23 08:04:36,526 | INFO |   Schema:    GripperState
+2026-06-23 08:04:36,526 | INFO |   Raw bytes: 23 bytes
+2026-06-23 08:04:36,526 | INFO |   Type:      GripperState
+2026-06-23 08:04:36,526 | INFO |   .timestamp: seconds: 1745074443
+nanos: 267404032
+2026-06-23 08:04:36,526 | INFO |   .position: [0.9900487914789092]
+2026-06-23 08:04:36,526 | INFO |   .velocity: []
+2026-06-23 08:04:36,526 | INFO |   .acceleration: []
+2026-06-23 08:04:36,526 | INFO |   .torque: []
+2026-06-23 08:04:36,526 | INFO | 
+--- /right-arm-action (msg #3) ---
+2026-06-23 08:04:36,527 | INFO |   Schema:    RobotState
+2026-06-23 08:04:36,527 | INFO |   Raw bytes: 194 bytes
+2026-06-23 08:04:36,527 | INFO |   Type:      RobotState
+2026-06-23 08:04:36,527 | INFO |   .timestamp: seconds: 1745074443
+nanos: 267404032
+2026-06-23 08:04:36,527 | INFO |   .position: [-0.03834952041506767, 1.2870098260394334, 0.9526020884513855, -0.8038059380998611, 0.417242765334597, 0.8283496499061584]
+2026-06-23 08:04:36,527 | INFO |   .velocity: []
+2026-06-23 08:04:36,527 | INFO |   .acceleration: []
+2026-06-23 08:04:36,527 | INFO |   .torque: []
+2026-06-23 08:04:36,527 | INFO |   .pose: [-0.4624564070691424, 0.8069242460401214, 0.36743343984084986, 0.290520642054574, 0.6918442282325667, 0.5875849815217742, -0.41963728784670506, -0.6900885038745077, -0.5545138730653921, 0.06014275220370338, -0.8299983216461224, 0.12542217443240788, 0.0, 0.0, 0.0, 1.0]
+2026-06-23 08:04:36,527 | INFO | 
+--- /left-ee-state (msg #3) ---
+2026-06-23 08:04:36,527 | INFO |   Schema:    GripperState
+2026-06-23 08:04:36,527 | INFO |   Raw bytes: 23 bytes
+2026-06-23 08:04:36,528 | INFO |   Type:      GripperState
+2026-06-23 08:04:36,528 | INFO |   .timestamp: seconds: 1745074443
+nanos: 267404032
+2026-06-23 08:04:36,528 | INFO |   .position: [0.9844453345540554]
+2026-06-23 08:04:36,528 | INFO |   .velocity: []
+2026-06-23 08:04:36,528 | INFO |   .acceleration: []
+2026-06-23 08:04:36,528 | INFO |   .torque: []
+2026-06-23 08:04:36,528 | INFO | 
+--- /left-arm-state (msg #3) ---
+2026-06-23 08:04:36,528 | INFO |   Schema:    RobotState
+2026-06-23 08:04:36,528 | INFO |   Raw bytes: 310 bytes
+2026-06-23 08:04:36,528 | INFO |   Type:      RobotState
+2026-06-23 08:04:36,528 | INFO |   .timestamp: seconds: 1745074443
+nanos: 267404032
+2026-06-23 08:04:36,528 | INFO |   .position: [-0.25387197680628937, 1.4543755245288779, 1.1968795300221249, -0.6193255512321674, -0.36907759212634694, -0.6212329289692544]
+2026-06-23 08:04:36,529 | INFO |   .velocity: [-0.0024420024420024333, 0.0366300366300365, -0.0024420024420024333, -0.0073260073260073, -0.0073260073260073, -0.0073260073260073, 0.0030525030525030417]
+2026-06-23 08:04:36,529 | INFO |   .acceleration: []
+2026-06-23 08:04:36,529 | INFO |   .torque: [-0.48547008547008375, -6.6803418803418815, 10.399999999999999, 1.6678876678876673, -0.16361416361416303, 0.0366300366300365, -0.10500610500610463]
+2026-06-23 08:04:36,529 | INFO |   .pose: [-0.6113929486641915, -0.4242150633181159, 0.6680121573577176, 0.393169717375291, -0.40218144860322985, 0.8935887705392248, 0.19937199293181584, -0.03865668451991708, -0.6815047650039674, -0.14676746649105643, -0.7169453019977771, 0.18307785340598962, 0.0, 0.0, 0.0, 1.0]
+2026-06-23 08:04:36,529 | INFO | 
+--- /right-ee-state (msg #3) ---
+2026-06-23 08:04:36,529 | INFO |   Schema:    GripperState
+2026-06-23 08:04:36,529 | INFO |   Raw bytes: 23 bytes
+2026-06-23 08:04:36,529 | INFO |   Type:      GripperState
+2026-06-23 08:04:36,529 | INFO |   .timestamp: seconds: 1745074443
+nanos: 267404032
+2026-06-23 08:04:36,529 | INFO |   .position: [0.9814253198036675]
+2026-06-23 08:04:36,529 | INFO |   .velocity: []
+2026-06-23 08:04:36,529 | INFO |   .acceleration: []
+2026-06-23 08:04:36,530 | INFO |   .torque: []
+2026-06-23 08:04:36,530 | INFO | 
+--- /right-arm-state (msg #3) ---
+2026-06-23 08:04:36,530 | INFO |   Schema:    RobotState
+2026-06-23 08:04:36,530 | INFO |   Raw bytes: 310 bytes
+2026-06-23 08:04:36,530 | INFO |   Type:      RobotState
+2026-06-23 08:04:36,530 | INFO |   .timestamp: seconds: 1745074443
+nanos: 267404032
+2026-06-23 08:04:36,530 | INFO |   .position: [-0.03681239032577999, 1.285763332570383, 0.9519722285801482, -0.8066300450141188, 0.3999771114671553, 0.8131151293202112]
+2026-06-23 08:04:36,530 | INFO |   .velocity: [-0.0073260073260073, -0.0024420024420024333, -0.0024420024420024333, -0.0219780219780219, -0.0073260073260073, -0.0219780219780219, 0.009157509157509125]
+2026-06-23 08:04:36,530 | INFO |   .acceleration: []
+2026-06-23 08:04:36,530 | INFO |   .torque: [-0.18461538461538396, -4.355555555555554, 7.131623931623935, 1.1648351648351642, 0.39316239316239354, 0.12942612942612897, 0.13431013431013383]
+2026-06-23 08:04:36,530 | INFO |   .pose: [-0.4815835693029273, 0.7946111996401466, 0.3696894739966206, 0.2904680054270292, 0.6872840980944053, 0.6041594034682386, -0.40327655982893473, -0.6869400678296872, -0.5437994430707068, 0.059870331612138644, -0.8370768836305539, 0.12421302103437769, 0.0, 0.0, 0.0, 1.0]
+2026-06-23 08:04:36,570 | INFO | 
+
+Done. Total messages per topic:
+2026-06-23 08:04:36,570 | INFO |   /instruction: 1
+2026-06-23 08:04:36,570 | INFO |   /left-arm-action: 319
+2026-06-23 08:04:36,570 | INFO |   /left-arm-state: 319
+2026-06-23 08:04:36,570 | INFO |   /left-ee-action: 319
+2026-06-23 08:04:36,570 | INFO |   /left-ee-state: 319
+2026-06-23 08:04:36,570 | INFO |   /left-wrist-camera: 319
+2026-06-23 08:04:36,570 | INFO |   /right-arm-action: 319
+2026-06-23 08:04:36,570 | INFO |   /right-arm-state: 319
+2026-06-23 08:04:36,570 | INFO |   /right-ee-action: 319
+2026-06-23 08:04:36,571 | INFO |   /right-ee-state: 319
+2026-06-23 08:04:36,571 | INFO |   /right-wrist-camera: 319
+2026-06-23 08:04:36,571 | INFO |   /right-wrist-camera-info: 1
+2026-06-23 08:04:36,571 | INFO |   /top-camera: 319
+2026-06-23 08:04:36,571 | INFO |   /top-camera-info: 1

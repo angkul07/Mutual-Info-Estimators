@@ -74,69 +74,92 @@ class Episode:
 
 
 # ─────────────────────────────────────────────────────────────
-# MCAP helpers  (mcap library ≥ 1.0)
+# MCAP helpers  (mcap library ≥ 1.0, protobuf decoding)
 # ─────────────────────────────────────────────────────────────
 
 def _open_mcap_reader(path: Path):
-    """Return an mcap.reader.NonSeekingReader or SeekingReader."""
+    """Return a decoded mcap reader using protobuf DecoderFactory."""
     from mcap.reader import make_reader
+    try:
+        from mcap_protobuf.decoder import DecoderFactory
+        decoder_factories = [DecoderFactory()]
+    except ImportError:
+        log.warning("mcap-protobuf-support not installed — falling back to raw bytes")
+        decoder_factories = []
     fh = open(path, "rb")
-    return make_reader(fh), fh
+    return make_reader(fh, decoder_factories=decoder_factories), fh
 
 
 def _parse_messages(reader) -> Tuple[List[Dict], List[str]]:
     """
-    Iterate all messages and return:
-      raw_records  – list of {timestamp_ns, topic, schema_name, data_bytes}
+    Iterate decoded messages and return:
+      raw_records  – list of {timestamp_ns, topic, schema_name, decoded_msg}
       topics       – sorted unique topic list
     """
     raw_records: List[Dict] = []
     topics: set = set()
 
-    for schema, channel, message in reader.iter_messages():
+    for schema, channel, message, decoded in reader.iter_decoded_messages():
         topics.add(channel.topic)
         raw_records.append({
             "timestamp_ns": message.log_time,
             "topic": channel.topic,
             "schema": schema.name if schema else "",
-            "data": message.data,
+            "decoded": decoded,
         })
 
     return sorted(raw_records, key=lambda r: r["timestamp_ns"]), sorted(topics)
 
 
 # ─────────────────────────────────────────────────────────────
-# Primitive decoder helpers
+# Protobuf field extraction helpers
 # ─────────────────────────────────────────────────────────────
 
-def _decode_image_bytes(raw: bytes) -> Optional[np.ndarray]:
-    """Decode compressed / raw image bytes -> numpy array (H,W,C)."""
+def _extract_robot_state_array(msg) -> Optional[np.ndarray]:
+    """
+    Extract numeric fields from a decoded RobotState protobuf message.
+    Concatenates: position + pose (the key state/action fields).
+    Velocity/torque are only present on state topics, not action topics.
+    """
+    parts = []
+    if hasattr(msg, 'position') and len(msg.position) > 0:
+        parts.extend(msg.position)
+    if hasattr(msg, 'pose') and len(msg.pose) > 0:
+        parts.extend(msg.pose)
+    if not parts:
+        return None
+    return np.array(parts, dtype=np.float32)
+
+
+def _extract_gripper_state_array(msg) -> Optional[np.ndarray]:
+    """
+    Extract numeric fields from a decoded GripperState protobuf message.
+    Returns the position (typically 1 float: gripper openness).
+    """
+    if hasattr(msg, 'position') and len(msg.position) > 0:
+        return np.array(list(msg.position), dtype=np.float32)
+    return None
+
+
+def _extract_video_frame(msg) -> Optional[np.ndarray]:
+    """
+    Extract a video frame from a decoded CompressedVideo protobuf message.
+    H.264 frames require a video decoder; we attempt JPEG/PNG first,
+    then return None (H.264 keyframes need ffmpeg to decode).
+    """
+    if not hasattr(msg, 'data') or not msg.data:
+        return None
+    raw = bytes(msg.data)
+    # Try JPEG / PNG via PIL (works for CompressedImage, not CompressedVideo)
     try:
-        # Try JPEG / PNG via PIL
         from PIL import Image as PILImage
         img = PILImage.open(io.BytesIO(raw))
         return np.array(img)
     except Exception:
         pass
-    # If there are at least 12 bytes, treat as flat float32 blob
-    if len(raw) >= 12:
-        try:
-            arr = np.frombuffer(raw, dtype=np.uint8)
-            return arr
-        except Exception:
-            pass
+    # H.264 video frames cannot be decoded without a video decoder
+    # Return None rather than garbage uint8 noise
     return None
-
-
-def _try_decode_ros2_float_array(data: bytes) -> Optional[np.ndarray]:
-    """Try to interpret a binary blob as a sequence of float64s."""
-    n = len(data) // 8
-    if n == 0:
-        return None
-    try:
-        return np.frombuffer(data[:n * 8], dtype=np.float64).astype(np.float32)
-    except Exception:
-        return None
 
 
 # ─────────────────────────────────────────────────────────────
@@ -208,27 +231,34 @@ def _build_episode(episode_id: str, raw_records: List[Dict]) -> Episode:
         images, depths, states, acts = [], [], [], []
         for rec in bucket:
             cls = topic_class.get(rec["topic"], "unknown")
-            data = rec["data"]
+            decoded = rec["decoded"]
+            schema_name = rec["schema"]
+
             if cls == "image":
-                arr = _decode_image_bytes(data)
+                if schema_name in ("foxglove.CompressedVideo", "foxglove.CompressedImage"):
+                    arr = _extract_video_frame(decoded)
+                else:
+                    arr = None
                 if arr is not None:
                     images.append(arr)
             elif cls == "depth":
-                arr = _try_decode_ros2_float_array(data)
+                pass  # depth not present in this dataset
+            elif cls in ("state", "action"):
+                # Proper protobuf field extraction
+                if schema_name == "RobotState":
+                    arr = _extract_robot_state_array(decoded)
+                elif schema_name == "GripperState":
+                    arr = _extract_gripper_state_array(decoded)
+                else:
+                    arr = None
                 if arr is not None:
-                    depths.append(arr)
-            elif cls == "state":
-                arr = _try_decode_ros2_float_array(data)
-                if arr is not None:
-                    states.append(arr)
-            elif cls == "action":
-                arr = _try_decode_ros2_float_array(data)
-                if arr is not None:
-                    acts.append(arr)
+                    if cls == "state":
+                        states.append(arr)
+                    else:
+                        acts.append(arr)
 
         # ── Skip buckets with no action data (B4 fix) ─────────
         if not acts:
-            # Remove the timestamp we already appended for this bucket
             timestamps.pop()
             continue
 
