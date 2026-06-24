@@ -1,4 +1,4 @@
 /cache
 __pycache__/
 *.pyc
-processed/
+processed/processed/*.parquet
