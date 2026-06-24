@@ -37,7 +37,7 @@
 1. **Pulls** egocentric robot manipulation demonstrations from HuggingFace (`angkul07/abc-ego`)
 2. **Parses** raw MCAP (ROS2 bag) files without any manual preprocessing
 3. **Converts** them into a clean, typed trajectory schema
-4. **Scores** each trajectory using **Mutual Information** between robot state and actions (DemInf-style)
+4. **Scores** each trajectory using a KSG-based mutual information estimator between robot states and actions, augmented with a temporal alignment metric.
 5. **Ranks** trajectories and exports `easy_eval.json` / `hard_eval.json` for downstream policy training
 
 The evaluation split is **signal-theoretic**: trajectories where actions are highly *informative* about state are "easy" (high competence, consistent), while low-MI trajectories are "hard" (noisy, hesitant, poorly coordinated).
@@ -79,6 +79,55 @@ Raw joint / end-effector state vectors often have **correlated dimensions** (e.g
 1. Decorrelates the signal
 2. Reduces curse-of-dimensionality pressure on k-NN search
 3. Ensures the MI estimate reflects *effective* degrees of freedom
+
+---
+
+---
+## Empirical Validation
+
+The evaluation split was validated through manual inspection of the generated easy and hard trajectory sets.
+
+### Place Bread
+
+Score ranges:
+
+```text
+top50_easy.json  →  [5.134, 5.326]
+top50_hard.json  →  [3.786, 4.162]
+```
+
+Qualitative observations:
+
+Easy trajectories consistently exhibit:
+
+* Stable grasps
+* Successful object pickups
+* Multiple successful object interactions within a trajectory
+* Deliberate gripper timing
+* Smooth task completion
+
+Hard trajectories frequently exhibit:
+
+* Premature gripper closure before reaching the object
+* Edge grasps with poor contact geometry
+* Object drops followed by recovery attempts
+* Hesitation and re-grasp behavior
+* Less reliable task completion
+
+### Screwdriver
+
+Score ranges:
+
+```text
+top50_easy.json  →  [4.689, 4.972]
+top50_hard.json  →  [2.499, 2.928]
+```
+
+The score separation is larger than in the bread task, suggesting stronger discrimination between competent and problematic demonstrations.
+
+### Interpretation
+
+Although the pipeline is inspired by DemInf, the primary objective is trajectory quality ranking rather than exact reproduction of the original paper. Empirically, higher scores correlate with cleaner manipulation behavior, better grasp execution, and fewer recovery actions, indicating that the metric captures meaningful differences in demonstration quality.
 
 ---
 
@@ -394,6 +443,26 @@ The system raises hard errors (not warnings) if:
 
 ### Extensible Schema Classification
 Topic classification is keyword-based and pluggable. Adding a new signal class requires only appending hint tuples in `hf_loader.py`.
+
+---
+
+### Implementation Notes
+
+The current implementation incorporates several corrections identified during code review:
+
+* All robot state topics are merged before scoring rather than using a single topic.
+* All robot action topics are merged before scoring rather than using a single topic.
+* Missing action buckets are no longer replaced with fabricated zero actions.
+* KSG bias correction uses the proper digamma formulation with `ψ(nx + 1)` and `ψ(ny + 1)`.
+* The KSG estimator uses the Chebyshev (`L∞`) metric in joint space, consistent with the original formulation.
+
+The following design choices are intentional and differ from the DemInf paper:
+
+* PCA is used for dimensionality reduction instead of learned VAE embeddings.
+* Mutual information is estimated per trajectory rather than across the entire dataset.
+* A temporal alignment term is included in the final score to penalize delayed or poorly synchronized actions.
+
+These choices were retained because the goal of the project is trajectory ranking and benchmark construction rather than exact replication of DemInf.
 
 ---
 

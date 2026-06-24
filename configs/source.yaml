@@ -2,9 +2,10 @@ source:
   provider: huggingface
   repo: angkul07/abc-ego
   split: train
-  task: place_the_bread
+  # task: place_the_bread
+  task: put_the_screwdriver_in_the_bin
   cache_dir: ./cache
-  data_path: data/train/place_the_bread
+  data_path: data/train/put_the_screwdriver_in_the_bin
   file_format: mcap
 
 processing:

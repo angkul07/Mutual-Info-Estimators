@@ -99,8 +99,9 @@
       "last_ts_ns": 1745074454013299456
     }
   },
-  "source_file": "cache/place_the_bread/episode_00242bb8-86f6-4b90-a381-15203ec1a501/episode.mcap",
-  "episode_id": "episode_00242bb8-86f6-4b90-a381-15203ec1a501",
-  "task": "place_the_bread",
+  "source_file": "cache/put_the_screwdriver_in_the_bin/episode_00139bc8-317f-45a1-971e-eef31f6a663f/episode.mcap",
+  "episode_id": "episode_00139bc8-317f-45a1-971e-eef31f6a663f",
+  "task": "put_the_screwdriver_in_the_bin",
   "total_episodes": 1362
 }
+

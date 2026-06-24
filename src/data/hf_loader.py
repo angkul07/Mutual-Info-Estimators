@@ -9,8 +9,27 @@ The dataset stores each episode as:
   data/train/<task>/episode_<uuid>/episode.mcap
 
 MCAP is a container (like a ROS2 bag) holding *messages* on *channels*
-(topics). We discover all channel schemas during schema-discovery and
+(topics).  We discover all channel schemas during schema-discovery and
 then extract observations / actions / timestamps accordingly.
+
+Two-phase design
+────────────────
+Phase 1 – bulk_download()
+    Downloads up to `max_episodes` MCAP files in parallel (thread pool)
+    and writes a resume manifest (download_manifest.json) so a crashed
+    session can be continued without re-downloading.
+
+Phase 2 – iter_episodes() / load_episode()
+    Reads already-cached MCAPs from disk.  Zero network I/O.
+    Can be run independently after Phase 1 completes (even in a new
+    SSH session).
+
+Usage
+─────
+    loader = HFLoader(task="place_the_bread", max_episodes=200)
+    loader.bulk_download()          # Phase 1  – run once, survives SSH drops
+    for ep in loader.iter_episodes():   # Phase 2  – pure disk reads
+        process(ep)
 """
 
 from __future__ import annotations
@@ -19,11 +38,11 @@ import io
 import json
 import logging
 import os
-import struct
-import time
-from dataclasses import dataclass, field, asdict
+import threading
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from dataclasses import dataclass, field
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Tuple
+from typing import Any, Dict, Iterator, List, Optional, Tuple
 
 import numpy as np
 from huggingface_hub import hf_hub_download, list_repo_files
@@ -50,7 +69,6 @@ class Episode:
     timestamps: List[float] = field(default_factory=list)
     metadata: Dict[str, Any] = field(default_factory=dict)
 
-    # ── convenience ──────────────────────────────────────────
     def __len__(self) -> int:
         return len(self.timestamps)
 
@@ -74,7 +92,7 @@ class Episode:
 
 
 # ─────────────────────────────────────────────────────────────
-# MCAP helpers  (mcap library ≥ 1.0, protobuf decoding)
+# MCAP helpers
 # ─────────────────────────────────────────────────────────────
 
 def _open_mcap_reader(path: Path):
@@ -91,11 +109,6 @@ def _open_mcap_reader(path: Path):
 
 
 def _parse_messages(reader) -> Tuple[List[Dict], List[str]]:
-    """
-    Iterate decoded messages and return:
-      raw_records  – list of {timestamp_ns, topic, schema_name, decoded_msg}
-      topics       – sorted unique topic list
-    """
     raw_records: List[Dict] = []
     topics: set = set()
 
@@ -112,54 +125,34 @@ def _parse_messages(reader) -> Tuple[List[Dict], List[str]]:
 
 
 # ─────────────────────────────────────────────────────────────
-# Protobuf field extraction helpers
+# Protobuf field extraction
 # ─────────────────────────────────────────────────────────────
 
 def _extract_robot_state_array(msg) -> Optional[np.ndarray]:
-    """
-    Extract numeric fields from a decoded RobotState protobuf message.
-    Concatenates: position + pose (the key state/action fields).
-    Velocity/torque are only present on state topics, not action topics.
-    """
     parts = []
     if hasattr(msg, 'position') and len(msg.position) > 0:
         parts.extend(msg.position)
     if hasattr(msg, 'pose') and len(msg.pose) > 0:
         parts.extend(msg.pose)
-    if not parts:
-        return None
-    return np.array(parts, dtype=np.float32)
+    return np.array(parts, dtype=np.float32) if parts else None
 
 
 def _extract_gripper_state_array(msg) -> Optional[np.ndarray]:
-    """
-    Extract numeric fields from a decoded GripperState protobuf message.
-    Returns the position (typically 1 float: gripper openness).
-    """
     if hasattr(msg, 'position') and len(msg.position) > 0:
         return np.array(list(msg.position), dtype=np.float32)
     return None
 
 
 def _extract_video_frame(msg) -> Optional[np.ndarray]:
-    """
-    Extract a video frame from a decoded CompressedVideo protobuf message.
-    H.264 frames require a video decoder; we attempt JPEG/PNG first,
-    then return None (H.264 keyframes need ffmpeg to decode).
-    """
     if not hasattr(msg, 'data') or not msg.data:
         return None
     raw = bytes(msg.data)
-    # Try JPEG / PNG via PIL (works for CompressedImage, not CompressedVideo)
     try:
         from PIL import Image as PILImage
         img = PILImage.open(io.BytesIO(raw))
         return np.array(img)
     except Exception:
-        pass
-    # H.264 video frames cannot be decoded without a video decoder
-    # Return None rather than garbage uint8 noise
-    return None
+        return None
 
 
 # ─────────────────────────────────────────────────────────────
@@ -195,22 +188,15 @@ def _classify_topic(topic: str, schema: str) -> str:
 # ─────────────────────────────────────────────────────────────
 
 def _build_episode(episode_id: str, raw_records: List[Dict]) -> Episode:
-    """
-    Group raw messages by timestamp (nanosecond bucket, 50 ms window)
-    and assemble into Episode.  Unknown data blobs are decoded
-    heuristically.
-    """
     if not raw_records:
         raise ValueError(f"[{episode_id}] No messages decoded from MCAP.")
 
-    # ── Classify topics ──────────────────────────────────────
     topic_class: Dict[str, str] = {}
     for rec in raw_records:
         t, s = rec["topic"], rec["schema"]
         if t not in topic_class:
             topic_class[t] = _classify_topic(t, s)
 
-    # ── Bucket messages by 50ms windows ──────────────────────
     BUCKET_NS = 50_000_000  # 50 ms
     t_start = raw_records[0]["timestamp_ns"]
     buckets: Dict[int, List[Dict]] = {}
@@ -227,7 +213,6 @@ def _build_episode(episode_id: str, raw_records: List[Dict]) -> Episode:
         ts_s = (t_start + b_key * BUCKET_NS) / 1e9
         timestamps.append(ts_s)
 
-        # ── Aggregate per-class data from this bucket ─────────
         images, depths, states, acts = [], [], [], []
         for rec in bucket:
             cls = topic_class.get(rec["topic"], "unknown")
@@ -237,14 +222,9 @@ def _build_episode(episode_id: str, raw_records: List[Dict]) -> Episode:
             if cls == "image":
                 if schema_name in ("foxglove.CompressedVideo", "foxglove.CompressedImage"):
                     arr = _extract_video_frame(decoded)
-                else:
-                    arr = None
-                if arr is not None:
-                    images.append(arr)
-            elif cls == "depth":
-                pass  # depth not present in this dataset
+                    if arr is not None:
+                        images.append(arr)
             elif cls in ("state", "action"):
-                # Proper protobuf field extraction
                 if schema_name == "RobotState":
                     arr = _extract_robot_state_array(decoded)
                 elif schema_name == "GripperState":
@@ -252,35 +232,26 @@ def _build_episode(episode_id: str, raw_records: List[Dict]) -> Episode:
                 else:
                     arr = None
                 if arr is not None:
-                    if cls == "state":
-                        states.append(arr)
-                    else:
-                        acts.append(arr)
+                    (states if cls == "state" else acts).append(arr)
 
-        # ── Skip buckets with no action data (B4 fix) ─────────
         if not acts:
             timestamps.pop()
             continue
 
-        # ── Build Observation (B5 fix: concatenate ALL topics) ─
-        obs = Observation(
+        observations.append(Observation(
             image=images[0] if images else None,
             robot_state=np.concatenate(states).astype(np.float32) if states else None,
             depth=depths[0] if depths else None,
-        )
-        observations.append(obs)
-
-        # ── Action: concatenate all action topics ─────────────
+        ))
         actions.append(np.concatenate(acts).astype(np.float32))
 
-    ep = Episode(
+    return Episode(
         episode_id=episode_id,
         observations=observations,
         actions=actions,
         timestamps=timestamps,
         metadata={"topic_classes": topic_class, "n_buckets": len(buckets)},
     )
-    return ep
 
 
 # ─────────────────────────────────────────────────────────────
@@ -288,12 +259,7 @@ def _build_episode(episode_id: str, raw_records: List[Dict]) -> Episode:
 # ─────────────────────────────────────────────────────────────
 
 def discover_schema(mcap_path: Path) -> Dict[str, Any]:
-    """
-    Read one MCAP file and return a schema summary dict suitable
-    for outputs/schema.json.
-    """
     reader, fh = _open_mcap_reader(mcap_path)
-    schema_info = reader.get_summary()
     topics_info: Dict[str, Dict] = {}
 
     for schema, channel, message in reader.iter_messages():
@@ -314,39 +280,69 @@ def discover_schema(mcap_path: Path) -> Dict[str, Any]:
 
 
 # ─────────────────────────────────────────────────────────────
-# HFLoader
+# HFLoader  (two-phase: bulk_download → iter_episodes)
 # ─────────────────────────────────────────────────────────────
 
 class HFLoader:
     """
-    Downloads episodes from HuggingFace Hub on demand and
-    converts them to the internal Episode schema.
+    Phase 1 — bulk_download()
+        Downloads up to `max_episodes` MCAPs in parallel using a thread
+        pool.  Writes a JSON manifest so interrupted runs resume from
+        where they left off without re-downloading already-cached files.
+
+    Phase 2 — iter_episodes() / load_episode()
+        Reads cached MCAPs from disk; no network I/O.  Safe to run in a
+        fresh SSH session after Phase 1 completes.
 
     Parameters
     ----------
-    repo_id : str       e.g. "angkul07/abc-ego"
-    task    : str       e.g. "place_the_bread"
-    cache_dir : str     local cache root
-    max_episodes : int  limit (None = all)
+    repo_id      : HuggingFace dataset repo, e.g. "angkul07/abc-ego"
+    task         : Task subfolder, e.g. "place_the_bread"
+    cache_dir    : Root directory for cached MCAP files
+    max_episodes : Hard cap on number of episodes to download/process
+    n_workers    : Parallel download threads (default 8)
     """
 
     REPO_TYPE = "dataset"
+    MANIFEST_NAME = "download_manifest.json"
 
     def __init__(
         self,
         repo_id: str = "angkul07/abc-ego",
-        task: str = "place_the_bread",
+        # task: str = "place_the_bread",
+        task: str = "put_the_screwdriver_in_the_bin",
         cache_dir: str = "./cache",
         max_episodes: Optional[int] = None,
+        n_workers: int = 8,
     ):
         self.repo_id = repo_id
         self.task = task
         self.cache_dir = Path(cache_dir) / task
         self.cache_dir.mkdir(parents=True, exist_ok=True)
         self.max_episodes = max_episodes
+        self.n_workers = n_workers
         self._episode_files: Optional[List[str]] = None
+        self._manifest_path = self.cache_dir / self.MANIFEST_NAME
+        self._manifest_lock = threading.Lock()
 
-    # ── File listing ─────────────────────────────────────────
+    # ── Manifest (resume support) ─────────────────────────────
+
+    def _load_manifest(self) -> Dict[str, str]:
+        """Returns {repo_path: local_path_str} for already-downloaded episodes."""
+        if not self._manifest_path.exists():
+            return {}
+        with open(self._manifest_path) as f:
+            return json.load(f)
+
+    def _update_manifest(self, repo_path: str, local_path: Path) -> None:
+        """Thread-safe manifest update after each successful download."""
+        with self._manifest_lock:
+            manifest = self._load_manifest()
+            manifest[repo_path] = str(local_path)
+            with open(self._manifest_path, "w") as f:
+                json.dump(manifest, f, indent=2)
+
+    # ── File listing ──────────────────────────────────────────
 
     def list_episode_files(self) -> List[str]:
         """List all episode MCAP paths for the given task in the HF repo."""
@@ -364,52 +360,118 @@ class HFLoader:
         self._episode_files = episode_files
         return episode_files
 
-    # ── Download one episode ──────────────────────────────────
+    # ── Phase 1: Bulk download ────────────────────────────────
 
-    def _download_episode(self, repo_path: str) -> Path:
-        """Download (or retrieve from cache) one MCAP file."""
-        # Derive episode_id from path:
-        # data/train/place_the_bread/episode_<uuid>/episode.mcap
-        parts = repo_path.split("/")
-        episode_dir_name = parts[-2]   # episode_<uuid>
-        local_dir = self.cache_dir / episode_dir_name
-        local_path = local_dir / "episode.mcap"
+    def bulk_download(self) -> List[Path]:
+        """
+        Download up to `max_episodes` MCAPs in parallel.
 
-        if local_path.exists():
-            log.debug(f"Cache hit: {local_path}")
-            return local_path
+        Already-cached files (tracked in download_manifest.json) are
+        skipped so re-running after a crash continues from where it
+        stopped.
 
-        log.info(f"  Downloading {repo_path} …")
-        local_dir.mkdir(parents=True, exist_ok=True)
-        hf_hub_download(
-            repo_id=self.repo_id,
-            filename=repo_path,
-            repo_type=self.REPO_TYPE,
-            local_dir=str(local_dir),
-            local_dir_use_symlinks=False,
+        Returns a list of local Paths for all downloaded episodes.
+        """
+        files = self.list_episode_files()
+        if self.max_episodes is not None:
+            files = files[: self.max_episodes]
+
+        manifest = self._load_manifest()
+        pending = [f for f in files if f not in manifest]
+        already_done = len(files) - len(pending)
+
+        log.info(
+            f"Bulk download: {len(files)} total  |  "
+            f"{already_done} cached  |  {len(pending)} to download"
         )
-        # hf_hub_download stores in nested dir; locate the file
-        # The file lands at local_dir/<repo_path tail> or at local_dir/episode.mcap
-        candidate = local_dir / "episode.mcap"
-        if not candidate.exists():
-            # search recursively
-            found = list(local_dir.rglob("episode.mcap"))
-            if found:
-                candidate = found[0]
-                # move to expected location
-                candidate.rename(local_path)
-        return local_path
 
-    # ── Parse one episode ─────────────────────────────────────
+        if not pending:
+            log.info("All episodes already cached — skipping download.")
+            return [Path(manifest[f]) for f in files if f in manifest]
+
+        completed: List[Path] = [Path(manifest[f]) for f in files if f in manifest]
+        failed: List[str] = []
+        done_count = already_done
+
+        def _download_one(repo_path: str) -> Tuple[str, Optional[Path]]:
+            """Download a single MCAP; returns (repo_path, local_path | None)."""
+            parts = repo_path.split("/")
+            episode_dir_name = parts[-2]
+            local_dir = self.cache_dir / episode_dir_name
+            local_path = local_dir / "episode.mcap"
+
+            if local_path.exists():
+                return repo_path, local_path
+
+            local_dir.mkdir(parents=True, exist_ok=True)
+            try:
+                hf_hub_download(
+                    repo_id=self.repo_id,
+                    filename=repo_path,
+                    repo_type=self.REPO_TYPE,
+                    local_dir=str(local_dir),
+                    local_dir_use_symlinks=False,
+                )
+                # Locate the downloaded file (hf_hub_download nesting varies)
+                if not local_path.exists():
+                    found = list(local_dir.rglob("episode.mcap"))
+                    if found:
+                        found[0].rename(local_path)
+                return repo_path, local_path if local_path.exists() else None
+            except Exception as exc:
+                log.warning(f"  FAILED {repo_path}: {exc}")
+                return repo_path, None
+
+        with ThreadPoolExecutor(max_workers=self.n_workers) as pool:
+            futures = {pool.submit(_download_one, rp): rp for rp in pending}
+            for future in as_completed(futures):
+                repo_path, local_path = future.result()
+                done_count += 1
+                if local_path is not None:
+                    completed.append(local_path)
+                    self._update_manifest(repo_path, local_path)
+                    log.info(f"  [{done_count}/{len(files)}] OK  {repo_path}")
+                else:
+                    failed.append(repo_path)
+                    log.warning(f"  [{done_count}/{len(files)}] FAIL {repo_path}")
+
+        log.info(
+            f"Download complete: {len(completed)} succeeded, {len(failed)} failed."
+        )
+        if failed:
+            log.warning(f"  Failed paths: {failed}")
+
+        return completed
+
+    # ── Phase 2: Parse from disk ──────────────────────────────
+
+    def _local_path_for(self, repo_path: str) -> Optional[Path]:
+        """Return the local cache path for a repo_path, or None if not cached."""
+        parts = repo_path.split("/")
+        episode_dir_name = parts[-2]
+        local_path = self.cache_dir / episode_dir_name / "episode.mcap"
+        return local_path if local_path.exists() else None
 
     def load_episode(self, repo_path: str) -> Episode:
-        """Download and parse one episode, returning an Episode object."""
+        """
+        Parse one episode from the local cache.
+        Raises FileNotFoundError if the MCAP has not been downloaded yet.
+        """
+        local_path = self._local_path_for(repo_path)
+        if local_path is None:
+            raise FileNotFoundError(
+                f"Episode not cached: {repo_path}\n"
+                f"Run loader.bulk_download() first."
+            )
+
         parts = repo_path.split("/")
         episode_dir = parts[-2]
-        # Extract UUID from "episode_<uuid>"
-        episode_id = episode_dir[len("episode_"):] if episode_dir.startswith("episode_") else episode_dir
+        episode_id = (
+            episode_dir[len("episode_"):]
+            if episode_dir.startswith("episode_")
+            else episode_dir
+        )
 
-        local_path = self._download_episode(repo_path)
         reader, fh = _open_mcap_reader(local_path)
         raw_records, topics = _parse_messages(reader)
         fh.close()
@@ -420,20 +482,29 @@ class HFLoader:
         episode.metadata["task"] = self.task
         return episode
 
-    # ── Iterate episodes ──────────────────────────────────────
-
-    def iter_episodes(self, validate: bool = True):
+    def iter_episodes(self, validate: bool = True) -> Iterator[Episode]:
         """
-        Generator yielding Episode objects.
-        Fails loudly (raises) on integrity errors if validate=True.
+        Yield Episode objects for all cached episodes.
+
+        This is pure disk I/O — no network calls.  If an episode has not
+        been downloaded yet it is logged as a warning and skipped.
         """
         files = self.list_episode_files()
         if self.max_episodes is not None:
             files = files[: self.max_episodes]
 
+        # Only iterate what we actually have on disk
+        manifest = self._load_manifest()
+        available = [f for f in files if f in manifest or self._local_path_for(f) is not None]
+        missing = len(files) - len(available)
+        if missing:
+            log.warning(
+                f"{missing} episodes not yet downloaded — run bulk_download() first."
+            )
+
         errors: List[str] = []
-        for i, fpath in enumerate(files):
-            log.info(f"  [{i+1}/{len(files)}] {fpath}")
+        for i, fpath in enumerate(available):
+            log.info(f"  [{i+1}/{len(available)}] parsing {fpath}")
             try:
                 ep = self.load_episode(fpath)
                 if validate:
@@ -445,19 +516,36 @@ class HFLoader:
                 errors.append(msg)
 
         if errors:
-            log.warning(f"{len(errors)} episodes skipped due to errors.")
+            log.warning(f"{len(errors)} episodes skipped due to parse/validation errors.")
 
     # ── Schema discovery ──────────────────────────────────────
 
     def discover_one_schema(self) -> Dict[str, Any]:
-        """Download the first episode file and inspect its schema."""
+        """Inspect the schema of the first cached episode."""
         files = self.list_episode_files()
         if not files:
             raise RuntimeError(f"No episode files found for task '{self.task}'.")
-        first = files[0]
-        local = self._download_episode(first)
+
+        # Prefer the first cached file; fall back to downloading it
+        for f in files:
+            local = self._local_path_for(f)
+            if local is not None:
+                break
+        else:
+            log.info("No cached episodes found; downloading first episode for schema discovery.")
+            self.bulk_download_n(1)
+            local = self._local_path_for(files[0])
+
         info = discover_schema(local)
-        info["episode_id"] = first.split("/")[-2]
+        info["episode_id"] = files[0].split("/")[-2]
         info["task"] = self.task
         info["total_episodes"] = len(files)
         return info
+
+    def bulk_download_n(self, n: int) -> List[Path]:
+        """Convenience: download exactly n episodes (ignores self.max_episodes)."""
+        orig = self.max_episodes
+        self.max_episodes = n
+        result = self.bulk_download()
+        self.max_episodes = orig
+        return result

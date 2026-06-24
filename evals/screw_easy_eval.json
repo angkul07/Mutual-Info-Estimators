@@ -1,0 +1,3954 @@
+[
+  {
+    "episode_id": "a7907e02-8c03-4107-9951-12960ee12f11",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.971951531460616,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.7803660720224306,
+    "n_steps": 282
+  },
+  {
+    "episode_id": "7ace391b-a5a1-4af4-85ee-2feeae4e31be",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.907459588878722,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.7352217122151052,
+    "n_steps": 373
+  },
+  {
+    "episode_id": "683dee5c-cb5b-45bb-ad14-a733dfe7a968",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.9033694595672275,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.732358621697059,
+    "n_steps": 361
+  },
+  {
+    "episode_id": "af2a2c96-802e-42bb-9003-55800b5143fb",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.902539863361577,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.7317779043531036,
+    "n_steps": 343
+  },
+  {
+    "episode_id": "beabf5de-b1d6-401f-9d97-6e1cede3c350",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.891227380802616,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.7238591665618306,
+    "n_steps": 274
+  },
+  {
+    "episode_id": "52d1d0c5-75df-425d-b2ab-67f224a423ec",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.885473715791736,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.719831601054215,
+    "n_steps": 256
+  },
+  {
+    "episode_id": "725838b7-5bcc-4881-ab0e-50cc1f937839",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.883960950733509,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.718772665513456,
+    "n_steps": 432
+  },
+  {
+    "episode_id": "aaf26ea2-4384-4c51-a645-c06c0e24f080",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.87547071732453,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.712829502127171,
+    "n_steps": 246
+  },
+  {
+    "episode_id": "8673316f-0db0-40fc-91b1-e8c968c9e5d9",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.858080475156735,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.700656332609714,
+    "n_steps": 357
+  },
+  {
+    "episode_id": "4b3a6cbb-8947-4102-b1c3-cb23e7808aa9",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.841491438949148,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.689044007264403,
+    "n_steps": 281
+  },
+  {
+    "episode_id": "95d0a168-1123-450c-86cb-6bfca008d973",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.8274302824174855,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.6792011976922394,
+    "n_steps": 330
+  },
+  {
+    "episode_id": "0367dac2-8968-4c44-9459-22951def9379",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.823512758197799,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.676458930738459,
+    "n_steps": 249
+  },
+  {
+    "episode_id": "26b2d882-99da-4fdf-9dd1-0ad2c62ca3ec",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.818331934365493,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.6728323540558447,
+    "n_steps": 229
+  },
+  {
+    "episode_id": "7417c655-a43b-498a-bb79-5e96c7e45592",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.814141467845184,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.6698990274916286,
+    "n_steps": 244
+  },
+  {
+    "episode_id": "777c549c-9ff9-4bbe-b972-061474e96a08",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.813107209072553,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.6691750463507864,
+    "n_steps": 279
+  },
+  {
+    "episode_id": "33437770-63c1-4e17-b278-676f2db6172f",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.8061048607487065,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.664273402524094,
+    "n_steps": 275
+  },
+  {
+    "episode_id": "79da42be-d442-4e1d-af0d-80980fa9fea9",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.792963925688882,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.6550747479822174,
+    "n_steps": 238
+  },
+  {
+    "episode_id": "0d0d88cd-4b14-48f2-a918-d6128ba87956",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.786682482606839,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.650677737824787,
+    "n_steps": 309
+  },
+  {
+    "episode_id": "5fb9ae66-d7c8-4dd7-ab16-5fc2c31b7cb6",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.78092324634307,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.6466462724401487,
+    "n_steps": 286
+  },
+  {
+    "episode_id": "039bedd8-f16c-4eb6-b129-50055c7739fb",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.780799556620891,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.646559689634623,
+    "n_steps": 280
+  },
+  {
+    "episode_id": "8a538eb4-e06e-421a-86f0-8b90d82eff48",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.780476871456438,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.646333810019506,
+    "n_steps": 232
+  },
+  {
+    "episode_id": "ca75f936-86f5-418e-b902-fc772e621792",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.7767685674750435,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.64373799723253,
+    "n_steps": 245
+  },
+  {
+    "episode_id": "3ada6128-aaeb-49dc-8d58-d5c109b25b68",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.775846948177658,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.6430928637243603,
+    "n_steps": 274
+  },
+  {
+    "episode_id": "6e621188-a593-41be-a144-789f9e71f2e1",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.770050926232427,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.6390356483626984,
+    "n_steps": 227
+  },
+  {
+    "episode_id": "3f14d189-0a66-486b-9794-92c84743e4d4",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.770004051362583,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.6390028359538076,
+    "n_steps": 239
+  },
+  {
+    "episode_id": "001a8924-e7d0-4a9b-8c46-856aec563c91",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.758487545372632,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.630941281760842,
+    "n_steps": 229
+  },
+  {
+    "episode_id": "89eadd8c-798f-4933-9e4c-186cf01d6a3f",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.757150483702994,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.630005338592096,
+    "n_steps": 249
+  },
+  {
+    "episode_id": "2e136792-73ef-4282-a7af-5c102eb9b798",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.74852151374086,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.6239650596186017,
+    "n_steps": 262
+  },
+  {
+    "episode_id": "93364f22-8324-4c3c-9a6b-a491b86315dd",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.747074327663699,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.622952029364589,
+    "n_steps": 247
+  },
+  {
+    "episode_id": "c0adc309-a8c7-4a54-9a24-5e462fc42ad8",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.737030804988135,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.615921563491694,
+    "n_steps": 250
+  },
+  {
+    "episode_id": "3ec45208-e599-494e-923b-c112ae2b28a0",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.736525022424261,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.6155675156969824,
+    "n_steps": 252
+  },
+  {
+    "episode_id": "85740e78-e09b-4c1d-a063-6d6b51576643",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.73487649240333,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.614413544682331,
+    "n_steps": 237
+  },
+  {
+    "episode_id": "de7f5981-5aa8-43bd-84b6-8caa7d6b7185",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.729332756772955,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.610532929741068,
+    "n_steps": 274
+  },
+  {
+    "episode_id": "d2e2f402-f9c4-4b14-8472-9b01a6ae651a",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.718944412127403,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.6032610884891816,
+    "n_steps": 242
+  },
+  {
+    "episode_id": "396fbe89-ea0d-4465-ac74-5f7b727e7239",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.718757315336394,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.6031301207354756,
+    "n_steps": 323
+  },
+  {
+    "episode_id": "8420ed78-ea61-4c0c-b149-69b836383688",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.718124661468358,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.60268726302785,
+    "n_steps": 230
+  },
+  {
+    "episode_id": "4a5cd875-6982-4b05-9b8c-af0598a9286d",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.717141326921741,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.6019989288452186,
+    "n_steps": 262
+  },
+  {
+    "episode_id": "4861edc0-b999-4682-8483-b83854d00d37",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.712536191718063,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.5987753342026436,
+    "n_steps": 276
+  },
+  {
+    "episode_id": "a3349a1f-b22b-4f05-bc76-36c3c764a670",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.708154699234801,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.5957082894643606,
+    "n_steps": 327
+  },
+  {
+    "episode_id": "170e746e-f763-4c21-9957-970df4500f5f",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.708020840459604,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.5956145883217223,
+    "n_steps": 226
+  },
+  {
+    "episode_id": "8f7f4fb9-60d8-4817-b3fe-03d18df8549d",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.707723254174144,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.5954062779219003,
+    "n_steps": 237
+  },
+  {
+    "episode_id": "d4fcfa6f-6ae5-44cb-91bc-137e47663f61",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.706594477034232,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.594616133923962,
+    "n_steps": 248
+  },
+  {
+    "episode_id": "258a210f-6971-4cec-bc3d-a6ae87e3a910",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.704824280883614,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.593376996618529,
+    "n_steps": 278
+  },
+  {
+    "episode_id": "3b0bd34d-6311-430b-bbfe-f56a1b3a0e6b",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.704548892130101,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.5931842244910706,
+    "n_steps": 294
+  },
+  {
+    "episode_id": "4f290358-f20c-40b6-8c58-5636d4a1c96e",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.6988216415670205,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.589175149096914,
+    "n_steps": 227
+  },
+  {
+    "episode_id": "b916485c-20fe-41a2-ac6a-559cbdca7b9d",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.697420727720947,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.5881945094046626,
+    "n_steps": 230
+  },
+  {
+    "episode_id": "77f88237-78c8-4a60-95a3-a79065402ce8",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.696637409163062,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.5876461864141427,
+    "n_steps": 235
+  },
+  {
+    "episode_id": "066205f9-c588-4b81-b49e-6573873a34f3",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.69446759188612,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.586127314320284,
+    "n_steps": 242
+  },
+  {
+    "episode_id": "5c426b86-48dc-41b4-ac3f-e5a38ff1ab38",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.694455252077123,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.586118676453986,
+    "n_steps": 251
+  },
+  {
+    "episode_id": "bc23dcbe-b0a9-45c3-830b-b4fee5262d5b",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.68857193052926,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.582000351370482,
+    "n_steps": 250
+  },
+  {
+    "episode_id": "1543575e-dfdd-4a4d-a640-59f5e1cbbd6f",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.686364999165396,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.580455499415777,
+    "n_steps": 285
+  },
+  {
+    "episode_id": "4f634646-6185-4f4f-9a75-2f9b63eb8080",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.683436194904175,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.578405336432922,
+    "n_steps": 248
+  },
+  {
+    "episode_id": "21193457-7793-4bd3-b70a-90bcb2230931",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.679435518013327,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.5756048626093286,
+    "n_steps": 252
+  },
+  {
+    "episode_id": "4fa9a280-5145-49a1-ab75-5ea5cb4bb9c3",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.679268553807903,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.575487987665532,
+    "n_steps": 230
+  },
+  {
+    "episode_id": "b921fab8-11ff-436c-9821-bca84ddcc5b8",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.677618133134007,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.574332693193804,
+    "n_steps": 287
+  },
+  {
+    "episode_id": "a19bafba-97ec-475d-b35a-d336814595c2",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.675741292517756,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.573018904762429,
+    "n_steps": 236
+  },
+  {
+    "episode_id": "61d4a4ba-c5d5-41f6-942c-d546d5e23aae",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.6755017374634456,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.5728512162244117,
+    "n_steps": 231
+  },
+  {
+    "episode_id": "d37247fe-c855-4361-a3fb-0abe5050acff",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.675469292883519,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.572828505018463,
+    "n_steps": 269
+  },
+  {
+    "episode_id": "dec43334-c1fd-4e70-9ef7-18099bb79758",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.672449680473895,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.570714776331726,
+    "n_steps": 253
+  },
+  {
+    "episode_id": "be172e7f-9933-4d22-bb4d-242bf8aed746",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.670408236746638,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.5692857657226464,
+    "n_steps": 238
+  },
+  {
+    "episode_id": "28509311-650d-4816-b42b-d6a5fcf1761b",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.670390574415399,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.569273402090779,
+    "n_steps": 229
+  },
+  {
+    "episode_id": "0ddaf6fa-acf5-4277-891e-b1dca18bd9e7",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.670369474825368,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.5692586323777573,
+    "n_steps": 282
+  },
+  {
+    "episode_id": "8cd9d1dc-78b1-46d0-a0c8-1de75e212409",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.669444332962665,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.568611033073865,
+    "n_steps": 228
+  },
+  {
+    "episode_id": "3ca13e38-0d0f-4487-a41c-e81ce1569208",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.669351530940188,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.568546071658131,
+    "n_steps": 239
+  },
+  {
+    "episode_id": "2236c7ed-c7cf-4949-9f9b-c60ce4804685",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.66680651450265,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.5667645601518543,
+    "n_steps": 240
+  },
+  {
+    "episode_id": "66bc1fa6-f10d-4e14-8f12-7d0e0582a07f",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.6660488318649,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.5662341823054295,
+    "n_steps": 256
+  },
+  {
+    "episode_id": "6b210537-2156-4bc1-a997-786cd72a2898",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.664331987681612,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.565032391377128,
+    "n_steps": 237
+  },
+  {
+    "episode_id": "5878cb4b-f5cf-47da-8c94-991b150d8b67",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.663643113334368,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.5645501793340575,
+    "n_steps": 242
+  },
+  {
+    "episode_id": "158a98e0-c2a7-4a43-8761-40f0721cb28f",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.661190680034092,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.562833476023864,
+    "n_steps": 256
+  },
+  {
+    "episode_id": "62c3bac4-f93c-40c2-bca6-30845cc53b07",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.658801994609147,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.561161396226402,
+    "n_steps": 232
+  },
+  {
+    "episode_id": "98c614c2-be9d-47e9-aa8c-5592f9364e56",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.658254434501857,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.5607781041512996,
+    "n_steps": 231
+  },
+  {
+    "episode_id": "0390f180-775b-49d8-8b5f-b709e3eb3756",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.656958949510751,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.5598712646575255,
+    "n_steps": 249
+  },
+  {
+    "episode_id": "307914b6-d28d-403d-ba3c-9bea542b4ba7",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.6565732044719255,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.5596012431303476,
+    "n_steps": 234
+  },
+  {
+    "episode_id": "1e891894-5042-4e29-ae24-cf9105c6fe8a",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.6560775639714285,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.5592542947799997,
+    "n_steps": 278
+  },
+  {
+    "episode_id": "b16c228f-15d6-47e8-8c10-a56a838523fa",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.655756034608667,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.559029224226067,
+    "n_steps": 259
+  },
+  {
+    "episode_id": "80c42ba9-60c5-4ea1-b9af-db4353aaa9f9",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.654962551019881,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.558473785713916,
+    "n_steps": 250
+  },
+  {
+    "episode_id": "9e5dbf8b-a93e-4de8-83e9-b47cb700a47a",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.650011669021106,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.555008168314774,
+    "n_steps": 242
+  },
+  {
+    "episode_id": "5b2b4fef-2e6e-4fe8-bb50-054da90225e2",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.643618015747922,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.550532611023545,
+    "n_steps": 257
+  },
+  {
+    "episode_id": "7db2d071-94ad-4f39-ade6-dae00b3e0cff",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.642917704413919,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.550042393089743,
+    "n_steps": 255
+  },
+  {
+    "episode_id": "3e7b736d-c4af-4cd8-b49e-cf50d07a7d7e",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.635426183370149,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.544798328359104,
+    "n_steps": 269
+  },
+  {
+    "episode_id": "6bc514dd-b000-40d9-8e36-9869904c1ea9",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.633389806584263,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.5433728646089837,
+    "n_steps": 264
+  },
+  {
+    "episode_id": "04771ac3-8db5-4a2c-b0ea-e27fd809579a",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.6330750515330665,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.5431525360731464,
+    "n_steps": 232
+  },
+  {
+    "episode_id": "7844aa77-040f-487f-8df5-604664a7c6ea",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.632532625139674,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.5427728375977714,
+    "n_steps": 280
+  },
+  {
+    "episode_id": "6b7ebc21-4b6e-40d3-b82a-2620eed28c8f",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.630202678523815,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.54114187496667,
+    "n_steps": 240
+  },
+  {
+    "episode_id": "9131b23e-deb9-4889-a5b4-766f08f336d7",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.6263053987056555,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.5384137790939585,
+    "n_steps": 237
+  },
+  {
+    "episode_id": "773231e1-a281-4c0a-b0c0-8d86389850b7",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.625909942310314,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.5381369596172196,
+    "n_steps": 239
+  },
+  {
+    "episode_id": "a254f2e9-4151-44e0-84b4-0ad55d9d80f5",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.625837050868541,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.5380859356079783,
+    "n_steps": 228
+  },
+  {
+    "episode_id": "c612da22-ae07-4f1a-b722-a8b279bb08fe",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.6255826915120455,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.5379078840584315,
+    "n_steps": 253
+  },
+  {
+    "episode_id": "411cb7bd-994d-465e-b662-b0c7302cdc2a",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.62432005585126,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.5370240390958814,
+    "n_steps": 260
+  },
+  {
+    "episode_id": "33b2888d-4fb3-45d7-94a5-114ebf422609",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.623914926707672,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.5367404486953697,
+    "n_steps": 226
+  },
+  {
+    "episode_id": "27972259-c465-4767-a935-f4bb5def2efa",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.619102405097894,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.533371683568525,
+    "n_steps": 259
+  },
+  {
+    "episode_id": "938a0980-806d-4c4e-bdf0-601d05f31c92",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.617830364487222,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.532481255141055,
+    "n_steps": 234
+  },
+  {
+    "episode_id": "b5f2cd28-545b-4b46-8b07-411db3b72190",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.61730716264611,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.5321150138522768,
+    "n_steps": 248
+  },
+  {
+    "episode_id": "0fae4f34-4db3-4fad-9032-26e33f6ff0d1",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.6151340103190766,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.530593807223353,
+    "n_steps": 237
+  },
+  {
+    "episode_id": "1e94de99-c51b-4c91-b92e-df1f15f7863e",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.6126895342212135,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.528882673954849,
+    "n_steps": 233
+  },
+  {
+    "episode_id": "2ecd21ca-09f0-4c84-8dcb-b03e55784609",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.611315052735815,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.52792053691507,
+    "n_steps": 245
+  },
+  {
+    "episode_id": "a4c4487b-230d-49bf-864e-454d85432342",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.60730630638013,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.52511441446609,
+    "n_steps": 245
+  },
+  {
+    "episode_id": "9a4e1d49-993a-424a-9073-c9c50284b387",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.605661547901381,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.5239630835309663,
+    "n_steps": 233
+  },
+  {
+    "episode_id": "d0a25d6e-6385-4df7-a4e2-e4c5ba7ebbf3",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.603815842862618,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.5226710900038323,
+    "n_steps": 267
+  },
+  {
+    "episode_id": "3e9571b1-7106-40ea-b1a3-f8f0f8c0c9af",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.601243164109277,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.5208702148764934,
+    "n_steps": 253
+  },
+  {
+    "episode_id": "46047e57-9a17-4792-a1f4-7ab0a19c72ad",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.600582851920462,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.520407996344323,
+    "n_steps": 239
+  },
+  {
+    "episode_id": "3ed7e438-d2cd-4106-9dfb-4e5d2d5b2924",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.597927458944009,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.5185492212608063,
+    "n_steps": 256
+  },
+  {
+    "episode_id": "0523413c-3d15-4689-a9f1-34c29ec4f45a",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.596331401761641,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.5174319812331483,
+    "n_steps": 285
+  },
+  {
+    "episode_id": "d268e01a-ce75-4538-8fc4-5caec236a699",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.595645365402106,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.516951755781474,
+    "n_steps": 230
+  },
+  {
+    "episode_id": "4128f476-afe0-4e25-a571-26a9941f58ac",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.593185821304323,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.515230074913026,
+    "n_steps": 243
+  },
+  {
+    "episode_id": "2721f11a-8048-4f17-8a95-ac23fabf28b2",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.588845709475751,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.5121919966330255,
+    "n_steps": 258
+  },
+  {
+    "episode_id": "5034f910-254a-4046-8fe5-1aafc96216b5",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.58803811645184,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.511626681516288,
+    "n_steps": 256
+  },
+  {
+    "episode_id": "cf2ef522-3b63-4be6-84c0-86ed3502b923",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.581937545439812,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.5073562818078683,
+    "n_steps": 238
+  },
+  {
+    "episode_id": "345ca6f9-b022-4bf1-934e-f43fd323c19b",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.5810564902133475,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.506739543149343,
+    "n_steps": 234
+  },
+  {
+    "episode_id": "66b4b143-c92d-48f3-b2fb-0d1d1f0cc320",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.579098495275883,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.5053689466931175,
+    "n_steps": 283
+  },
+  {
+    "episode_id": "c35de8d5-1731-435a-93c4-e97336a03368",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.57674187041388,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.5037193092897154,
+    "n_steps": 261
+  },
+  {
+    "episode_id": "8a7b2d64-d29e-422f-a0df-4f9577ef90b4",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.574969217631603,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.5024784523421215,
+    "n_steps": 290
+  },
+  {
+    "episode_id": "baa051dc-abc3-4542-b51f-e2382eb54b48",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.5742409818166365,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.501968687271645,
+    "n_steps": 243
+  },
+  {
+    "episode_id": "1cb82773-09d5-49bd-b008-7978fa8242f8",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.574240834359231,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.5019685840514616,
+    "n_steps": 234
+  },
+  {
+    "episode_id": "5eb5fad2-f36c-4690-b650-c67cbc345c4f",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.573042490425318,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.501129743297722,
+    "n_steps": 251
+  },
+  {
+    "episode_id": "0ec5471f-be47-4619-9331-4195197307e3",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.572808688813169,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.500966082169218,
+    "n_steps": 243
+  },
+  {
+    "episode_id": "42003681-0ca2-4681-b8f2-77bd7dac8c17",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.571521047982871,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.500064733588009,
+    "n_steps": 235
+  },
+  {
+    "episode_id": "57d33e21-fab8-4036-82e6-4e537b767daf",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.568717498166892,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.4981022487168243,
+    "n_steps": 232
+  },
+  {
+    "episode_id": "0deda8fa-1d9e-49e5-b29b-51522e614a95",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.567056917139297,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.4969398419975075,
+    "n_steps": 239
+  },
+  {
+    "episode_id": "3eb85648-d551-4014-83a1-7f18ebb5c6c6",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.565864157096341,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.496104909967438,
+    "n_steps": 241
+  },
+  {
+    "episode_id": "aa74cb2b-8e7a-4d59-892f-c2fddeb3cdfb",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.564009462127588,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.4948066234893114,
+    "n_steps": 229
+  },
+  {
+    "episode_id": "3aa977da-5b2c-4b34-86fb-2c8d2ad68c53",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.562678169195142,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.4938747184365995,
+    "n_steps": 238
+  },
+  {
+    "episode_id": "2f7af860-a051-4936-aae4-b2fd4aff854b",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.562163037302087,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.49351412611146,
+    "n_steps": 232
+  },
+  {
+    "episode_id": "5b941289-44a6-4b35-8821-5fa559d2bdb9",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.562137532968478,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.4934962730779344,
+    "n_steps": 263
+  },
+  {
+    "episode_id": "4d59ab28-20bd-440b-bbea-ee8df09265c3",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.559219685723349,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.491453780006344,
+    "n_steps": 290
+  },
+  {
+    "episode_id": "91a0ae84-1a39-4b98-8aba-fda5dc96680c",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.55835498448339,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.490848489138373,
+    "n_steps": 239
+  },
+  {
+    "episode_id": "9b1616cc-64c4-43ce-b161-c0e9b1370adb",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.558187714649537,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.4907314002546754,
+    "n_steps": 235
+  },
+  {
+    "episode_id": "4870efb0-3c59-40b8-9862-919e0b16f699",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.5576036025061955,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.4903225217543365,
+    "n_steps": 246
+  },
+  {
+    "episode_id": "7e437d40-421a-4a46-840b-a42e5a914fb3",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.557495562718229,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.4902468939027598,
+    "n_steps": 233
+  },
+  {
+    "episode_id": "87a4a6ed-bc1a-4151-83e6-deb96bf84174",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.556835557716827,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.4897848904017783,
+    "n_steps": 237
+  },
+  {
+    "episode_id": "81db80a6-36cc-464f-8f4e-c8cb8b0b2c61",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.554453433306065,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.4881174033142455,
+    "n_steps": 259
+  },
+  {
+    "episode_id": "8d6209ba-293e-447e-ba98-9317735517ba",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.5527743423412605,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.486942039638882,
+    "n_steps": 259
+  },
+  {
+    "episode_id": "bd60b859-6e83-471e-be43-475b588ac66c",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.5504634674217925,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.4853244271952546,
+    "n_steps": 241
+  },
+  {
+    "episode_id": "40d742b4-9eb5-4f7e-8e5d-232a77a8abd4",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.549286581860976,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.4845006073026825,
+    "n_steps": 232
+  },
+  {
+    "episode_id": "380a99f1-9b8e-4e06-9283-a4bc990ab8e3",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.548036647081295,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.4836256529569063,
+    "n_steps": 228
+  },
+  {
+    "episode_id": "53cab4ce-ed8e-4eee-abba-0462a54d66ab",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.546174139227555,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.4823218974592884,
+    "n_steps": 245
+  },
+  {
+    "episode_id": "d0cdff23-0acf-429c-ad05-5b7413b0f773",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.545674397895846,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.481972078527092,
+    "n_steps": 231
+  },
+  {
+    "episode_id": "346e32c9-b278-415a-a566-aca2fd30eba7",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.544872507024217,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.4814107549169515,
+    "n_steps": 263
+  },
+  {
+    "episode_id": "b163fe7f-f1d6-475f-afe6-95316b662150",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.543855258687945,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.4806986810815608,
+    "n_steps": 229
+  },
+  {
+    "episode_id": "7ae2a2fb-418b-4ef9-9b9c-f691670a6153",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.5422851887814035,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.479599632146982,
+    "n_steps": 255
+  },
+  {
+    "episode_id": "9b218b61-a5c2-4e0e-b7a6-1f9e51d41b39",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.5370027813888845,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.4759019469722188,
+    "n_steps": 266
+  },
+  {
+    "episode_id": "6dc20352-9a37-4ff8-9c57-da2e1821c759",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.536414349281968,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.4754900444973775,
+    "n_steps": 229
+  },
+  {
+    "episode_id": "d1d7763c-301c-4281-abdc-5b2c5a93568b",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.534944707712161,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.4744612953985126,
+    "n_steps": 241
+  },
+  {
+    "episode_id": "13ca9c3f-fee8-4f6b-b806-5e6d8983cf5b",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.534917773575104,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.474442441502572,
+    "n_steps": 250
+  },
+  {
+    "episode_id": "2f69d392-d622-46df-b7a1-504cd3dabc99",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.534557083175028,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.4741899582225195,
+    "n_steps": 239
+  },
+  {
+    "episode_id": "0848da00-eeda-470f-9dc0-b41df1197e42",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.532823266407388,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.472976286485171,
+    "n_steps": 228
+  },
+  {
+    "episode_id": "8e19161d-511b-4be9-8e5a-91bd3ff64b80",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.529120142192044,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.47038409953443,
+    "n_steps": 258
+  },
+  {
+    "episode_id": "dac44570-5afc-4586-ad3f-bc54cece518c",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.52795850235894,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.469570951651258,
+    "n_steps": 244
+  },
+  {
+    "episode_id": "28b9c777-0ed9-4b9d-9b59-f573318a6c9b",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.527218491275628,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.469052943892939,
+    "n_steps": 243
+  },
+  {
+    "episode_id": "4fae6df3-d80f-4c19-9c62-69c04c182d56",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.5241919706210965,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.4669343794347673,
+    "n_steps": 244
+  },
+  {
+    "episode_id": "9ddab02c-52c4-4346-9155-4fa12a3124d6",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.523049245511754,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.466134471858228,
+    "n_steps": 251
+  },
+  {
+    "episode_id": "a240d620-a5c4-43b3-90a7-3b24295b422b",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.5167534049800215,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.4617273834860147,
+    "n_steps": 265
+  },
+  {
+    "episode_id": "7b13e8ba-a4b6-4141-b735-6974fcc92905",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.5165321838976205,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.461572528728334,
+    "n_steps": 230
+  },
+  {
+    "episode_id": "04c0ec23-51da-40ca-969d-99def7ffe6ba",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.513407039809856,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.459384927866899,
+    "n_steps": 243
+  },
+  {
+    "episode_id": "3576addc-da73-4d92-994f-0918597fdc1a",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.513126282230847,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.4591883975615927,
+    "n_steps": 231
+  },
+  {
+    "episode_id": "a03d0557-9131-4e68-b86f-56c094167b4a",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.512914538423174,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.4590401768962216,
+    "n_steps": 240
+  },
+  {
+    "episode_id": "1ff47121-cff9-44cb-bcd3-6ca44d3623e9",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.512485008951502,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.458739506266051,
+    "n_steps": 251
+  },
+  {
+    "episode_id": "9b432e31-3630-47d0-b0e5-b01b8e9bbb6a",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.512226904024655,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.4585588328172583,
+    "n_steps": 229
+  },
+  {
+    "episode_id": "591d42d7-80a4-418e-a7ae-67158ebe79e0",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.510986332369236,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.457690432658465,
+    "n_steps": 229
+  },
+  {
+    "episode_id": "010757d1-07fc-436e-b7ed-650fb19be02d",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.510301226654338,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.457210858658036,
+    "n_steps": 315
+  },
+  {
+    "episode_id": "24994fb9-bdc2-4b8c-8440-83b7600e0ae0",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.510083147732426,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.4570582034126978,
+    "n_steps": 229
+  },
+  {
+    "episode_id": "054c93d5-5608-4f30-989b-3d704a8f8568",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.50616835196203,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.4543178463734208,
+    "n_steps": 239
+  },
+  {
+    "episode_id": "4cde69d6-5e62-474f-b8d3-0fd50d23ade3",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.503230042080195,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.4522610294561358,
+    "n_steps": 229
+  },
+  {
+    "episode_id": "75ca0549-4e98-4a53-bf03-1d796701ff7e",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.502708857465597,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.4518962002259177,
+    "n_steps": 230
+  },
+  {
+    "episode_id": "877de629-a2cc-480d-a150-2c39806a3d06",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.5016380694351925,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.4511466486046345,
+    "n_steps": 239
+  },
+  {
+    "episode_id": "a53fc333-cdc3-4e61-8a0a-de9dcdf88720",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.501439994284796,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.451007995999357,
+    "n_steps": 235
+  },
+  {
+    "episode_id": "b8a83a22-f8c5-4cf2-96e6-f4d929c10b04",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.49986861293745,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.449908029056215,
+    "n_steps": 236
+  },
+  {
+    "episode_id": "47f3f89c-a649-4d8b-86af-0ad17366f127",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.494393038424242,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.446075126896969,
+    "n_steps": 260
+  },
+  {
+    "episode_id": "6f40a010-1a71-4f1d-b009-e36096120d2c",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.4927104619976905,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.444897323398383,
+    "n_steps": 227
+  },
+  {
+    "episode_id": "7c782bf1-6983-490a-a3d4-0b39305ac17b",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.491070319879357,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.4437492239155496,
+    "n_steps": 230
+  },
+  {
+    "episode_id": "a3370d47-261a-46df-9543-e8da9964444a",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.489241868693905,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.4424693080857334,
+    "n_steps": 226
+  },
+  {
+    "episode_id": "939c004b-45cd-48ac-a2dc-eae70c3e426b",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.487791517256229,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.4414540620793597,
+    "n_steps": 279
+  },
+  {
+    "episode_id": "c072474b-9aa1-4a01-b4e8-6794ad50b0e5",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.485440613333638,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.4398084293335462,
+    "n_steps": 238
+  },
+  {
+    "episode_id": "9f695964-28dd-4eea-a93b-8a911b6d9d4b",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.480012685220588,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.4360088796544113,
+    "n_steps": 239
+  },
+  {
+    "episode_id": "0a118f8d-0b8e-465f-be91-db39ae6e9446",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.479896573131574,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.435927601192102,
+    "n_steps": 230
+  },
+  {
+    "episode_id": "af617813-cdf5-455f-af02-6d6864f0c88e",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.479275099158735,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.4354925694111142,
+    "n_steps": 240
+  },
+  {
+    "episode_id": "65ebc097-2f60-4503-b118-5ded8c78d411",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.477885420665705,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.434519794465993,
+    "n_steps": 229
+  },
+  {
+    "episode_id": "497e9765-3a1c-4c29-a62b-c47690daa69f",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.477456516690953,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.434219561683667,
+    "n_steps": 231
+  },
+  {
+    "episode_id": "db1c0479-2705-4092-97cf-0c7f740fbf41",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.472461844118702,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.430723290883091,
+    "n_steps": 234
+  },
+  {
+    "episode_id": "12af0ce0-5088-4e4f-9d40-bf2de15f4174",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.47205692652558,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.4304398485679055,
+    "n_steps": 238
+  },
+  {
+    "episode_id": "cf535a14-d40c-44a6-849b-46a64035ce6a",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.469499157343959,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.428649410140771,
+    "n_steps": 235
+  },
+  {
+    "episode_id": "0ecd52a5-b3b6-4266-abae-6db8f65159b2",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.468325397303843,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.42782777811269,
+    "n_steps": 242
+  },
+  {
+    "episode_id": "008048bc-a856-4154-834a-609eb4a644b5",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.466500513057842,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.426550359140489,
+    "n_steps": 250
+  },
+  {
+    "episode_id": "1d6cad8a-94e7-41cc-8e74-b8ed57548972",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.463360326791252,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.4243522287538757,
+    "n_steps": 242
+  },
+  {
+    "episode_id": "5e39c22e-3487-487a-9523-8e24a9b9edd0",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.4599876632193025,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.4219913642535116,
+    "n_steps": 229
+  },
+  {
+    "episode_id": "7cf03d6b-01c1-4f95-8839-4aab842280f8",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.459985739975931,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.421990017983151,
+    "n_steps": 234
+  },
+  {
+    "episode_id": "3202e1a6-d1a7-4c87-9395-52b520b9b111",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.670385384814806,
+    "temporal_alignment": 0.5,
+    "composite_score": 3.419269769370364,
+    "n_steps": 1409
+  },
+  {
+    "episode_id": "b1952ceb-b131-431d-8009-74dc3459a222",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.4538614735147855,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.4177030314603494,
+    "n_steps": 235
+  },
+  {
+    "episode_id": "9c72bc62-13ec-4bf8-a43e-5b80072ee127",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.449563519961189,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.414694463972832,
+    "n_steps": 232
+  },
+  {
+    "episode_id": "8bf1f962-4998-4ec7-80f3-9124e2bf9f27",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.447953377819141,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.4135673644733986,
+    "n_steps": 249
+  },
+  {
+    "episode_id": "4d0dfe13-fd21-4fdd-998d-efc819027722",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.445361666116841,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.4117531662817884,
+    "n_steps": 228
+  },
+  {
+    "episode_id": "4032e5cf-7844-42f0-b180-1fe0b4357502",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.442339325295043,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.4096375277065296,
+    "n_steps": 242
+  },
+  {
+    "episode_id": "a1616e79-0418-4470-b8d5-ce89f29b63f0",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.437775275227702,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.4064426926593914,
+    "n_steps": 230
+  },
+  {
+    "episode_id": "91cacc59-5228-46b9-9a9e-dcb62d850713",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.4327818570808475,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.402947299956593,
+    "n_steps": 237
+  },
+  {
+    "episode_id": "26b61f1c-c46f-492a-9261-d06a2796cdf7",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.430000565821701,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.4010003960751907,
+    "n_steps": 240
+  },
+  {
+    "episode_id": "1aeca6b4-c777-4666-b4a1-baead3fe9170",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.425771257895121,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.398039880526585,
+    "n_steps": 251
+  },
+  {
+    "episode_id": "da23a41d-d51e-459c-b941-6b3176bc66d7",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.423578883363822,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.396505218354675,
+    "n_steps": 236
+  },
+  {
+    "episode_id": "07b0e7f4-4712-4d6e-9fdb-be74269f5b72",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.421973806715835,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.395381664701084,
+    "n_steps": 237
+  },
+  {
+    "episode_id": "3158361a-dc27-4c7e-b170-846f4f6d6f3a",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.420659756821814,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.394461829775269,
+    "n_steps": 236
+  },
+  {
+    "episode_id": "b6d0222c-20e2-4416-8c3b-18404f7cc312",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.420460530817861,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.3943223715725024,
+    "n_steps": 250
+  },
+  {
+    "episode_id": "24e3b2f5-ef0c-4028-8560-890248cc6730",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.4183324623099764,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.392832723616983,
+    "n_steps": 312
+  },
+  {
+    "episode_id": "a24f4ce8-e63e-475b-ba5b-bb1b9ba90cab",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.413224200185908,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.3892569401301356,
+    "n_steps": 231
+  },
+  {
+    "episode_id": "58559df2-3da9-41c3-9676-8169c59acfed",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.4093863001503495,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.3865704101052443,
+    "n_steps": 232
+  },
+  {
+    "episode_id": "b008ac91-0819-417b-a9d7-8145aa1c2526",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.409145007947256,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.3864015055630787,
+    "n_steps": 235
+  },
+  {
+    "episode_id": "4195faca-a095-4765-b487-063b710aedd6",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.4067961609767545,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.384757312683728,
+    "n_steps": 243
+  },
+  {
+    "episode_id": "c57eb604-038b-4c10-9da1-028403a9abe8",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.405982682386345,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.384187877670441,
+    "n_steps": 253
+  },
+  {
+    "episode_id": "5eaa62c0-9797-4263-a722-7bf9fd3312b3",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.3936091482976805,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.375526403808376,
+    "n_steps": 234
+  },
+  {
+    "episode_id": "c932c2a9-d2bb-4ef1-82ca-7e94df985a82",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.390776709463475,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.3735436966244325,
+    "n_steps": 243
+  },
+  {
+    "episode_id": "13bd2784-acc0-42d0-96a0-439e3451ff94",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.389600626474222,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.372720438531955,
+    "n_steps": 228
+  },
+  {
+    "episode_id": "b0932d51-723b-4a44-807a-8dfc6f72ef9e",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.387120473831562,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.370984331682093,
+    "n_steps": 275
+  },
+  {
+    "episode_id": "36522771-9859-4139-a7c5-b44ef4881b43",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.382588032464385,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.3678116227250694,
+    "n_steps": 229
+  },
+  {
+    "episode_id": "3efc629a-a5ce-4c47-af54-adcf895c88c8",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.379863102121215,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.36590417148485,
+    "n_steps": 239
+  },
+  {
+    "episode_id": "4fe5d303-56e2-47bf-b2e0-8a5b3a493941",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.369540422023847,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.3586782954166923,
+    "n_steps": 238
+  },
+  {
+    "episode_id": "3831c14b-ab34-4949-9128-a72bfbbf2516",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.3666125717291,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.3566288002103692,
+    "n_steps": 229
+  },
+  {
+    "episode_id": "c7d69511-df15-4090-8124-1d98e7aac454",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.351849991510575,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.346294994057402,
+    "n_steps": 229
+  },
+  {
+    "episode_id": "66fddea0-5387-48aa-935c-a9fa4427663c",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.335084543048892,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.334559180134224,
+    "n_steps": 288
+  },
+  {
+    "episode_id": "44d85b29-3589-4e42-84b8-263b160da23b",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.332489606142043,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.33274272429943,
+    "n_steps": 229
+  },
+  {
+    "episode_id": "dfc7c9ec-d636-40ec-8b4c-fd17ef2dec83",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.5343983305566855,
+    "temporal_alignment": 0.5,
+    "composite_score": 3.3240788313896794,
+    "n_steps": 999
+  },
+  {
+    "episode_id": "d9ed0a0f-492c-440e-9fbb-d74487f71793",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.309291448386269,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.316504013870388,
+    "n_steps": 227
+  },
+  {
+    "episode_id": "72245a3b-3308-463d-b906-ba6714d3c644",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.305399118196032,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.313779382737222,
+    "n_steps": 253
+  },
+  {
+    "episode_id": "96293ff8-323a-4544-a6b8-4ef4a0db6187",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.301322893252035,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.310926025276424,
+    "n_steps": 238
+  },
+  {
+    "episode_id": "bba43f47-1992-4bd3-8d63-cb84d9dc30cf",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.502894550051343,
+    "temporal_alignment": 0.5,
+    "composite_score": 3.3020261850359396,
+    "n_steps": 947
+  },
+  {
+    "episode_id": "0d05cb49-f79b-4d8d-842e-8856ff9cd52f",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.28592093423733,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.3001446539661305,
+    "n_steps": 243
+  },
+  {
+    "episode_id": "c8b92ba7-8b90-464a-a538-f1fd1b4777d1",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.273949046792378,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.2917643327546644,
+    "n_steps": 236
+  },
+  {
+    "episode_id": "a85c84d2-7ae4-4bb9-9b98-f47c21e4120d",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.461691433693076,
+    "temporal_alignment": 0.5,
+    "composite_score": 3.273184003585153,
+    "n_steps": 908
+  },
+  {
+    "episode_id": "137d225f-4624-4a69-990d-580fdb236ffa",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.4197713621289765,
+    "temporal_alignment": 0.5,
+    "composite_score": 3.243839953490283,
+    "n_steps": 1049
+  },
+  {
+    "episode_id": "3c62fd06-969f-4165-abf8-4710e6632822",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.416454852085263,
+    "temporal_alignment": 0.5,
+    "composite_score": 3.2415183964596834,
+    "n_steps": 1324
+  },
+  {
+    "episode_id": "adefebed-a7a7-48bd-82a5-17257b183ca6",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.4669573733777685,
+    "temporal_alignment": 0.3333333333333333,
+    "composite_score": 3.2268701613644377,
+    "n_steps": 1237
+  },
+  {
+    "episode_id": "6fa04242-68e8-435f-987b-1fb123fc2bdd",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.440326071814297,
+    "temporal_alignment": 0.25,
+    "composite_score": 3.183228250270008,
+    "n_steps": 1419
+  },
+  {
+    "episode_id": "a985dfad-746b-4f49-8c65-6ccdc570fef9",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.084305133543529,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.15901359348047,
+    "n_steps": 107
+  },
+  {
+    "episode_id": "94d72ffc-85c5-4db7-a806-9c4700bca41d",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.079470795480175,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.155629556836122,
+    "n_steps": 111
+  },
+  {
+    "episode_id": "d708672f-32cd-4981-b10b-f2d658f6db5c",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.072226257960408,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.1505583805722854,
+    "n_steps": 109
+  },
+  {
+    "episode_id": "59ba1ad0-531e-45cf-816f-5300e3e9488b",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.053231948612116,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.137262364028481,
+    "n_steps": 105
+  },
+  {
+    "episode_id": "0b18f1bb-5ec8-491e-b131-3c492d32717d",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.052685195848825,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.136879637094177,
+    "n_steps": 107
+  },
+  {
+    "episode_id": "03a91ad9-884c-428c-ab20-25cabe67d497",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.044660520040688,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.1312623640284816,
+    "n_steps": 105
+  },
+  {
+    "episode_id": "8e1afa76-8ec6-4a07-b966-5bfc3b856243",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.0327557581359255,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.1229290306951474,
+    "n_steps": 105
+  },
+  {
+    "episode_id": "a45766ee-a44e-4edb-996b-bc51fa7066a1",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.0306360438931295,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.12144523072519,
+    "n_steps": 108
+  },
+  {
+    "episode_id": "6bb48ff9-3c0a-40f0-80c2-de88a3955f29",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.029798285838832,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.120858800087182,
+    "n_steps": 106
+  },
+  {
+    "episode_id": "5078409b-fb4b-4495-9d30-efd0b85aba1d",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.026984261269385,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.1188889828885693,
+    "n_steps": 107
+  },
+  {
+    "episode_id": "d859e251-6cf7-460a-a6ed-f2da361d65b8",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.018794865994959,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.113156406196471,
+    "n_steps": 248
+  },
+  {
+    "episode_id": "d02bb783-588a-4c24-8652-aa8faf744272",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.011318929716202,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.107923250801341,
+    "n_steps": 107
+  },
+  {
+    "episode_id": "c55b137b-881e-413a-8331-4a09ec87f091",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.003148369157749,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.102203858410424,
+    "n_steps": 112
+  },
+  {
+    "episode_id": "7b744934-1dd0-40ca-afea-5a80cbcd22e2",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.000070291079671,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.100049203755769,
+    "n_steps": 111
+  },
+  {
+    "episode_id": "91b0acca-7d64-4d37-923d-a619a88bc509",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.998220141752457,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0987540992267197,
+    "n_steps": 109
+  },
+  {
+    "episode_id": "23964fa3-8763-4e02-812b-9dc6c6454751",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.994572260581639,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.096200582407147,
+    "n_steps": 110
+  },
+  {
+    "episode_id": "67d8a5df-711b-4373-af78-cc28db6ec043",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.989507325516705,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.092655127861693,
+    "n_steps": 110
+  },
+  {
+    "episode_id": "7cbe05bf-c1ba-43f8-928f-e2d78f83b551",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.985529010253986,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.08987030717779,
+    "n_steps": 109
+  },
+  {
+    "episode_id": "d7446c8c-c82a-4c04-8831-0ad31b9ed0a1",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.9838669065727146,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0887068346008997,
+    "n_steps": 112
+  },
+  {
+    "episode_id": "29bf01f6-7c8b-4fb1-81ab-bffb53c1aeab",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.981855269735438,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.087298688814806,
+    "n_steps": 104
+  },
+  {
+    "episode_id": "d7a0a0eb-de69-40f4-bed7-0fdcd9b29ae6",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.9800828929672725,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0860580250770906,
+    "n_steps": 112
+  },
+  {
+    "episode_id": "79c0b92e-7bc2-4757-b0f6-974219dcc667",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.9794207454301245,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0855945218010867,
+    "n_steps": 110
+  },
+  {
+    "episode_id": "d901940e-4c11-44a4-8adb-01f9d7672c9f",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.977358932739101,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.08415125291737,
+    "n_steps": 105
+  },
+  {
+    "episode_id": "d8983144-3f31-406e-8a54-aa5134949902",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.9772825625683916,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.084097793797874,
+    "n_steps": 106
+  },
+  {
+    "episode_id": "6ae3eb2b-8b9d-42d9-a078-e566390eb702",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.9766924381664204,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.083684706716494,
+    "n_steps": 113
+  },
+  {
+    "episode_id": "7a1b83f5-8e98-4607-80aa-ff9d7c152c61",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.976418067427446,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.083492647199212,
+    "n_steps": 111
+  },
+  {
+    "episode_id": "6d4c46c9-64dd-444e-8d1c-8c03698469ec",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.9743378059435157,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0820364641604607,
+    "n_steps": 109
+  },
+  {
+    "episode_id": "a5e93e58-4087-4a5f-bbd6-d6bef6c2785f",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.9732014235815925,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0812409965071144,
+    "n_steps": 104
+  },
+  {
+    "episode_id": "403eb757-4138-4383-907f-1e682588dc17",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.9716455361033742,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0801518752723616,
+    "n_steps": 103
+  },
+  {
+    "episode_id": "655f02eb-553b-4f06-bc12-2de1d012c513",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.9678486003042406,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.077494020212968,
+    "n_steps": 106
+  },
+  {
+    "episode_id": "b30bb18a-638c-49cc-94df-010000b16a65",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.966082732092111,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0762579124644773,
+    "n_steps": 111
+  },
+  {
+    "episode_id": "379ebb61-531b-4ca1-aab3-f4ab9074713c",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.965451101414609,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.075815770990226,
+    "n_steps": 109
+  },
+  {
+    "episode_id": "99291ba6-8958-4634-9b48-840d840a394b",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.9643090834434638,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.075016358410424,
+    "n_steps": 112
+  },
+  {
+    "episode_id": "696debef-97ec-4b4f-8103-33f707ba4626",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.9599869650841146,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.07199087555888,
+    "n_steps": 106
+  },
+  {
+    "episode_id": "227ae1d6-d5d0-4620-bf34-4c3f6b4ad924",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.954947970498634,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0684635793490433,
+    "n_steps": 109
+  },
+  {
+    "episode_id": "5ef5f27d-53cb-4340-b408-3f3457cc7262",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.9540870650077022,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0678609455053913,
+    "n_steps": 107
+  },
+  {
+    "episode_id": "ceae9f92-94e1-4b96-9f6e-fa8bde76ea29",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.953854889612417,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0676984227286916,
+    "n_steps": 106
+  },
+  {
+    "episode_id": "39f19cc3-9260-42ff-894c-5574a7b9f460",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.952240158020609,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.066568110614426,
+    "n_steps": 107
+  },
+  {
+    "episode_id": "0f01f521-b91a-478d-837a-83be8f50b39d",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.950166816176195,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.065116771323336,
+    "n_steps": 111
+  },
+  {
+    "episode_id": "40697abb-6f28-4302-89ea-edcabdcb7627",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.949802165811545,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.064861516068081,
+    "n_steps": 111
+  },
+  {
+    "episode_id": "d924a950-aa73-4d1b-af76-459570489717",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.9487511147604937,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.064125780332345,
+    "n_steps": 111
+  },
+  {
+    "episode_id": "9592871c-070c-4d3c-8510-2f5c7132530c",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.947565581436316,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0632959070054206,
+    "n_steps": 106
+  },
+  {
+    "episode_id": "8ba74ec8-6204-40c4-8d27-80dbc8b41d5b",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.9444207454301248,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.061094521801087,
+    "n_steps": 110
+  },
+  {
+    "episode_id": "075b3459-f349-4f15-a9e4-a284df8b1837",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.9430454090547884,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0601317863383515,
+    "n_steps": 111
+  },
+  {
+    "episode_id": "0cf7c124-4002-46f5-9a62-6cc71036298a",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.942444808454187,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0597113659179307,
+    "n_steps": 111
+  },
+  {
+    "episode_id": "3f7127ef-d1f0-452f-a6cf-baa7a0fc6c55",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.9421600512115305,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.059512035848071,
+    "n_steps": 107
+  },
+  {
+    "episode_id": "bd13b1f1-ba59-41bc-af7e-ab55cf9f3be8",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.9417479713734234,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.059223579961396,
+    "n_steps": 106
+  },
+  {
+    "episode_id": "02bf3627-0f45-4873-894e-7024c4ecc3dc",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.9415412263006067,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0590788584104245,
+    "n_steps": 112
+  },
+  {
+    "episode_id": "0d00a84f-9aaa-4ef9-94fd-e1fb20f76e50",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.941168456548625,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0588179195840373,
+    "n_steps": 105
+  },
+  {
+    "episode_id": "92de3c3b-a838-4faf-9ec7-f622c8e318f5",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.9409755500659696,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0586828850461782,
+    "n_steps": 108
+  },
+  {
+    "episode_id": "8acfe8ee-7b15-42ac-98dd-c94972c531eb",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.9405748818136193,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.058402417269533,
+    "n_steps": 109
+  },
+  {
+    "episode_id": "d50b2fd6-8cb5-4638-846f-768a66044b12",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.9403582661153522,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0582507862807464,
+    "n_steps": 108
+  },
+  {
+    "episode_id": "2db8c6f3-47b0-4c74-a8df-1e8b85464c59",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.939204295213674,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0574430066495717,
+    "n_steps": 110
+  },
+  {
+    "episode_id": "0b3b98a8-6ba6-469b-9c49-280c32071648",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.9391337939796656,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0573936557857655,
+    "n_steps": 107
+  },
+  {
+    "episode_id": "571647ba-c851-4438-a521-a11dd04ce1dd",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.9386665042600386,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0570665529820267,
+    "n_steps": 107
+  },
+  {
+    "episode_id": "4beb09ae-01af-462c-b90d-32f24316daa4",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.9379414395780326,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0565590077046223,
+    "n_steps": 102
+  },
+  {
+    "episode_id": "325e8c26-13c8-40da-8be2-6efbca60670b",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.9340862202599727,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0538603541819804,
+    "n_steps": 108
+  },
+  {
+    "episode_id": "2f379720-17e3-48d9-afbd-f270e61d0aa5",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.933281546538633,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0532970825770427,
+    "n_steps": 107
+  },
+  {
+    "episode_id": "787b8f9b-da00-4bbe-99f9-19b583017dc9",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.931253327843747,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0518773294906225,
+    "n_steps": 108
+  },
+  {
+    "episode_id": "0aa5410e-264d-4cbe-affa-6799f764d779",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.9308832468926256,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0516182728248378,
+    "n_steps": 111
+  },
+  {
+    "episode_id": "c08e5575-fbd7-47bb-b08d-ff87115a9f67",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.9285418936681387,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.049979325567697,
+    "n_steps": 107
+  },
+  {
+    "episode_id": "34028be3-ed09-4168-8370-bd38cc0b9cf8",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.9241177151270943,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0468824005889656,
+    "n_steps": 110
+  },
+  {
+    "episode_id": "0205889a-ecba-4cc2-96c4-a268a652b1a5",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.9240644299820664,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.046845100987446,
+    "n_steps": 109
+  },
+  {
+    "episode_id": "aba99ad6-83ad-481e-8a75-36c4bbfa3b14",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.9239498147359795,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0467648703151853,
+    "n_steps": 112
+  },
+  {
+    "episode_id": "9839963c-4511-4405-a0d4-4c9a6e1d1fc4",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.9231018467829863,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.04617129274809,
+    "n_steps": 103
+  },
+  {
+    "episode_id": "376efc10-08a8-47c5-8dc9-f16485f4e6ff",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.9218468033590477,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.045292762351333,
+    "n_steps": 106
+  },
+  {
+    "episode_id": "c8b19ad8-702f-4b9c-9ea6-a7ca5bdb28f9",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.9213077198010957,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0449154038607666,
+    "n_steps": 106
+  },
+  {
+    "episode_id": "b5e5b6e3-a901-49c6-95e5-7c9165ef7963",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.9209799592370453,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0446859714659316,
+    "n_steps": 108
+  },
+  {
+    "episode_id": "bd0937f7-9810-44e6-b6c3-daf305cde0d3",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.920545834471304,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0443820841299125,
+    "n_steps": 101
+  },
+  {
+    "episode_id": "427a7448-e64d-4b76-9afc-2d24c7aa34fe",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.9201126548720344,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.044078858410424,
+    "n_steps": 112
+  },
+  {
+    "episode_id": "381cb49e-8b81-4db4-adce-585d643c760f",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.9188038623132417,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0431627036192688,
+    "n_steps": 110
+  },
+  {
+    "episode_id": "80e0d005-33ce-406d-82a8-15636f85eb5d",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.918791996530656,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.043154397571459,
+    "n_steps": 106
+  },
+  {
+    "episode_id": "41a48b31-1d0b-4c81-b33e-e6f144d37c3f",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.917584233593613,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.042308963515529,
+    "n_steps": 111
+  },
+  {
+    "episode_id": "93a44ac6-8d22-42b8-b554-7ec0e6dc33fe",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.9169052040778256,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0418336428544777,
+    "n_steps": 106
+  },
+  {
+    "episode_id": "8532c4af-4a16-42c4-a2a9-f19e886de1b1",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.9164661828086573,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.04152632796606,
+    "n_steps": 102
+  },
+  {
+    "episode_id": "c0805bc0-a116-4026-baf7-1c98ef3f9fd0",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.91541778142716,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0407924469990117,
+    "n_steps": 111
+  },
+  {
+    "episode_id": "bcda0a0b-b1f7-45a7-9470-fc2ea085beac",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.913288851876568,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.039302196313597,
+    "n_steps": 106
+  },
+  {
+    "episode_id": "18307fa0-5ae0-4da9-aad7-4728e9f9012c",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.9130153790247584,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0391107653173304,
+    "n_steps": 111
+  },
+  {
+    "episode_id": "8a9ede8a-fed1-40d5-9d4b-caa64479ee4c",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.9129536498345896,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0390675548842125,
+    "n_steps": 109
+  },
+  {
+    "episode_id": "477ef35b-93f2-4197-b827-1626dd398da4",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.9120830830924627,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0384581581647234,
+    "n_steps": 110
+  },
+  {
+    "episode_id": "6323ed34-1f5e-4e38-b40b-33d5f3f6f22a",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.9118141778235564,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0382699244764892,
+    "n_steps": 111
+  },
+  {
+    "episode_id": "54227cfd-968c-4cb6-9722-d452cbf54762",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.911217083648482,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.037851958553937,
+    "n_steps": 109
+  },
+  {
+    "episode_id": "80954a9c-2b45-43a7-8dd3-36f8e72069aa",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.910342834016587,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0372399838116104,
+    "n_steps": 108
+  },
+  {
+    "episode_id": "de48ca37-fcf7-4649-8b72-0c4c69d1156c",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.909347425356804,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0365431977497623,
+    "n_steps": 111
+  },
+  {
+    "episode_id": "0be27e45-7e26-4ffb-90dd-77b3d123fcc3",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.908759962203964,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0361319735427745,
+    "n_steps": 107
+  },
+  {
+    "episode_id": "7192e4fb-b568-4fd6-b157-e87be441d728",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.908420478001286,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0358943346008997,
+    "n_steps": 112
+  },
+  {
+    "episode_id": "39188e9a-981f-4c7c-bae3-764fded4002e",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.907895744069496,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.035527020848647,
+    "n_steps": 108
+  },
+  {
+    "episode_id": "63f4da6e-d1e8-499e-97bd-f8997b48e3e4",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.9076128896773152,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0353290227741203,
+    "n_steps": 109
+  },
+  {
+    "episode_id": "b458cce7-93f4-49ec-a426-238df2439227",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.90358639745096,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0325104782156718,
+    "n_steps": 107
+  },
+  {
+    "episode_id": "a745b20e-805e-44ab-8bae-651551ddca7b",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.9028947714041506,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.032026339982905,
+    "n_steps": 110
+  },
+  {
+    "episode_id": "4d841264-46e0-4481-a373-731fe72e1c74",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.902415622081505,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.031690935457053,
+    "n_steps": 105
+  },
+  {
+    "episode_id": "8482ada8-f3ca-488d-aa12-de2d5f367912",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.901621971287854,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0311353799014977,
+    "n_steps": 105
+  },
+  {
+    "episode_id": "482df0db-e78a-40b2-bfa4-7c7657f4acf4",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.9001336456337223,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0300935519436054,
+    "n_steps": 107
+  },
+  {
+    "episode_id": "b06f6873-53e1-487a-b9c3-47570071da08",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8984293644387433,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.02890055510712,
+    "n_steps": 111
+  },
+  {
+    "episode_id": "8dae486b-689a-4f8f-b134-96e44726efe9",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8983730469512343,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0288611328658637,
+    "n_steps": 109
+  },
+  {
+    "episode_id": "4087c64e-7e0f-4a88-a506-9d6ee13e5f4b",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.897521146558049,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.028264802590634,
+    "n_steps": 109
+  },
+  {
+    "episode_id": "d8aaaf08-9b98-418b-b8a9-da5ce908b373",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8969517103530085,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0278661972471057,
+    "n_steps": 102
+  },
+  {
+    "episode_id": "74be7fb9-3dc5-4ac4-8da8-8c42e833e539",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8958662587464277,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.027106381122499,
+    "n_steps": 104
+  },
+  {
+    "episode_id": "2ca6a25a-4a95-41b3-8359-70333d707487",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.894622882381692,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.026236017667184,
+    "n_steps": 103
+  },
+  {
+    "episode_id": "96a51873-2e6d-43ac-a0fb-04bc394e1ef9",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.894549234811337,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0261844643679354,
+    "n_steps": 99
+  },
+  {
+    "episode_id": "71cfa84a-8aca-4151-a624-1b12ab1ba916",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8939076488314015,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0257353541819807,
+    "n_steps": 108
+  },
+  {
+    "episode_id": "2e406f1b-4419-4504-810d-b6dc66f213d2",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.892497858953667,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0247485012675663,
+    "n_steps": 112
+  },
+  {
+    "episode_id": "c1cccbcf-6c87-4c7e-88ea-0380d791acd6",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.891492313006279,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.024044619104395,
+    "n_steps": 109
+  },
+  {
+    "episode_id": "6682d754-ed74-48f8-9716-800175c82372",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8900177816660237,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.023012447166216,
+    "n_steps": 101
+  },
+  {
+    "episode_id": "568d348b-31f0-4f26-b4ac-b18e3586c43a",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8849779803581486,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.019484586250704,
+    "n_steps": 105
+  },
+  {
+    "episode_id": "d371bc9b-133a-4a37-9077-c1af2e84de02",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8842662614122356,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.018986382988565,
+    "n_steps": 108
+  },
+  {
+    "episode_id": "4fe91db4-0759-4216-a080-81b1a65deea9",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8795512226498383,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0156858558548865,
+    "n_steps": 103
+  },
+  {
+    "episode_id": "93b7dc7e-8a69-4cb5-8a90-4d8d62a08416",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8770830830924625,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0139581581647232,
+    "n_steps": 110
+  },
+  {
+    "episode_id": "b65afdd3-d4fb-45b5-b681-393a9684ae56",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8770088130403177,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.013906169128222,
+    "n_steps": 113
+  },
+  {
+    "episode_id": "c388d010-ea39-431d-bd89-906e13ad3319",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8768873210174895,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0138211247122424,
+    "n_steps": 104
+  },
+  {
+    "episode_id": "99f88690-08f4-49a9-ae69-3f1d3a2daafb",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.875210850972955,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.012647595681068,
+    "n_steps": 100
+  },
+  {
+    "episode_id": "4785beab-7a88-4eb8-816f-ae4ff5556106",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8748490068560923,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0123943047992645,
+    "n_steps": 108
+  },
+  {
+    "episode_id": "b8b3edca-66a4-4421-9898-e47ae6c2bb55",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8736628249400615,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0115639774580427,
+    "n_steps": 112
+  },
+  {
+    "episode_id": "57ccdf8c-dd99-4ed8-a539-169ddcd69934",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.873422298588303,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.011395609011812,
+    "n_steps": 102
+  },
+  {
+    "episode_id": "29143691-c97f-463e-9275-5bd0595d7ac0",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8730901802725004,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.01116312619075,
+    "n_steps": 107
+  },
+  {
+    "episode_id": "abaff9c1-cb61-4867-ad0f-6bc1394c64db",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8711559215689713,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0098091450982793,
+    "n_steps": 109
+  },
+  {
+    "episode_id": "16c63a9a-94b4-4ea3-9f45-7fc08b15058c",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.870965124642771,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0096755872499394,
+    "n_steps": 107
+  },
+  {
+    "episode_id": "c917f14c-63b0-4aa3-866e-ce5cb576257d",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8696989462110496,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0087892623477344,
+    "n_steps": 100
+  },
+  {
+    "episode_id": "300dd856-6391-4b74-bbde-bf27bdbf0d6c",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8693518625154906,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.008546303760843,
+    "n_steps": 107
+  },
+  {
+    "episode_id": "612ea69d-4a15-4bd9-931b-c109c70899e6",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8691347637155715,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0083943346009,
+    "n_steps": 112
+  },
+  {
+    "episode_id": "2d0eca19-443a-4fc8-89a8-73f3cb78db53",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8680293215387014,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0076205250770904,
+    "n_steps": 112
+  },
+  {
+    "episode_id": "cc142475-5ed8-4774-8444-a3de1371ec8f",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.867972140286271,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0075804982003893,
+    "n_steps": 106
+  },
+  {
+    "episode_id": "6ad1da7b-e33c-4224-9f77-447f15e076e5",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8669663963686327,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0068764774580425,
+    "n_steps": 112
+  },
+  {
+    "episode_id": "20939874-22b1-464a-baf5-ad9e0617b460",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.866915471435,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0068408300044998,
+    "n_steps": 101
+  },
+  {
+    "episode_id": "68273edd-8193-4b7e-b55a-ac3daa26d6ec",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.866902620858429,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0068318346009,
+    "n_steps": 112
+  },
+  {
+    "episode_id": "72f86c6b-8fe0-4b95-bf8a-7421c06d1482",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8667636185104426,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0067345329573096,
+    "n_steps": 277
+  },
+  {
+    "episode_id": "19664d66-d151-403b-85ee-a0208269ed27",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.865319013828393,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0057233096798748,
+    "n_steps": 110
+  },
+  {
+    "episode_id": "207879dd-4fa2-4d7c-8ce0-88244d8dbffc",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.864967509272343,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.00547725649064,
+    "n_steps": 110
+  },
+  {
+    "episode_id": "1e78811d-006b-4c81-9ebb-9efcaa994de9",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.864356005365384,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0050492037557683,
+    "n_steps": 111
+  },
+  {
+    "episode_id": "4e0e5754-9fa3-4151-83eb-e97a3d9aab53",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.863758883324381,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0046312183270665,
+    "n_steps": 107
+  },
+  {
+    "episode_id": "e10306d4-197f-43f0-81d0-c48448d0bc51",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8635106616301336,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.004457463141093,
+    "n_steps": 109
+  },
+  {
+    "episode_id": "36be9716-cde8-4805-b6c7-c52f483b0976",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8632312966211746,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.004261907634822,
+    "n_steps": 103
+  },
+  {
+    "episode_id": "ce945c00-3ccb-419f-a389-dd6157e5c065",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8623910450871084,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0036737315609754,
+    "n_steps": 284
+  },
+  {
+    "episode_id": "aed08d81-9b3e-41fe-8d72-e1f036543605",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8622810939112626,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0035967657378837,
+    "n_steps": 104
+  },
+  {
+    "episode_id": "043d4249-4a0d-4a86-8dd8-7b5285adebb0",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8621593654790547,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.003511555835338,
+    "n_steps": 313
+  },
+  {
+    "episode_id": "aaeab0d5-2e9e-47a5-a21f-ca8020ce1645",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.861062050854617,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0027434355982314,
+    "n_steps": 113
+  },
+  {
+    "episode_id": "3c067300-56c3-4bec-81ab-bc06c14754f4",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8607898404557224,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.002552888319005,
+    "n_steps": 105
+  },
+  {
+    "episode_id": "1840edc4-81c3-4b35-8aef-1d4553fc1501",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.86021227805652,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0021485946395634,
+    "n_steps": 109
+  },
+  {
+    "episode_id": "07f964e7-5572-4e2f-9c50-b020652343a0",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.859648389572142,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0017538727004993,
+    "n_steps": 108
+  },
+  {
+    "episode_id": "3f77952e-076a-4a3c-9f7f-c54e4f9a5a3a",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8594193722995405,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.001593560609678,
+    "n_steps": 104
+  },
+  {
+    "episode_id": "4f4369f8-8b51-4514-a38c-e10e8fb14223",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.859079491606729,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.00135564412471,
+    "n_steps": 112
+  },
+  {
+    "episode_id": "83508a80-4e03-4ddd-9e68-d697d8e59b11",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.858292672484338,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0008048707390365,
+    "n_steps": 107
+  },
+  {
+    "episode_id": "70b5ad38-2bae-434d-ab1f-ffe16970391b",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8580059733463923,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0006041813424744,
+    "n_steps": 108
+  },
+  {
+    "episode_id": "7cc4c6c3-47bb-49f7-bf39-ed4b94451e5e",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8578626752864276,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.000503872700499,
+    "n_steps": 108
+  },
+  {
+    "episode_id": "3811547e-5a1b-437e-8251-8d2e59fad3ba",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8577083542987736,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.0003958480091413,
+    "n_steps": 108
+  },
+  {
+    "episode_id": "8b4d210b-578c-4ec0-bbbc-f3700d376235",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.856719797729177,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9997038584104234,
+    "n_steps": 112
+  },
+  {
+    "episode_id": "b6a77544-9395-485a-9731-b8c666bd1386",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.856701662248468,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9996911635739276,
+    "n_steps": 107
+  },
+  {
+    "episode_id": "7530332e-d45f-426f-9044-27465233b765",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8565589225683015,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9995912457978107,
+    "n_steps": 111
+  },
+  {
+    "episode_id": "d0001d43-b862-4cda-8b1b-8a47803533b5",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.856108472117851,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9992759304824954,
+    "n_steps": 111
+  },
+  {
+    "episode_id": "bcfc51d8-9366-470b-ba5f-c77a0dea95f0",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.855625122093217,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9989375854652516,
+    "n_steps": 109
+  },
+  {
+    "episode_id": "391c6792-8c9e-464c-b318-bdfa59d30b35",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.854120442844818,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9978843099913726,
+    "n_steps": 107
+  },
+  {
+    "episode_id": "1611033a-a00c-4366-b320-162852ad22de",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8540707200800988,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.997849504056069,
+    "n_steps": 111
+  },
+  {
+    "episode_id": "177a0b1d-546e-432b-982c-9c163b137de5",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8536298710536236,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9975409097375363,
+    "n_steps": 108
+  },
+  {
+    "episode_id": "18e8cddc-ce7b-44f2-8bbf-89be2f2edc8d",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.853397074911041,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9973779524377284,
+    "n_steps": 109
+  },
+  {
+    "episode_id": "bc5b8112-6c4e-431d-b467-c12c244a7d1c",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8528775176396213,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9970142623477347,
+    "n_steps": 100
+  },
+  {
+    "episode_id": "177d648f-7e59-432e-aa7d-1534f4ce847c",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.851173992183371,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9958217945283594,
+    "n_steps": 110
+  },
+  {
+    "episode_id": "1658e616-a2c0-4626-bf17-68c87ab3c3aa",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8509141857309044,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9956399300116328,
+    "n_steps": 109
+  },
+  {
+    "episode_id": "15c3e361-d421-433a-b5ee-06b5c2a84bfc",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8490228782865423,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9943160148005794,
+    "n_steps": 103
+  },
+  {
+    "episode_id": "6fe94fca-d931-46ba-8bc4-64a02c9e9c58",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.848976366576655,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9942834566036582,
+    "n_steps": 110
+  },
+  {
+    "episode_id": "51d57308-1f4e-458b-952f-ea30e9bf5f3c",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8486009646103443,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9940206752272407,
+    "n_steps": 111
+  },
+  {
+    "episode_id": "36a91dcb-413d-4d54-bf53-40fb86716e2d",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8482521010594537,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9937764707416172,
+    "n_steps": 103
+  },
+  {
+    "episode_id": "ae0410fd-f49a-40a6-bdd7-93a56bd089ba",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8480955012026823,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.993666850841877,
+    "n_steps": 102
+  },
+  {
+    "episode_id": "bf637e70-4055-4195-bfe3-bac74737c56d",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.847377829186568,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9931644804305972,
+    "n_steps": 105
+  },
+  {
+    "episode_id": "0380d690-b2a8-4aac-ad02-6514a1c067a6",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.846949312958692,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.992864519071084,
+    "n_steps": 111
+  },
+  {
+    "episode_id": "7ddc9ba4-8718-4e3b-825a-596e34b7eafc",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.846771182964049,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9927398280748343,
+    "n_steps": 109
+  },
+  {
+    "episode_id": "273f6e37-76af-4a03-9665-67dfc09171f4",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8463767846338706,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.992463749243709,
+    "n_steps": 108
+  },
+  {
+    "episode_id": "11a99acc-190e-480c-be50-c05cbf215029",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.845668081172873,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9919676568210107,
+    "n_steps": 109
+  },
+  {
+    "episode_id": "5312a8ec-0f12-46c1-a2da-22491381a257",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8435874120967912,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9905111884677535,
+    "n_steps": 110
+  },
+  {
+    "episode_id": "3c3b0c74-b269-469c-8f22-f41f7757c38a",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.842751265772944,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9899258860410605,
+    "n_steps": 106
+  },
+  {
+    "episode_id": "8c0ba93f-ad1c-4956-9e69-126c7148322a",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8425416221670736,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9897791355169514,
+    "n_steps": 106
+  },
+  {
+    "episode_id": "40dc6dc8-e638-47d8-94a7-2c58e393f39b",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8421298222269717,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.98949087555888,
+    "n_steps": 106
+  },
+  {
+    "episode_id": "9ca44f20-3d3a-4c45-a697-3ebe1055c430",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.841143567737329,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.98880049741613,
+    "n_steps": 103
+  },
+  {
+    "episode_id": "626bd364-6b29-45bc-940e-3c76796922d8",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8409059587190226,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9886341711033153,
+    "n_steps": 102
+  },
+  {
+    "episode_id": "47286d27-d1ee-46ca-aab6-ca94bcf6c8cf",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8402119572427638,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9881483700699345,
+    "n_steps": 281
+  },
+  {
+    "episode_id": "cfd73183-bd17-45b6-8357-5cde7dc09338",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.839918638650591,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9879430470554134,
+    "n_steps": 246
+  },
+  {
+    "episode_id": "b69ab7a7-0bb4-4c5a-b98a-c80786b0143f",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8391640997056244,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9874148697939367,
+    "n_steps": 262
+  },
+  {
+    "episode_id": "91e8ae9e-8505-4676-87ad-bb24befdfac3",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8387290976283857,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9871103683398696,
+    "n_steps": 109
+  },
+  {
+    "episode_id": "d7863ee5-9495-4842-87b4-d75a11616449",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.837975493434415,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.98658284540409,
+    "n_steps": 109
+  },
+  {
+    "episode_id": "d2a92e48-6180-497a-a224-16686d6be31e",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.837517662897831,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.986262364028481,
+    "n_steps": 105
+  },
+  {
+    "episode_id": "ba47b6ad-bf6f-4cbf-b337-624d0573bc54",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.837387930788097,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9861715515516676,
+    "n_steps": 280
+  },
+  {
+    "episode_id": "9c5c7c04-cb28-4706-99aa-6f0b5f9428eb",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.83608528485639,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9852596993994727,
+    "n_steps": 107
+  },
+  {
+    "episode_id": "62a9d496-cf17-4b21-848f-51e0d4f00d20",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8339348964579214,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9837544275205445,
+    "n_steps": 105
+  },
+  {
+    "episode_id": "73c54b5e-de4c-4704-a3d1-4273a1facd2d",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.119515143502331,
+    "temporal_alignment": 0.3333333333333333,
+    "composite_score": 2.9836606004516315,
+    "n_steps": 1049
+  },
+  {
+    "episode_id": "b72a4dc9-4d13-43d7-93eb-92ef3d33b07a",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8337291034488947,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9836103724142258,
+    "n_steps": 106
+  },
+  {
+    "episode_id": "2e1bf347-bc83-4454-8da4-069a9b2fbd6e",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8334036244130036,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9833825370891023,
+    "n_steps": 111
+  },
+  {
+    "episode_id": "10d29c6a-ebd5-463b-9f62-8f961f3c2e4b",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.119083512077562,
+    "temporal_alignment": 0.3333333333333333,
+    "composite_score": 2.9833584584542936,
+    "n_steps": 913
+  },
+  {
+    "episode_id": "93dbd0c5-f6f3-44e7-bb67-dd5f9d4a7ae7",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.831860066525949,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.982302046568164,
+    "n_steps": 105
+  },
+  {
+    "episode_id": "8ccb15b3-7b67-4116-9ced-0fd858e9956a",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8312251458910285,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9818576021237195,
+    "n_steps": 105
+  },
+  {
+    "episode_id": "b9501e9e-feb7-4252-8677-71880fae07cd",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8304817229054753,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9813372060338326,
+    "n_steps": 108
+  },
+  {
+    "episode_id": "74ff568c-e3bd-476e-a7e0-ac08cbb32efd",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.830429237257201,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9813004660800404,
+    "n_steps": 113
+  },
+  {
+    "episode_id": "73b3a4a7-66c5-49a6-91b9-7638f4d828b0",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.115267398595172,
+    "temporal_alignment": 0.3333333333333333,
+    "composite_score": 2.9806871790166203,
+    "n_steps": 294
+  },
+  {
+    "episode_id": "9de03aa0-72ad-4a79-bf53-a38e0f84088a",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.829259897104139,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.980481927972897,
+    "n_steps": 109
+  },
+  {
+    "episode_id": "2af1a385-3d4c-48b9-8651-33aa7dbf7c6c",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.829252664007832,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9804768648054822,
+    "n_steps": 104
+  },
+  {
+    "episode_id": "24038fb8-484e-488e-afaa-2fecd680bf57",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8276321883749436,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9793425318624602,
+    "n_steps": 246
+  },
+  {
+    "episode_id": "23b4642a-4eca-440c-b853-10bc7837acaa",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8271253298639887,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.978987730904792,
+    "n_steps": 106
+  },
+  {
+    "episode_id": "95f7012b-791b-4c45-bed1-3b12e829ceb5",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.826895253703742,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.978826677592619,
+    "n_steps": 107
+  },
+  {
+    "episode_id": "bfba766e-5c14-46b7-9bb9-02bbcc642f99",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8268134139237118,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.978769389746598,
+    "n_steps": 109
+  },
+  {
+    "episode_id": "801007be-b5dc-4bc5-86a1-9612c229f01a",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.825445013325182,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.977811509327627,
+    "n_steps": 104
+  },
+  {
+    "episode_id": "0fc471c8-3b05-439f-a026-532c3f66c0d2",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8253534382336065,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.977747406763524,
+    "n_steps": 104
+  },
+  {
+    "episode_id": "ae54b2dd-1649-4a38-8c7c-f3bc46298b91",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.823508273572357,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9764557915006495,
+    "n_steps": 101
+  },
+  {
+    "episode_id": "7eab786b-2452-4351-9862-73166ddd86e5",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.82343036131053,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9764012529173707,
+    "n_steps": 104
+  },
+  {
+    "episode_id": "6d7c253a-9d9b-4bab-86a5-2238c8f2efcf",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8234007644101435,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9763805350871,
+    "n_steps": 111
+  },
+  {
+    "episode_id": "6d64c3a4-c5eb-4c3a-9265-82c9e9318402",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8223027105597964,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.975611897391857,
+    "n_steps": 108
+  },
+  {
+    "episode_id": "aaf26e0f-6e42-42a6-9865-29d646184a56",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.82145194058632,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9750163584104237,
+    "n_steps": 112
+  },
+  {
+    "episode_id": "c2bbf656-3f89-4052-a28f-3425d351253b",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8207263307724073,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9745084315406847,
+    "n_steps": 109
+  },
+  {
+    "episode_id": "ab04db07-fce8-4f3f-96be-e479f8d60c3d",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.818635284644664,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9730446992512642,
+    "n_steps": 111
+  },
+  {
+    "episode_id": "b29ae013-49fa-40a3-a1d0-d6ec6e92eecb",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8178940264782155,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9725258185347507,
+    "n_steps": 107
+  },
+  {
+    "episode_id": "739118a4-8035-47a2-b310-8c1aec6db0f6",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8175176628978313,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9722623640284818,
+    "n_steps": 105
+  },
+  {
+    "episode_id": "88af58f3-8ca7-46d5-b98f-a6add9b28b50",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.817083083092463,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.971958158164724,
+    "n_steps": 110
+  },
+  {
+    "episode_id": "aa387df1-1694-40c1-b370-13c02a67f687",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8170337511241703,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.971923625786919,
+    "n_steps": 108
+  },
+  {
+    "episode_id": "3f7d6b29-d9cb-471c-a509-96f5fedfd61e",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8156513344130074,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9709559340891047,
+    "n_steps": 109
+  },
+  {
+    "episode_id": "3ea22e48-df7c-4d89-841b-300e5a590399",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8152191280992964,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9706533896695073,
+    "n_steps": 104
+  },
+  {
+    "episode_id": "a345d788-86ef-4902-b6e9-859dea338db2",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8146760492795186,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9702732344956626,
+    "n_steps": 103
+  },
+  {
+    "episode_id": "b3509a51-04c3-4183-b87d-b91bd07c1e71",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8143238303332097,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9700266812332465,
+    "n_steps": 111
+  },
+  {
+    "episode_id": "96f56d04-320a-4aa2-90a0-39ff8d395e66",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.814158688424949,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.969911081897464,
+    "n_steps": 109
+  },
+  {
+    "episode_id": "d5cdd757-ef13-4559-a82a-a012d50f5ba2",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.813570994808263,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9694996963657836,
+    "n_steps": 248
+  },
+  {
+    "episode_id": "95088cc1-77ca-4a20-bad1-a23cc602fe17",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8133577564313565,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.969350429501949,
+    "n_steps": 109
+  },
+  {
+    "episode_id": "c6d08de4-cc1d-48e4-beca-1f9af7abb967",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.813082375962545,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9691576631737813,
+    "n_steps": 104
+  },
+  {
+    "episode_id": "0eec3900-5890-4498-8264-c7cc9a59a606",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.812083083092463,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9684581581647236,
+    "n_steps": 110
+  },
+  {
+    "episode_id": "c46938d6-b059-4e07-a9c2-abddde9ea960",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.811634943382195,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.968144460367536,
+    "n_steps": 101
+  },
+  {
+    "episode_id": "715ee051-5a2d-42bf-a79c-9f02e33d1183",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.809527425204947,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9666691976434625,
+    "n_steps": 113
+  },
+  {
+    "episode_id": "9201ff28-a5ce-4bca-a4a4-c45b763a266a",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8092293160643838,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.966460521245068,
+    "n_steps": 109
+  },
+  {
+    "episode_id": "addb5758-9603-427c-9c46-73a4611fa601",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.809164525620334,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.966415167934233,
+    "n_steps": 112
+  },
+  {
+    "episode_id": "4fc3336a-7f9b-4e62-923e-ef85450e27ee",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8085944488565513,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9660161141995856,
+    "n_steps": 99
+  },
+  {
+    "episode_id": "82f143fc-ee94-40b9-9f5f-b2061a07a1d0",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8079508587079447,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.965565601095561,
+    "n_steps": 108
+  },
+  {
+    "episode_id": "863a6e1d-208e-4919-a6be-4c49bd454525",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.807642216732636,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9653495517128445,
+    "n_steps": 108
+  },
+  {
+    "episode_id": "4a226373-00fa-4711-9b5d-bed40e3c9b4c",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.807577311086691,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.965304117760683,
+    "n_steps": 110
+  },
+  {
+    "episode_id": "95d7c270-9cfd-4727-b498-309b16f2c5b9",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.804247155004241,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9629730085029684,
+    "n_steps": 108
+  },
+  {
+    "episode_id": "cb6351e3-46c2-4658-9af7-03c697f5d402",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.804239156075636,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9629674092529448,
+    "n_steps": 103
+  },
+  {
+    "episode_id": "1b1247c7-f1a9-4814-9126-746fabea5457",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8037761662991914,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9626433164094337,
+    "n_steps": 105
+  },
+  {
+    "episode_id": "0ff32a45-727d-452c-abc5-9c44003ef549",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.803695929076097,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9625871503532677,
+    "n_steps": 104
+  },
+  {
+    "episode_id": "0f79b7af-564f-4365-976b-7cd2a681c4b4",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8036865309623087,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9625805716736155,
+    "n_steps": 107
+  },
+  {
+    "episode_id": "8da36828-503a-4690-8b5d-6898d7c6adf7",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8035404242036117,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.962478296942528,
+    "n_steps": 106
+  },
+  {
+    "episode_id": "37eb7f1c-4d80-40ee-857c-006ea18fad8d",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8029144882946566,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.962040141806259,
+    "n_steps": 105
+  },
+  {
+    "episode_id": "2337480a-b255-4815-9888-2124f5ebf001",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8020916371416176,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9614641459991318,
+    "n_steps": 106
+  },
+  {
+    "episode_id": "61fb0864-b608-4fec-bc54-d54342c7f176",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.8011576019884106,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9608103213918873,
+    "n_steps": 112
+  },
+  {
+    "episode_id": "67208eff-8c4b-4070-84ab-c42e492ade3f",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.800831766841146,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.960582236788802,
+    "n_steps": 111
+  },
+  {
+    "episode_id": "8a73c2a4-8473-42c4-bfa6-fb9a08860652",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.7999952160045947,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.959996651203216,
+    "n_steps": 111
+  },
+  {
+    "episode_id": "aa619908-a1e4-4071-aea2-f24d92a41538",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.799837697360722,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9598863881525053,
+    "n_steps": 105
+  },
+  {
+    "episode_id": "80dede89-a6db-4b4f-b56f-603b7d80c90b",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.7991826501920296,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9594278551344204,
+    "n_steps": 110
+  },
+  {
+    "episode_id": "133b121c-9746-4ac5-9023-f703816afdc8",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.7991536267182617,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.959407538702783,
+    "n_steps": 103
+  },
+  {
+    "episode_id": "660ed551-2002-4cb4-be86-db8296168cd2",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.7982618976986697,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9587833283890683,
+    "n_steps": 106
+  },
+  {
+    "episode_id": "83796059-ae20-4c43-a762-e0ed4c6145e4",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.7979921740015534,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.958594521801087,
+    "n_steps": 110
+  },
+  {
+    "episode_id": "067a8e9b-8929-4ccb-8b49-2215ceda43af",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.797850213859593,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9584951497017147,
+    "n_steps": 111
+  },
+  {
+    "episode_id": "1d6c8da8-b780-4a8d-badd-8e8830206b04",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.7978351232152914,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9584845862507034,
+    "n_steps": 105
+  },
+  {
+    "episode_id": "1ca42337-901f-4149-9063-358db628015a",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.7951973313710843,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9566381319597586,
+    "n_steps": 108
+  },
+  {
+    "episode_id": "86b8d747-8b69-4f22-995b-194272ea9d9d",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.79491156092094,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9564380926446576,
+    "n_steps": 111
+  },
+  {
+    "episode_id": "600134bd-1e03-48ec-9034-97a982ed2e57",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.794801698306867,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9563611888148067,
+    "n_steps": 104
+  },
+  {
+    "episode_id": "e021eab4-b2b5-4715-a675-50dce35b093b",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.794703322180592,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.956292325526414,
+    "n_steps": 109
+  },
+  {
+    "episode_id": "1327be9e-55a3-4564-93d4-8fb5934aaadc",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.7933394014563,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.95533758101941,
+    "n_steps": 107
+  },
+  {
+    "episode_id": "d4e9ddd0-f934-4c8a-a200-edac24c6fa93",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.792603708115811,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.954822595681067,
+    "n_steps": 100
+  },
+  {
+    "episode_id": "26d0b136-bacd-42e8-836b-cde2a48666c3",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.7922554303157083,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9545788012209955,
+    "n_steps": 194
+  },
+  {
+    "episode_id": "6494d743-08a8-4c53-ae05-1b303e32b090",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.7919907830001622,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9543935481001133,
+    "n_steps": 111
+  },
+  {
+    "episode_id": "ae46b192-df9e-4533-bea5-10aee1795222",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.7899173490077684,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9529421443054376,
+    "n_steps": 108
+  },
+  {
+    "episode_id": "aac94e61-6379-49a7-b8c6-bd20d32b26ce",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.788354231938284,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9518479623567986,
+    "n_steps": 103
+  },
+  {
+    "episode_id": "34231e24-ecd8-4d07-b4c0-d6ca67084ebf",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.788152583532751,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9517068084729257,
+    "n_steps": 105
+  },
+  {
+    "episode_id": "871809cf-b13e-4855-a0d8-39b648886917",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.788087955083359,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.951661568558351,
+    "n_steps": 107
+  },
+  {
+    "episode_id": "3688ff56-9d49-4aa5-a0ce-65819ed5d1d3",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.786237229701966,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.950366060791376,
+    "n_steps": 112
+  },
+  {
+    "episode_id": "3383ad29-9bf1-47ab-b1a9-3a9231f134b6",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.7860468306017565,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9502327814212292,
+    "n_steps": 103
+  },
+  {
+    "episode_id": "c6c98e84-3c98-4615-85e8-f752161d77fb",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.7857716311517993,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.950040141806259,
+    "n_steps": 105
+  },
+  {
+    "episode_id": "86151e9f-3aa2-4a7a-84cf-ef6f44bb10b1",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.783101423363526,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9481709963544676,
+    "n_steps": 99
+  },
+  {
+    "episode_id": "427d1a2b-44e0-41ed-be85-fc99a4647f5b",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.782765794876092,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.947936056413264,
+    "n_steps": 109
+  },
+  {
+    "episode_id": "de4e9da0-2476-4b22-bd70-c46a389eb63e",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.78261398979631,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9478297928574166,
+    "n_steps": 107
+  },
+  {
+    "episode_id": "84b38e85-f027-4d43-8ce4-1e140e68dc3e",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.781930912031201,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.94735163842184,
+    "n_steps": 110
+  },
+  {
+    "episode_id": "464b60fd-e58e-4cb2-8f41-d9b2a9a83acd",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 3.7791479486550346,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9454035640585237,
+    "n_steps": 108
+  }
+]

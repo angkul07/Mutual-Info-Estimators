@@ -1,0 +1,402 @@
+[
+  {
+    "episode_id": "a7907e02-8c03-4107-9951-12960ee12f11",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.971951531460616,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.7803660720224306,
+    "n_steps": 282
+  },
+  {
+    "episode_id": "7ace391b-a5a1-4af4-85ee-2feeae4e31be",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.907459588878722,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.7352217122151052,
+    "n_steps": 373
+  },
+  {
+    "episode_id": "683dee5c-cb5b-45bb-ad14-a733dfe7a968",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.9033694595672275,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.732358621697059,
+    "n_steps": 361
+  },
+  {
+    "episode_id": "af2a2c96-802e-42bb-9003-55800b5143fb",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.902539863361577,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.7317779043531036,
+    "n_steps": 343
+  },
+  {
+    "episode_id": "beabf5de-b1d6-401f-9d97-6e1cede3c350",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.891227380802616,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.7238591665618306,
+    "n_steps": 274
+  },
+  {
+    "episode_id": "52d1d0c5-75df-425d-b2ab-67f224a423ec",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.885473715791736,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.719831601054215,
+    "n_steps": 256
+  },
+  {
+    "episode_id": "725838b7-5bcc-4881-ab0e-50cc1f937839",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.883960950733509,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.718772665513456,
+    "n_steps": 432
+  },
+  {
+    "episode_id": "aaf26ea2-4384-4c51-a645-c06c0e24f080",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.87547071732453,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.712829502127171,
+    "n_steps": 246
+  },
+  {
+    "episode_id": "8673316f-0db0-40fc-91b1-e8c968c9e5d9",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.858080475156735,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.700656332609714,
+    "n_steps": 357
+  },
+  {
+    "episode_id": "4b3a6cbb-8947-4102-b1c3-cb23e7808aa9",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.841491438949148,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.689044007264403,
+    "n_steps": 281
+  },
+  {
+    "episode_id": "95d0a168-1123-450c-86cb-6bfca008d973",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.8274302824174855,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.6792011976922394,
+    "n_steps": 330
+  },
+  {
+    "episode_id": "0367dac2-8968-4c44-9459-22951def9379",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.823512758197799,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.676458930738459,
+    "n_steps": 249
+  },
+  {
+    "episode_id": "26b2d882-99da-4fdf-9dd1-0ad2c62ca3ec",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.818331934365493,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.6728323540558447,
+    "n_steps": 229
+  },
+  {
+    "episode_id": "7417c655-a43b-498a-bb79-5e96c7e45592",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.814141467845184,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.6698990274916286,
+    "n_steps": 244
+  },
+  {
+    "episode_id": "777c549c-9ff9-4bbe-b972-061474e96a08",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.813107209072553,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.6691750463507864,
+    "n_steps": 279
+  },
+  {
+    "episode_id": "33437770-63c1-4e17-b278-676f2db6172f",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.8061048607487065,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.664273402524094,
+    "n_steps": 275
+  },
+  {
+    "episode_id": "79da42be-d442-4e1d-af0d-80980fa9fea9",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.792963925688882,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.6550747479822174,
+    "n_steps": 238
+  },
+  {
+    "episode_id": "0d0d88cd-4b14-48f2-a918-d6128ba87956",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.786682482606839,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.650677737824787,
+    "n_steps": 309
+  },
+  {
+    "episode_id": "5fb9ae66-d7c8-4dd7-ab16-5fc2c31b7cb6",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.78092324634307,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.6466462724401487,
+    "n_steps": 286
+  },
+  {
+    "episode_id": "039bedd8-f16c-4eb6-b129-50055c7739fb",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.780799556620891,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.646559689634623,
+    "n_steps": 280
+  },
+  {
+    "episode_id": "8a538eb4-e06e-421a-86f0-8b90d82eff48",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.780476871456438,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.646333810019506,
+    "n_steps": 232
+  },
+  {
+    "episode_id": "ca75f936-86f5-418e-b902-fc772e621792",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.7767685674750435,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.64373799723253,
+    "n_steps": 245
+  },
+  {
+    "episode_id": "3ada6128-aaeb-49dc-8d58-d5c109b25b68",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.775846948177658,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.6430928637243603,
+    "n_steps": 274
+  },
+  {
+    "episode_id": "6e621188-a593-41be-a144-789f9e71f2e1",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.770050926232427,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.6390356483626984,
+    "n_steps": 227
+  },
+  {
+    "episode_id": "3f14d189-0a66-486b-9794-92c84743e4d4",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.770004051362583,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.6390028359538076,
+    "n_steps": 239
+  },
+  {
+    "episode_id": "001a8924-e7d0-4a9b-8c46-856aec563c91",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.758487545372632,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.630941281760842,
+    "n_steps": 229
+  },
+  {
+    "episode_id": "89eadd8c-798f-4933-9e4c-186cf01d6a3f",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.757150483702994,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.630005338592096,
+    "n_steps": 249
+  },
+  {
+    "episode_id": "2e136792-73ef-4282-a7af-5c102eb9b798",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.74852151374086,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.6239650596186017,
+    "n_steps": 262
+  },
+  {
+    "episode_id": "93364f22-8324-4c3c-9a6b-a491b86315dd",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.747074327663699,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.622952029364589,
+    "n_steps": 247
+  },
+  {
+    "episode_id": "c0adc309-a8c7-4a54-9a24-5e462fc42ad8",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.737030804988135,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.615921563491694,
+    "n_steps": 250
+  },
+  {
+    "episode_id": "3ec45208-e599-494e-923b-c112ae2b28a0",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.736525022424261,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.6155675156969824,
+    "n_steps": 252
+  },
+  {
+    "episode_id": "85740e78-e09b-4c1d-a063-6d6b51576643",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.73487649240333,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.614413544682331,
+    "n_steps": 237
+  },
+  {
+    "episode_id": "de7f5981-5aa8-43bd-84b6-8caa7d6b7185",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.729332756772955,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.610532929741068,
+    "n_steps": 274
+  },
+  {
+    "episode_id": "d2e2f402-f9c4-4b14-8472-9b01a6ae651a",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.718944412127403,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.6032610884891816,
+    "n_steps": 242
+  },
+  {
+    "episode_id": "396fbe89-ea0d-4465-ac74-5f7b727e7239",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.718757315336394,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.6031301207354756,
+    "n_steps": 323
+  },
+  {
+    "episode_id": "8420ed78-ea61-4c0c-b149-69b836383688",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.718124661468358,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.60268726302785,
+    "n_steps": 230
+  },
+  {
+    "episode_id": "4a5cd875-6982-4b05-9b8c-af0598a9286d",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.717141326921741,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.6019989288452186,
+    "n_steps": 262
+  },
+  {
+    "episode_id": "4861edc0-b999-4682-8483-b83854d00d37",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.712536191718063,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.5987753342026436,
+    "n_steps": 276
+  },
+  {
+    "episode_id": "a3349a1f-b22b-4f05-bc76-36c3c764a670",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.708154699234801,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.5957082894643606,
+    "n_steps": 327
+  },
+  {
+    "episode_id": "170e746e-f763-4c21-9957-970df4500f5f",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.708020840459604,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.5956145883217223,
+    "n_steps": 226
+  },
+  {
+    "episode_id": "8f7f4fb9-60d8-4817-b3fe-03d18df8549d",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.707723254174144,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.5954062779219003,
+    "n_steps": 237
+  },
+  {
+    "episode_id": "d4fcfa6f-6ae5-44cb-91bc-137e47663f61",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.706594477034232,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.594616133923962,
+    "n_steps": 248
+  },
+  {
+    "episode_id": "258a210f-6971-4cec-bc3d-a6ae87e3a910",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.704824280883614,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.593376996618529,
+    "n_steps": 278
+  },
+  {
+    "episode_id": "3b0bd34d-6311-430b-bbfe-f56a1b3a0e6b",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.704548892130101,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.5931842244910706,
+    "n_steps": 294
+  },
+  {
+    "episode_id": "4f290358-f20c-40b6-8c58-5636d4a1c96e",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.6988216415670205,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.589175149096914,
+    "n_steps": 227
+  },
+  {
+    "episode_id": "b916485c-20fe-41a2-ac6a-559cbdca7b9d",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.697420727720947,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.5881945094046626,
+    "n_steps": 230
+  },
+  {
+    "episode_id": "77f88237-78c8-4a60-95a3-a79065402ce8",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.696637409163062,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.5876461864141427,
+    "n_steps": 235
+  },
+  {
+    "episode_id": "066205f9-c588-4b81-b49e-6573873a34f3",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.69446759188612,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.586127314320284,
+    "n_steps": 242
+  },
+  {
+    "episode_id": "5c426b86-48dc-41b4-ac3f-e5a38ff1ab38",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.694455252077123,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.586118676453986,
+    "n_steps": 251
+  },
+  {
+    "episode_id": "bc23dcbe-b0a9-45c3-830b-b4fee5262d5b",
+    "task": "put_the_screwdriver_in_the_bin",
+    "mi_score": 4.68857193052926,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.582000351370482,
+    "n_steps": 250
+  }
+]

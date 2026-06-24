@@ -1,0 +1,402 @@
+[
+  {
+    "episode_id": "6efc7cca-02e3-466b-99db-27731a42c57a",
+    "task": "place_the_bread",
+    "mi_score": 3.7858701753322053,
+    "temporal_alignment": 1.0,
+    "composite_score": 2.9501091227325436,
+    "n_steps": 136
+  },
+  {
+    "episode_id": "54e64e3a-064a-4188-9f2c-c19909e4ef17",
+    "task": "place_the_bread",
+    "mi_score": 3.8784400238598606,
+    "temporal_alignment": 0.3333333333333333,
+    "composite_score": 2.8149080167019025,
+    "n_steps": 168
+  },
+  {
+    "episode_id": "8162b071-fa8d-4622-82e1-e4a1e808ee31",
+    "task": "place_the_bread",
+    "mi_score": 3.9055632730551526,
+    "temporal_alignment": 0.3333333333333333,
+    "composite_score": 2.833894291138607,
+    "n_steps": 170
+  },
+  {
+    "episode_id": "693abc0c-8d45-4795-b808-a3de5d020f93",
+    "task": "place_the_bread",
+    "mi_score": 3.923558984843261,
+    "temporal_alignment": 0.2,
+    "composite_score": 2.8064912893902827,
+    "n_steps": 142
+  },
+  {
+    "episode_id": "bca97905-be4c-41eb-b927-3737132cd56e",
+    "task": "place_the_bread",
+    "mi_score": 3.939570914245552,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.057699639971886,
+    "n_steps": 130
+  },
+  {
+    "episode_id": "e33244e2-e94b-4e26-829a-cd697c7b4e59",
+    "task": "place_the_bread",
+    "mi_score": 3.9506589150525935,
+    "temporal_alignment": 0.2,
+    "composite_score": 2.825461240536815,
+    "n_steps": 157
+  },
+  {
+    "episode_id": "edcc88dc-125a-416b-8f72-28c762b4f84d",
+    "task": "place_the_bread",
+    "mi_score": 3.9601728939768366,
+    "temporal_alignment": 0.2,
+    "composite_score": 2.8321210257837857,
+    "n_steps": 176
+  },
+  {
+    "episode_id": "824815a9-80ae-43f4-99ec-41f5dd4a3475",
+    "task": "place_the_bread",
+    "mi_score": 3.9613304679494084,
+    "temporal_alignment": 0.3333333333333333,
+    "composite_score": 2.8729313275645856,
+    "n_steps": 169
+  },
+  {
+    "episode_id": "25d75ee8-4b65-4d98-a8dc-35889548b32e",
+    "task": "place_the_bread",
+    "mi_score": 3.965717824770519,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.076002477339363,
+    "n_steps": 151
+  },
+  {
+    "episode_id": "cfaf3054-c6ea-4434-bc77-1289a3b931bd",
+    "task": "place_the_bread",
+    "mi_score": 3.972927048088618,
+    "temporal_alignment": 0.3333333333333333,
+    "composite_score": 2.8810489336620324,
+    "n_steps": 173
+  },
+  {
+    "episode_id": "a18dbb26-fdb1-4d35-be69-26237a6eefee",
+    "task": "place_the_bread",
+    "mi_score": 3.975629391424655,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.082940573997258,
+    "n_steps": 162
+  },
+  {
+    "episode_id": "416839f5-3e44-42e2-a96d-15aad41e4ebc",
+    "task": "place_the_bread",
+    "mi_score": 3.977747244208745,
+    "temporal_alignment": 0.3333333333333333,
+    "composite_score": 2.8844230709461214,
+    "n_steps": 168
+  },
+  {
+    "episode_id": "4fcd24d7-a56b-4626-840a-c681b1aacbe4",
+    "task": "place_the_bread",
+    "mi_score": 4.004099910835655,
+    "temporal_alignment": 0.3333333333333333,
+    "composite_score": 2.9028699375849585,
+    "n_steps": 175
+  },
+  {
+    "episode_id": "94cc9762-92b2-4711-a588-8571dda495d4",
+    "task": "place_the_bread",
+    "mi_score": 4.005140039064738,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.103598027345316,
+    "n_steps": 154
+  },
+  {
+    "episode_id": "92ca2096-c52d-4955-81b3-0df00baf9140",
+    "task": "place_the_bread",
+    "mi_score": 4.0080049342761725,
+    "temporal_alignment": 0.2,
+    "composite_score": 2.865603453993321,
+    "n_steps": 151
+  },
+  {
+    "episode_id": "7a456091-6109-47d4-b7d5-5f78095f2dd1",
+    "task": "place_the_bread",
+    "mi_score": 4.026717880101629,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.1187025160711395,
+    "n_steps": 144
+  },
+  {
+    "episode_id": "49c9a96d-6452-43ae-8ad5-547ef34e56ce",
+    "task": "place_the_bread",
+    "mi_score": 4.034888447135138,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.1244219129945963,
+    "n_steps": 168
+  },
+  {
+    "episode_id": "b047f6e5-dd15-4076-9721-696379180faf",
+    "task": "place_the_bread",
+    "mi_score": 4.050390746176143,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.1352735223233,
+    "n_steps": 158
+  },
+  {
+    "episode_id": "17c40c90-6e22-40f2-9da7-ed11042ddd3a",
+    "task": "place_the_bread",
+    "mi_score": 4.05505049592022,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.1385353471441535,
+    "n_steps": 146
+  },
+  {
+    "episode_id": "7fd38dc9-f26f-41fe-be04-b19d1a77ca8d",
+    "task": "place_the_bread",
+    "mi_score": 4.062188009487424,
+    "temporal_alignment": 0.2,
+    "composite_score": 2.903531606641197,
+    "n_steps": 169
+  },
+  {
+    "episode_id": "4dccff35-0cdc-4e54-b804-62f8d9948626",
+    "task": "place_the_bread",
+    "mi_score": 4.076858377806972,
+    "temporal_alignment": 0.3333333333333333,
+    "composite_score": 2.9538008644648803,
+    "n_steps": 160
+  },
+  {
+    "episode_id": "16c84320-52fd-4914-b873-dac9b6750139",
+    "task": "place_the_bread",
+    "mi_score": 4.077279911824669,
+    "temporal_alignment": 0.2,
+    "composite_score": 2.914095938277268,
+    "n_steps": 223
+  },
+  {
+    "episode_id": "b17c682e-122b-49de-ba84-ef1a6851f1dd",
+    "task": "place_the_bread",
+    "mi_score": 4.084319414116223,
+    "temporal_alignment": 0.2,
+    "composite_score": 2.919023589881356,
+    "n_steps": 173
+  },
+  {
+    "episode_id": "09a2a4df-f7d3-4704-a976-be79f556a710",
+    "task": "place_the_bread",
+    "mi_score": 4.086108681313596,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.160276076919517,
+    "n_steps": 161
+  },
+  {
+    "episode_id": "a72735fd-8e5f-4a72-982d-b35332698fe8",
+    "task": "place_the_bread",
+    "mi_score": 4.087260289663051,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.1610822027641357,
+    "n_steps": 146
+  },
+  {
+    "episode_id": "b512189e-f9b7-4b22-8611-bbcc11f71222",
+    "task": "place_the_bread",
+    "mi_score": 4.089569363658266,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.162698554560786,
+    "n_steps": 146
+  },
+  {
+    "episode_id": "e2d70b50-b9f2-4e14-82b3-5993975455ea",
+    "task": "place_the_bread",
+    "mi_score": 4.091295501507003,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.1639068510549015,
+    "n_steps": 168
+  },
+  {
+    "episode_id": "c3382137-899b-4781-b777-18134b361140",
+    "task": "place_the_bread",
+    "mi_score": 4.094509565167326,
+    "temporal_alignment": 0.3333333333333333,
+    "composite_score": 2.966156695617128,
+    "n_steps": 164
+  },
+  {
+    "episode_id": "a586932a-e02f-485c-a820-83a0a1a0f3b8",
+    "task": "place_the_bread",
+    "mi_score": 4.109530439314494,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.176671307520145,
+    "n_steps": 158
+  },
+  {
+    "episode_id": "4558ed92-c64f-45f4-81f0-bf4aa445cb77",
+    "task": "place_the_bread",
+    "mi_score": 4.112873986222558,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.1790117903557906,
+    "n_steps": 146
+  },
+  {
+    "episode_id": "ca6b3992-0668-44b6-810e-52ac541739fe",
+    "task": "place_the_bread",
+    "mi_score": 4.114225824517732,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.1799580771624116,
+    "n_steps": 164
+  },
+  {
+    "episode_id": "c2b6be09-c228-4069-a9a3-c651c0717630",
+    "task": "place_the_bread",
+    "mi_score": 4.114489131700518,
+    "temporal_alignment": 0.3333333333333333,
+    "composite_score": 2.9801423921903623,
+    "n_steps": 162
+  },
+  {
+    "episode_id": "be0c5469-92b3-4266-acfe-aac4d76ed0c4",
+    "task": "place_the_bread",
+    "mi_score": 4.12068682162293,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.1844807751360507,
+    "n_steps": 179
+  },
+  {
+    "episode_id": "2b45d7ff-3ce9-4b2e-88d4-337dd9bcc0d2",
+    "task": "place_the_bread",
+    "mi_score": 4.125168855486043,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.18761819884023,
+    "n_steps": 179
+  },
+  {
+    "episode_id": "7ef2ed32-faab-4cb7-862d-be4beb969772",
+    "task": "place_the_bread",
+    "mi_score": 4.131476273400545,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.1920333913803813,
+    "n_steps": 170
+  },
+  {
+    "episode_id": "58cffbdb-cf6c-4bce-b0af-c86713ebc84e",
+    "task": "place_the_bread",
+    "mi_score": 4.132110333640277,
+    "temporal_alignment": 0.2,
+    "composite_score": 2.9524772335481937,
+    "n_steps": 180
+  },
+  {
+    "episode_id": "f0771180-90e0-4015-90ec-7e5f65166f58",
+    "task": "place_the_bread",
+    "mi_score": 4.133724945517192,
+    "temporal_alignment": 0.3333333333333333,
+    "composite_score": 2.993607461862034,
+    "n_steps": 194
+  },
+  {
+    "episode_id": "c47ea02c-1c2b-4bb2-b2af-5c224b555d78",
+    "task": "place_the_bread",
+    "mi_score": 4.138385346722251,
+    "temporal_alignment": 0.3333333333333333,
+    "composite_score": 2.996869742705576,
+    "n_steps": 226
+  },
+  {
+    "episode_id": "2ae08f25-bd4c-4650-b988-319323c80e9f",
+    "task": "place_the_bread",
+    "mi_score": 4.140597112555973,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.198417978789181,
+    "n_steps": 165
+  },
+  {
+    "episode_id": "833bfd74-0ffe-422a-b126-09626548afad",
+    "task": "place_the_bread",
+    "mi_score": 4.140747696173329,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.19852338732133,
+    "n_steps": 169
+  },
+  {
+    "episode_id": "667cd035-6382-4387-99de-47bee1357a1a",
+    "task": "place_the_bread",
+    "mi_score": 4.141333472254924,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.198933430578447,
+    "n_steps": 154
+  },
+  {
+    "episode_id": "17b424b7-fe43-4544-a86a-9a41f8453bda",
+    "task": "place_the_bread",
+    "mi_score": 4.145200466148594,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.2016403263040156,
+    "n_steps": 195
+  },
+  {
+    "episode_id": "fac61621-93e9-44bd-ad4d-05d368e4fbf9",
+    "task": "place_the_bread",
+    "mi_score": 4.147732739376556,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.203412917563589,
+    "n_steps": 185
+  },
+  {
+    "episode_id": "5dcda661-9e31-4105-8e9d-f53153b6dccf",
+    "task": "place_the_bread",
+    "mi_score": 4.147956100827305,
+    "temporal_alignment": 0.3333333333333333,
+    "composite_score": 3.0035692705791135,
+    "n_steps": 195
+  },
+  {
+    "episode_id": "d2d314bd-a04b-47fc-aeb2-f0f24ab53746",
+    "task": "place_the_bread",
+    "mi_score": 4.149569230358182,
+    "temporal_alignment": 0.2,
+    "composite_score": 2.9646984612507272,
+    "n_steps": 177
+  },
+  {
+    "episode_id": "cfd45e97-c44e-43dd-8ac1-d97dbd50ae36",
+    "task": "place_the_bread",
+    "mi_score": 4.150712269815436,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.205498588870805,
+    "n_steps": 173
+  },
+  {
+    "episode_id": "2f465f61-39d1-449b-b1e7-ef6a1395e9e5",
+    "task": "place_the_bread",
+    "mi_score": 4.154513778103459,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.2081596446724205,
+    "n_steps": 138
+  },
+  {
+    "episode_id": "8c8aaa16-3a06-45bd-9bdd-f5d324a3b52d",
+    "task": "place_the_bread",
+    "mi_score": 4.156903583088619,
+    "temporal_alignment": 0.2,
+    "composite_score": 2.969832508162033,
+    "n_steps": 231
+  },
+  {
+    "episode_id": "b097a6b4-3332-4480-b869-5644284a7597",
+    "task": "place_the_bread",
+    "mi_score": 4.1578074795141715,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.2104652356599197,
+    "n_steps": 168
+  },
+  {
+    "episode_id": "038b65ba-c5b0-48ac-893c-66c68de9f453",
+    "task": "place_the_bread",
+    "mi_score": 4.162077511639369,
+    "temporal_alignment": 1.0,
+    "composite_score": 3.213454258147558,
+    "n_steps": 170
+  }
+]

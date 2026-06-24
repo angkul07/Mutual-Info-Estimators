@@ -56,9 +56,11 @@ def _make_loader(cfg: dict, max_episodes: Optional[int] = None):
     src = cfg.get("source", {})
     return HFLoader(
         repo_id=src.get("repo", "angkul07/abc-ego"),
-        task=src.get("task", "place_the_bread"),
+        # task=src.get("task", "place_the_bread"),
+        task=src.get("task", "put_the_screwdriver_in_the_bin"),
         cache_dir=src.get("cache_dir", "./cache"),
         max_episodes=max_episodes,
+        n_workers=src.get("n_workers", 8),
     )
 
 
@@ -82,10 +84,8 @@ def cmd_download(args, cfg):
 
     # Trigger a download of the first file to verify connectivity
     if files:
-        log.info("Verifying download of first episode …")
-        ep = loader.load_episode(files[0])
-        ep.validate()
-        print(f"  ✓ First episode validated: {ep.episode_id} ({len(ep)} steps)")
+        local_paths = loader.bulk_download()
+        print(f"  ✓ {len(local_paths)} episodes cached to disk.")
     else:
         log.error("No episode files found — check repo/task name.")
         sys.exit(1)
